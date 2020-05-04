@@ -1,6 +1,9 @@
 # MOCompany
 MOCompany is a tool for the Game OMSI2. It adds a external management system to the game. It's been discontinued and not full developed!
 
+Forum Thread in OmsiWebdisk: https://reboot.omsi-webdisk.de/community/thread/518-mocompany-wirtschaftsaddon-open-source/?pageNo=1
+
+
 > How to use
 
 I recommend to use Visual Studio to continue this project.
