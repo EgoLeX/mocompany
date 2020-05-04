@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D52C9EA4-2AD1-4951-84C7-EDA295AB33D1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MOCompany</RootNamespace>
+    <AssemblyName>MOCompany</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\ai_bankacc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ai_bankacc.Designer.cs">
+      <DependentUpon>ai_bankacc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\gl_companymarket.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\gl_companymarket.Designer.cs">
+      <DependentUpon>gl_companymarket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\gl_drive.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\gl_drive.Designer.cs">
+      <DependentUpon>gl_drive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\gl_driverdata.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\gl_driverdata.Designer.cs">
+      <DependentUpon>gl_driverdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\gl_settings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\gl_settings.Designer.cs">
+      <DependentUpon>gl_settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\own_bankacc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\own_bankacc.Designer.cs">
+      <DependentUpon>own_bankacc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\own_managment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\own_managment.Designer.cs">
+      <DependentUpon>own_managment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\own_vehstore.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\own_vehstore.Designer.cs">
+      <DependentUpon>own_vehstore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\own_vehstore_busses.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\own_vehstore_busses.Designer.cs">
+      <DependentUpon>own_vehstore_busses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\own_vehstore_tram.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\own_vehstore_tram.Designer.cs">
+      <DependentUpon>own_vehstore_tram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\aicompany_mainscreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\aicompany_mainscreen.Designer.cs">
+      <DependentUpon>aicompany_mainscreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\loginscreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\loginscreen.Designer.cs">
+      <DependentUpon>loginscreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\owncompany_mainscreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\owncompany_mainscreen.Designer.cs">
+      <DependentUpon>owncompany_mainscreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Functions\data.cs" />
+    <Compile Include="Functions\propfiles.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\ai_bankacc.de.resx">
+      <DependentUpon>ai_bankacc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ai_bankacc.resx">
+      <DependentUpon>ai_bankacc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\gl_companymarket.de.resx">
+      <DependentUpon>gl_companymarket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\gl_companymarket.resx">
+      <DependentUpon>gl_companymarket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\gl_drive.de.resx">
+      <DependentUpon>gl_drive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\gl_drive.resx">
+      <DependentUpon>gl_drive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\gl_driverdata.de.resx">
+      <DependentUpon>gl_driverdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\gl_driverdata.resx">
+      <DependentUpon>gl_driverdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\gl_settings.de.resx">
+      <DependentUpon>gl_settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\gl_settings.resx">
+      <DependentUpon>gl_settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\own_bankacc.resx">
+      <DependentUpon>own_bankacc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\own_managment.resx">
+      <DependentUpon>own_managment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\own_vehstore.resx">
+      <DependentUpon>own_vehstore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\own_vehstore_busses.resx">
+      <DependentUpon>own_vehstore_busses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\own_vehstore_tram.resx">
+      <DependentUpon>own_vehstore_tram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\aicompany_mainscreen.de.resx">
+      <DependentUpon>aicompany_mainscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\aicompany_mainscreen.resx">
+      <DependentUpon>aicompany_mainscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\loginscreen.de.resx">
+      <DependentUpon>loginscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\loginscreen.resx">
+      <DependentUpon>loginscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\owncompany_mainscreen.resx">
+      <DependentUpon>owncompany_mainscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_settingsX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_closeX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statisticico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bankeuro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drivebus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\advertismentico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\companyico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userdefault.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settingsgeneral.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settingsgeneral1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\company_previewnotfound.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c01_1small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c02_1small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_c01_bgscreen.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c01_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c01_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c02_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\öpnvstore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\management.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carpool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus_manlionscitya21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus_o530.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagenotfound.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus_a23-ng313.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus_a26_nl313.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus_a120.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus_a320.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus_a330.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus_a360.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus_ag280.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus_ag300.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus_agg300.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus_mbo405gn2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c03_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_c03_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus_man-o530_ac.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus_man-o530g-ac.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bus_man-o530le_ac.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_c04_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_c04_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_c04_2_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_c05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_c05_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 und x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

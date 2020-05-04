@@ -1,0 +1,846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;pl_driverdata_crashes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lb_driverdata_drivenkms_title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_money.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_title_general.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pl_driverdata_hitandruns.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lb_driverdata_hitandruns_value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 33</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_crashes_value.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_titleheader.Parent" xml:space="preserve">
+    <value>pl_settings_header_pgtitel</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_drivenkms_value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_driverdata_busstops_value.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_drivenkm.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pl_driverdata_money.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="pl_driverdata_crashes.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lb_driverdata_boughttickets_title.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb_driverdata_drivenkms_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 10pt</value>
+  </data>
+  <data name="lb_driverdata_money_title.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb_driverdata_crashes_value.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_driverdata_boughttickets_value.Text" xml:space="preserve">
+    <value>NUM</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_injuredpedestrians_title.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lb_driverdata_crashes_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 10pt</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_money.Name" xml:space="preserve">
+    <value>pl_driverdata_money</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_money_value.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pl_driverdata_hitandruns.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 372</value>
+  </data>
+  <data name="lb_driverdata_hitandruns_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 10pt</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_busstops_value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_driverdata_money_value.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_drivenkms_title.Name" xml:space="preserve">
+    <value>lb_driverdata_drivenkms_title</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_crashes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_injuredpedestrians_value.Name" xml:space="preserve">
+    <value>lb_driverdata_injuredpedestrians_value</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_boughttickets_value.Name" xml:space="preserve">
+    <value>lb_driverdata_boughttickets_value</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_busstops_title.Parent" xml:space="preserve">
+    <value>pl_driverdata_busstops</value>
+  </data>
+  <data name="lb_driverdata_title_driving.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 17</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_drivenkms_title.Parent" xml:space="preserve">
+    <value>pl_driverdata_drivenkm</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pl_driverdata_headerpanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lb_driverdata_injuredpedestrians_value.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lb_driverdata_busstops_value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 33</value>
+  </data>
+  <data name="lb_driverdata_injuredpedestrians_value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 81</value>
+  </data>
+  <data name="lb_driverdata_title_driving.Text" xml:space="preserve">
+    <value>Driving Data:</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_hitandruns.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pl_driverdata_crashes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 149</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_busstops_value.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lb_driverdata_money_value.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lb_driverdata_boughttickets_title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 17</value>
+  </data>
+  <data name="lb_driverdata_boughttickets_value.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_boughttickets_title.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_money.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_driverdata_drivenkms_value.Text" xml:space="preserve">
+    <value>NUM</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_money.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lb_driverdata_injuredpedestrians_title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 17</value>
+  </data>
+  <data name="pl_driverdata_headerpanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_busstops_title.Name" xml:space="preserve">
+    <value>lb_driverdata_busstops_title</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_hitandruns_value.Name" xml:space="preserve">
+    <value>lb_driverdata_hitandruns_value</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_drivenkms_title.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lb_driverdata_money_value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 81</value>
+  </data>
+  <data name="lb_driverdata_title_driving.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 10pt, style=Bold</value>
+  </data>
+  <data name="lb_driverdata_busstops_value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 20pt</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_drivenkm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_title_driving.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lb_driverdata_titleheader.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lb_driverdata_title_driving.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 315</value>
+  </data>
+  <data name="lb_driverdata_boughttickets_value.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lb_driverdata_busstops_title.Text" xml:space="preserve">
+    <value>Busstops:</value>
+  </data>
+  <data name="pl_driverdata_boughttickets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 125</value>
+  </data>
+  <data name="pl_driverdata_drivenkm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 125</value>
+  </data>
+  <data name="lb_driverdata_title_general.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lb_driverdata_boughttickets_value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 81</value>
+  </data>
+  <data name="lb_driverdata_title_driving.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="pl_driverdata_injuredpedestrians.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_headerpanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_driverdata_money_value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 20pt</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_header_pgtitel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_driverdata_crashes_value.Text" xml:space="preserve">
+    <value>NUM</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_drivenkms_value.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_boughttickets_value.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_money_title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_driverdata_busstops_title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_header_pgtitel.Parent" xml:space="preserve">
+    <value>pl_driverdata_headerpanel</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_crashes_title.Name" xml:space="preserve">
+    <value>lb_driverdata_crashes_title</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_hitandruns_value.Parent" xml:space="preserve">
+    <value>pl_driverdata_hitandruns</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_drivenkms_value.Parent" xml:space="preserve">
+    <value>pl_driverdata_drivenkm</value>
+  </data>
+  <data name="lb_driverdata_money_value.Text" xml:space="preserve">
+    <value>NUM</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_money_value.Name" xml:space="preserve">
+    <value>lb_driverdata_money_value</value>
+  </data>
+  <data name="lb_driverdata_injuredpedestrians_value.Text" xml:space="preserve">
+    <value>NUM</value>
+  </data>
+  <data name="lb_driverdata_busstops_title.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb_driverdata_drivenkms_value.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_driverdata_drivenkms_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 34</value>
+  </data>
+  <data name="lb_driverdata_crashes_value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 20pt</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_injuredpedestrians.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_driverdata_crashes_title.Text" xml:space="preserve">
+    <value>Crashes:</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_injuredpedestrians_value.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lb_driverdata_boughttickets_title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_hitandruns_title.Name" xml:space="preserve">
+    <value>lb_driverdata_hitandruns_title</value>
+  </data>
+  <data name="lb_driverdata_title_general.Text" xml:space="preserve">
+    <value>General Data:</value>
+  </data>
+  <data name="pl_driverdata_drivenkm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 149</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_drivenkm.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lb_driverdata_crashes_value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 33</value>
+  </data>
+  <data name="lb_driverdata_hitandruns_value.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lb_driverdata_injuredpedestrians_value.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_driverdata_crashes_value.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lb_driverdata_title_general.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_driverdata_busstops_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 10pt</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_busstops_title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_boughttickets_title.Parent" xml:space="preserve">
+    <value>pl_driverdata_boughttickets</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_title_driving.Name" xml:space="preserve">
+    <value>lb_driverdata_title_driving</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_crashes_title.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lb_driverdata_injuredpedestrians_value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 33</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_hitandruns_title.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pl_driverdata_busstops.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lb_driverdata_titleheader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_injuredpedestrians.Name" xml:space="preserve">
+    <value>pl_driverdata_injuredpedestrians</value>
+  </data>
+  <data name="lb_driverdata_hitandruns_value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 81</value>
+  </data>
+  <data name="lb_driverdata_drivenkms_title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 17</value>
+  </data>
+  <data name="lb_driverdata_busstops_value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 81</value>
+  </data>
+  <data name="lb_driverdata_money_title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_titleheader.Name" xml:space="preserve">
+    <value>lb_driverdata_titleheader</value>
+  </data>
+  <data name="lb_driverdata_hitandruns_value.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_driverdata_crashes_title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_injuredpedestrians_value.Parent" xml:space="preserve">
+    <value>pl_driverdata_injuredpedestrians</value>
+  </data>
+  <data name="pl_driverdata_headerpanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lb_driverdata_busstops_value.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lb_driverdata_boughttickets_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 34</value>
+  </data>
+  <data name="pl_driverdata_injuredpedestrians.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 149</value>
+  </data>
+  <data name="lb_driverdata_money_value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 33</value>
+  </data>
+  <data name="lb_driverdata_busstops_value.Text" xml:space="preserve">
+    <value>NUM</value>
+  </data>
+  <data name="lb_driverdata_injuredpedestrians_title.Text" xml:space="preserve">
+    <value>Injured pedestrians:</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_header_pgtitel.Name" xml:space="preserve">
+    <value>pl_settings_header_pgtitel</value>
+  </data>
+  <data name="lb_driverdata_title_general.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 79</value>
+  </data>
+  <data name="pl_driverdata_hitandruns.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 149</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_money_title.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pl_driverdata_boughttickets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 149</value>
+  </data>
+  <data name="lb_driverdata_hitandruns_title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_headerpanel.Name" xml:space="preserve">
+    <value>pl_driverdata_headerpanel</value>
+  </data>
+  <data name="pl_driverdata_headerpanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>858, 54</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_busstops.Name" xml:space="preserve">
+    <value>pl_driverdata_busstops</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_crashes_value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_title_driving.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_driverdata_hitandruns_title.Text" xml:space="preserve">
+    <value>Hit and runs:</value>
+  </data>
+  <data name="lb_driverdata_injuredpedestrians_title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pl_driverdata_money.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 149</value>
+  </data>
+  <data name="lb_driverdata_crashes_title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 17</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_busstops_title.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pl_driverdata_boughttickets.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_drivenkm.Name" xml:space="preserve">
+    <value>pl_driverdata_drivenkm</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_crashes_value.Name" xml:space="preserve">
+    <value>lb_driverdata_crashes_value</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_money_value.Parent" xml:space="preserve">
+    <value>pl_driverdata_money</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>858, 619</value>
+  </data>
+  <data name="lb_driverdata_drivenkms_title.Text" xml:space="preserve">
+    <value>Driven KMs:</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_boughttickets.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lb_driverdata_drivenkms_title.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb_driverdata_money_title.Text" xml:space="preserve">
+    <value>Earned money f. tickets:</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_busstops_value.Name" xml:space="preserve">
+    <value>lb_driverdata_busstops_value</value>
+  </data>
+  <data name="lb_driverdata_hitandruns_value.Text" xml:space="preserve">
+    <value>NUM</value>
+  </data>
+  <data name="lb_driverdata_crashes_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 34</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_hitandruns.Name" xml:space="preserve">
+    <value>pl_driverdata_hitandruns</value>
+  </data>
+  <data name="lb_driverdata_boughttickets_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 10pt</value>
+  </data>
+  <data name="lb_driverdata_busstops_title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="lb_driverdata_injuredpedestrians_title.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb_driverdata_injuredpedestrians_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 10pt</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_busstops.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_title_general.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_driverdata_title_general.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 10pt, style=Bold</value>
+  </data>
+  <data name="lb_driverdata_money_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 34</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pl_settings_header_pgtitel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb_driverdata_money_title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 17</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_boughttickets.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_boughttickets_title.Name" xml:space="preserve">
+    <value>lb_driverdata_boughttickets_title</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_injuredpedestrians_title.Parent" xml:space="preserve">
+    <value>pl_driverdata_injuredpedestrians</value>
+  </data>
+  <data name="lb_driverdata_hitandruns_title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 17</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_titleheader.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lb_driverdata_title_general.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_busstops.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lb_driverdata_injuredpedestrians_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 34</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_crashes.Name" xml:space="preserve">
+    <value>pl_driverdata_crashes</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_headerpanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_hitandruns_title.Parent" xml:space="preserve">
+    <value>pl_driverdata_hitandruns</value>
+  </data>
+  <data name="lb_driverdata_drivenkms_value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 81</value>
+  </data>
+  <data name="lb_driverdata_hitandruns_value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 20pt</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_hitandruns_value.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_boughttickets_title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_hitandruns_value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_driverdata_hitandruns_title.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_boughttickets_value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_driverdata_titleheader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 54</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_headerpanel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lb_driverdata_busstops_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 34</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_crashes.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_title_general.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lb_driverdata_hitandruns_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 34</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_injuredpedestrians.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_busstops_value.Parent" xml:space="preserve">
+    <value>pl_driverdata_busstops</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_header_pgtitel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_hitandruns.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pl_settings_header_pgtitel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>574, 0</value>
+  </data>
+  <data name="lb_driverdata_boughttickets_value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 20pt</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_crashes_title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_injuredpedestrians_title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_driverdata_drivenkms_value.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lb_driverdata_boughttickets_title.Text" xml:space="preserve">
+    <value>Sold tickets:</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_boughttickets.Name" xml:space="preserve">
+    <value>pl_driverdata_boughttickets</value>
+  </data>
+  <data name="lb_driverdata_titleheader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 15pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_injuredpedestrians_title.Name" xml:space="preserve">
+    <value>lb_driverdata_injuredpedestrians_title</value>
+  </data>
+  <data name="pl_driverdata_drivenkm.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pl_settings_header_pgtitel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lb_driverdata_crashes_title.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_title_driving.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pl_settings_header_pgtitel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 54</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_money_title.Parent" xml:space="preserve">
+    <value>pl_driverdata_money</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_money_title.Name" xml:space="preserve">
+    <value>lb_driverdata_money_title</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_hitandruns.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pl_driverdata_money.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 125</value>
+  </data>
+  <data name="pl_driverdata_injuredpedestrians.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 372</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_money_value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_driverdata_crashes_value.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 81</value>
+  </data>
+  <data name="lb_driverdata_titleheader.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pl_driverdata_busstops.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 125</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_drivenkms_value.Name" xml:space="preserve">
+    <value>lb_driverdata_drivenkms_value</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_crashes_title.Parent" xml:space="preserve">
+    <value>pl_driverdata_crashes</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_drivenkms_title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_driverdata_injuredpedestrians_value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 20pt</value>
+  </data>
+  <data name="pl_driverdata_crashes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 372</value>
+  </data>
+  <data name="lb_driverdata_money_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 10pt</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_boughttickets_value.Parent" xml:space="preserve">
+    <value>pl_driverdata_boughttickets</value>
+  </data>
+  <data name="lb_driverdata_titleheader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>gl_driverdata</value>
+  </data>
+  <data name="pl_driverdata_busstops.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 149</value>
+  </data>
+  <data name="lb_driverdata_title_driving.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_titleheader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_busstops.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_driverdata_drivenkms_value.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 20pt</value>
+  </data>
+  <data name="lb_driverdata_drivenkms_value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 33</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_title_general.Name" xml:space="preserve">
+    <value>lb_driverdata_title_general</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_injuredpedestrians.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lb_driverdata_boughttickets_value.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 33</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_injuredpedestrians_value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pl_driverdata_boughttickets.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_crashes_value.Parent" xml:space="preserve">
+    <value>pl_driverdata_crashes</value>
+  </data>
+  <data name="&gt;&gt;lb_driverdata_hitandruns_title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_driverdata_titleheader.Text" xml:space="preserve">
+    <value>Driver Data</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

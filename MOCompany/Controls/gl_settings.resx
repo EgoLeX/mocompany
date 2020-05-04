@@ -1,0 +1,896 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;lb_settings_user_hascompcheck.Parent" xml:space="preserve">
+    <value>pl_settings_usersettings</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lb_settings_user_hascompcheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btn_settings_save.Name" xml:space="preserve">
+    <value>btn_settings_save</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lb_settings_user_usrpwdtitel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_user_hascompcheck.Name" xml:space="preserve">
+    <value>lb_settings_user_hascompcheck</value>
+  </data>
+  <data name="lb_settings_general_pathtoomsidir.Text" xml:space="preserve">
+    <value>Path to Omsi Directory:</value>
+  </data>
+  <data name="&gt;&gt;llbl_settings_credit_jockie.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_generalsettings.Name" xml:space="preserve">
+    <value>pl_settings_generalsettings</value>
+  </data>
+  <data name="lb_settings_nav_generaltitel.Text" xml:space="preserve">
+    <value>General
+Settings</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_credits_message.Name" xml:space="preserve">
+    <value>lb_settings_credits_message</value>
+  </data>
+  <data name="pb_settings_generalsettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 69</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_credits_message.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tb_settings_general_pathtoomsidir.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tb_settings_user_passw.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pl_settings_credits.Location" type="System.Drawing.Point, System.Drawing">
+    <value>724, 67</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_general_pathtoomsidir.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lb_settings_titleheader.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb_settings_user_usrpwdtitel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 10pt</value>
+  </data>
+  <data name="lb_settings_general_pathtoomsidir.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tt_settings.Name" xml:space="preserve">
+    <value>tt_settings</value>
+  </data>
+  <data name="&gt;&gt;tb_settings_general_pathtoomsidir.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lb_settings_user_hascompanytitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 152</value>
+  </data>
+  <data name="lb_settings_user_hascompcheck.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;pb_settings_usersettings.Name" xml:space="preserve">
+    <value>pb_settings_usersettings</value>
+  </data>
+  <data name="lb_settings_nav_usrtitel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_headerpanel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lb_settings_user_usrname_titel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;llbl_settings_credit_jockie.Name" xml:space="preserve">
+    <value>llbl_settings_credit_jockie</value>
+  </data>
+  <data name="lb_settings_credits_title.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb_settings_credits_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 10pt</value>
+  </data>
+  <data name="lb_settings_titleheader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 54</value>
+  </data>
+  <data name="lb_settings_nav_generaltitel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 33</value>
+  </data>
+  <data name="tb_settings_general_pathtoomsidir.ToolTip" xml:space="preserve">
+    <value>Choose the Omsi main directory. This need to be choosed because without it is not possible to use this tool!</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_credits_title.Name" xml:space="preserve">
+    <value>lb_settings_credits_title</value>
+  </data>
+  <data name="lb_settings_credits_title.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_user_usrpwdtitel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lb_settings_nav_usrtitel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lb_settings_user_hascompcheck.Text" xml:space="preserve">
+    <value>setting:hascompany</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_headerpanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tb_settings_user_username.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 20</value>
+  </data>
+  <data name="&gt;&gt;pb_settings_generalsettings.Name" xml:space="preserve">
+    <value>pb_settings_generalsettings</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_generalsettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_credits_message.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_user_usrname_titel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lb_settings_user_hascompcheck.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 8.25pt</value>
+  </data>
+  <data name="llbl_settings_credit_jockie.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tb_settings_user_username.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pl_settings_usersettings.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pl_settings_headerpanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="tb_settings_general_pathtoomsidir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 20</value>
+  </data>
+  <data name="&gt;&gt;llb_settings_credit_kartoffelphantom.Parent" xml:space="preserve">
+    <value>pl_settings_credits</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_headerpanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lb_settings_nav_usrtitel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tb_settings_user_passw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 20</value>
+  </data>
+  <data name="&gt;&gt;pb_settings_generalsettings.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="lb_settings_nav_usrtitel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lb_settings_credits_message.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;pb_settings_usersettings.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="pb_settings_usersettings.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lb_settings_general_pathtoomsidir.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pb_settings_usersettings.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="lb_settings_credits_message.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;llbl_settings_credit_jockie.Parent" xml:space="preserve">
+    <value>pl_settings_credits</value>
+  </data>
+  <data name="lb_settings_user_usrname_titel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tb_settings_general_pathtoomsidir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 45</value>
+  </data>
+  <data name="tb_settings_user_passw.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btn_settings_save.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="lb_settings_nav_generaltitel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 308</value>
+  </data>
+  <data name="llb_settings_credit_kartoffelphantom.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lb_settings_credits_title.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lb_settings_user_usrpwdtitel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pb_settings_usersettings.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pb_settings_generalsettings.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_leftdock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pb_settings_usersettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 69</value>
+  </data>
+  <data name="pl_settings_leftdock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 565</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_user_usrpwdtitel.Name" xml:space="preserve">
+    <value>lb_settings_user_usrpwdtitel</value>
+  </data>
+  <data name="lb_settings_user_usrpwdtitel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 82</value>
+  </data>
+  <data name="tb_settings_user_passw.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 111</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_header_pgtitel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pb_settings_generalsettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 236</value>
+  </data>
+  <data name="lb_settings_general_pathtoomsidir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 17</value>
+  </data>
+  <data name="fbd_settings.Description" xml:space="preserve">
+    <value>Choose Omsi main directory</value>
+  </data>
+  <data name="lb_settings_nav_usrtitel.Text" xml:space="preserve">
+    <value>User
+Settings</value>
+  </data>
+  <data name="lb_settings_user_hascompanytitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 17</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_nav_usrtitel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 0</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_titleheader.Parent" xml:space="preserve">
+    <value>pl_settings_header_pgtitel</value>
+  </data>
+  <data name="btn_settings_save.ToolTip" xml:space="preserve">
+    <value>Save Settings</value>
+  </data>
+  <data name="lb_settings_nav_usrtitel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 75</value>
+  </data>
+  <data name="pl_settings_headerpanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lb_settings_credits_title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 17</value>
+  </data>
+  <data name="lb_settings_credits_message.Text" xml:space="preserve">
+    <value>I would like to say thanks to the following people for their contribution:</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_usersettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_settings_save.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btn_settings_save.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btn_settings_save.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pb_settings_generalsettings.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_usersettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tb_settings_user_username.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 42</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_titleheader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_settings_nav_usrtitel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 33</value>
+  </data>
+  <data name="btn_settings_save.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="pl_settings_credits.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 462</value>
+  </data>
+  <data name="lb_settings_titleheader.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;tb_settings_user_passw.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_settings_save.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lb_settings_user_usrname_titel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 13</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_general_pathtoomsidir.Name" xml:space="preserve">
+    <value>lb_settings_general_pathtoomsidir</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_credits.Name" xml:space="preserve">
+    <value>pl_settings_credits</value>
+  </data>
+  <data name="lb_settings_user_usrpwdtitel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pl_settings_headerpanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb_settings_user_hascompcheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 185</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>pl_settings_leftdock</value>
+  </data>
+  <data name="&gt;&gt;tb_settings_user_username.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lb_settings_credits_message.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_user_hascompanytitle.Parent" xml:space="preserve">
+    <value>pl_settings_usersettings</value>
+  </data>
+  <data name="pb_settings_generalsettings.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_general_pathtoomsidir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_settings_general_pathtoomsidir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_credits.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_header_pgtitel.Parent" xml:space="preserve">
+    <value>pl_settings_headerpanel</value>
+  </data>
+  <data name="pl_settings_leftdock.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pl_settings_headerpanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>858, 54</value>
+  </data>
+  <data name="lb_settings_user_usrpwdtitel.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="pl_settings_generalsettings.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lb_settings_credits_message.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 29</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 565</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_leftdock.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_settings_user_hascompanytitle.Text" xml:space="preserve">
+    <value>Has Company:</value>
+  </data>
+  <data name="lb_settings_user_usrname_titel.Text" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+  <data name="&gt;&gt;llb_settings_credit_kartoffelphantom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_settings_user_passw.Name" xml:space="preserve">
+    <value>tb_settings_user_passw</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_user_usrpwdtitel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_general_pathtoomsidir.Parent" xml:space="preserve">
+    <value>pl_settings_generalsettings</value>
+  </data>
+  <data name="&gt;&gt;tb_settings_user_username.Parent" xml:space="preserve">
+    <value>pl_settings_usersettings</value>
+  </data>
+  <data name="btn_settings_save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 31</value>
+  </data>
+  <data name="&gt;&gt;llb_settings_credit_kartoffelphantom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_header_pgtitel.Name" xml:space="preserve">
+    <value>pl_settings_header_pgtitel</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_generalsettings.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_nav_generaltitel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="llb_settings_credit_kartoffelphantom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 20</value>
+  </data>
+  <data name="btn_settings_save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lb_settings_credits_title.Text" xml:space="preserve">
+    <value>Credits:</value>
+  </data>
+  <data name="pl_settings_leftdock.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;pl_settings_generalsettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pl_settings_headerpanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lb_settings_nav_usrtitel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="lb_settings_titleheader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lb_settings_general_pathtoomsidir.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 10pt</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_user_hascompanytitle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="llbl_settings_credit_jockie.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 20</value>
+  </data>
+  <data name="lb_settings_user_usrpwdtitel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tb_settings_general_pathtoomsidir.Name" xml:space="preserve">
+    <value>tb_settings_general_pathtoomsidir</value>
+  </data>
+  <data name="llbl_settings_credit_jockie.Text" xml:space="preserve">
+    <value>Jockie</value>
+  </data>
+  <data name="llbl_settings_credit_jockie.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 118</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>858, 619</value>
+  </data>
+  <data name="pl_settings_usersettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>632, 220</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_leftdock.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>gl_settings</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_nav_generaltitel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_credits.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lb_settings_credits_message.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 76</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;llbl_settings_credit_jockie.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_user_hascompcheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_credits_title.Parent" xml:space="preserve">
+    <value>pl_settings_credits</value>
+  </data>
+  <data name="lb_settings_nav_generaltitel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 8.25pt</value>
+  </data>
+  <data name="lb_settings_credits_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="&gt;&gt;fbd_settings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_settings_nav_generaltitel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_user_hascompanytitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lb_settings_titleheader.Name" xml:space="preserve">
+    <value>lb_settings_titleheader</value>
+  </data>
+  <data name="pl_settings_header_pgtitel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_user_usrname_titel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="llb_settings_credit_kartoffelphantom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 98</value>
+  </data>
+  <data name="pb_settings_usersettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_user_hascompanytitle.Name" xml:space="preserve">
+    <value>lb_settings_user_hascompanytitle</value>
+  </data>
+  <data name="lb_settings_general_pathtoomsidir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 16</value>
+  </data>
+  <data name="lb_settings_user_usrname_titel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="&gt;&gt;tt_settings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pl_settings_generalsettings.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pb_settings_generalsettings.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tb_settings_user_passw.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pb_settings_usersettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_settings_titleheader.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lb_settings_titleheader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;tb_settings_user_username.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pl_settings_credits.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="llb_settings_credit_kartoffelphantom.Text" xml:space="preserve">
+    <value>Kartoffelphantom</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_nav_generaltitel.Name" xml:space="preserve">
+    <value>lb_settings_nav_generaltitel</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lb_settings_general_pathtoomsidir.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;fbd_settings.Name" xml:space="preserve">
+    <value>fbd_settings</value>
+  </data>
+  <data name="pl_settings_generalsettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 290</value>
+  </data>
+  <data name="pl_settings_header_pgtitel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;pl_settings_header_pgtitel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pl_settings_header_pgtitel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>574, 0</value>
+  </data>
+  <data name="&gt;&gt;tb_settings_user_passw.Parent" xml:space="preserve">
+    <value>pl_settings_usersettings</value>
+  </data>
+  <data name="lb_settings_user_hascompanytitle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;lb_settings_nav_usrtitel.Name" xml:space="preserve">
+    <value>lb_settings_nav_usrtitel</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_usersettings.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_user_usrpwdtitel.Parent" xml:space="preserve">
+    <value>pl_settings_usersettings</value>
+  </data>
+  <data name="lb_settings_user_hascompanytitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 10pt</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_nav_generaltitel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_credits_message.Parent" xml:space="preserve">
+    <value>pl_settings_credits</value>
+  </data>
+  <data name="&gt;&gt;tb_settings_general_pathtoomsidir.Parent" xml:space="preserve">
+    <value>pl_settings_generalsettings</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="llbl_settings_credit_jockie.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 8.25pt</value>
+  </data>
+  <data name="pl_settings_header_pgtitel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_nav_usrtitel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lb_settings_user_hascompanytitle.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pl_settings_header_pgtitel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 54</value>
+  </data>
+  <data name="lb_settings_titleheader.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_user_hascompcheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_usersettings.Name" xml:space="preserve">
+    <value>pl_settings_usersettings</value>
+  </data>
+  <data name="lb_settings_user_hascompcheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 14</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_credits.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lb_settings_user_hascompanytitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lb_settings_nav_generaltitel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tb_settings_user_username.Name" xml:space="preserve">
+    <value>tb_settings_user_username</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_leftdock.Name" xml:space="preserve">
+    <value>pl_settings_leftdock</value>
+  </data>
+  <data name="tb_settings_user_username.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="llb_settings_credit_kartoffelphantom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_user_usrname_titel.Name" xml:space="preserve">
+    <value>lb_settings_user_usrname_titel</value>
+  </data>
+  <data name="pl_settings_leftdock.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;llb_settings_credit_kartoffelphantom.Name" xml:space="preserve">
+    <value>llb_settings_credit_kartoffelphantom</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_user_usrname_titel.Parent" xml:space="preserve">
+    <value>pl_settings_usersettings</value>
+  </data>
+  <data name="lb_settings_user_hascompcheck.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lb_settings_user_usrname_titel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 10pt</value>
+  </data>
+  <data name="lb_settings_credits_title.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="llb_settings_credit_kartoffelphantom.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pb_settings_generalsettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pl_settings_usersettings.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="pb_settings_usersettings.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btn_settings_save.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 10pt</value>
+  </data>
+  <data name="pl_settings_credits.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pl_settings_leftdock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 54</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_headerpanel.Name" xml:space="preserve">
+    <value>pl_settings_headerpanel</value>
+  </data>
+  <data name="lb_settings_user_usrname_titel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lb_settings_titleheader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 15pt, style=Bold</value>
+  </data>
+  <data name="pl_settings_usersettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 54</value>
+  </data>
+  <data name="btn_settings_save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>693, 575</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_titleheader.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lb_settings_credits_title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lb_settings_nav_generaltitel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pl_settings_generalsettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>632, 264</value>
+  </data>
+  <data name="llbl_settings_credit_jockie.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="fbd_settings.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="tt_settings.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>135, 17</value>
+  </metadata>
+</root>

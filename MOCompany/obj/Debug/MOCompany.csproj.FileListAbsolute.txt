@@ -1,0 +1,71 @@
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\bin\Debug\MOCompany.exe.config
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\bin\Debug\MOCompany.exe
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\bin\Debug\MOCompany.pdb
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\bin\Debug\de\MOCompany.resources.dll
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.loginscreen.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Properties.Resources.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.loginscreen.de.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.csproj.GenerateResource.cache
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\de\MOCompany.resources.dll
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.exe
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.pdb
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Forms.aicompany_mainscreen.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.ai_bankacc.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.gl_companymarket.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.gl_settings.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.gl_drive.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.gl_driverdata.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.ai_bankacc.de.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.gl_companymarket.de.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.gl_drive.de.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.gl_driverdata.de.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.gl_settings.de.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Forms.aicompany_mainscreen.de.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Forms.owncompany_mainscreen.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\bin\Debug\Interop.WMPLib.dll
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\bin\Debug\AxInterop.WMPLib.dll
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\Interop.WMPLib.dll
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\AxInterop.WMPLib.dll
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.csproj.ResolveComReference.cache
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.own_bankacc.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.own_managment.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.own_vehstore.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.own_vehstore_busses.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.own_vehstore_tram.resources
+E:\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.csprojResolveAssemblyReference.cache
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\bin\Debug\MOCompany.exe.config
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\bin\Debug\MOCompany.exe
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\bin\Debug\MOCompany.pdb
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\bin\Debug\de\MOCompany.resources.dll
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\bin\Debug\Interop.WMPLib.dll
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\bin\Debug\AxInterop.WMPLib.dll
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.csprojAssemblyReference.cache
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\Interop.WMPLib.dll
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\AxInterop.WMPLib.dll
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.csproj.ResolveComReference.cache
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.ai_bankacc.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.gl_companymarket.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.gl_drive.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.gl_driverdata.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.gl_settings.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.own_bankacc.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.own_managment.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.own_vehstore.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.own_vehstore_busses.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.own_vehstore_tram.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Forms.aicompany_mainscreen.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.loginscreen.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Forms.owncompany_mainscreen.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Properties.Resources.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.ai_bankacc.de.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.gl_companymarket.de.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.gl_drive.de.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.gl_driverdata.de.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Controls.gl_settings.de.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.Forms.aicompany_mainscreen.de.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.loginscreen.de.resources
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.csproj.GenerateResource.cache
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.csproj.CoreCompileInputs.cache
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\de\MOCompany.resources.dll
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.exe
+E:\Benutzer\Dennis Weishaupt\Dokumente\Visual Studio 2017\Projects\MOCompany\MOCompany\obj\Debug\MOCompany.pdb
