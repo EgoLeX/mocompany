@@ -9,6 +9,7 @@ Forum Thread in OmsiWebdisk: https://reboot.omsi-webdisk.de/community/thread/518
 I recommend to use Visual Studio to continue this project.
 
 After downloading the release you can easily open the project by double click the MOCompany.sln file in main folder.
+Progamming language: C#
 
 
 > Legal
