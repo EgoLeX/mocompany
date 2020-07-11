@@ -117,20 +117,71 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;lbl_loginscreen_createdby.Name" xml:space="preserve">
+    <value>lbl_loginscreen_createdby</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_createdby.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_createdby.Parent" xml:space="preserve">
+    <value>pl_loginscreen_footer</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_createdby.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_loginscreen_close.Name" xml:space="preserve">
+    <value>btn_loginscreen_close</value>
+  </data>
+  <data name="&gt;&gt;btn_loginscreen_close.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_loginscreen_close.Parent" xml:space="preserve">
+    <value>pl_loginscreen_footer</value>
+  </data>
+  <data name="&gt;&gt;btn_loginscreen_close.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pl_loginscreen_footer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pl_loginscreen_footer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 408</value>
+  </data>
+  <data name="pl_loginscreen_footer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 42</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pl_loginscreen_footer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pl_loginscreen_footer.Name" xml:space="preserve">
+    <value>pl_loginscreen_footer</value>
+  </data>
+  <data name="&gt;&gt;pl_loginscreen_footer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pl_loginscreen_footer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pl_loginscreen_footer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="lbl_loginscreen_createdby.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_loginscreen_createdby.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 9pt</value>
+  </data>
   <data name="lbl_loginscreen_createdby.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lbl_loginscreen_createdby.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 15</value>
   </data>
   <data name="lbl_loginscreen_createdby.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 13</value>
+    <value>199, 14</value>
   </data>
   <data name="lbl_loginscreen_createdby.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -150,6 +201,9 @@
   <data name="&gt;&gt;lbl_loginscreen_createdby.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="ttip_loginscreen.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="btn_loginscreen_close.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
@@ -214,9 +268,6 @@
   <data name="btn_loginscreen_close.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <metadata name="ttip_loginscreen.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <data name="btn_loginscreen_close.ToolTip" xml:space="preserve">
     <value>Exit MOCompany</value>
   </data>
@@ -230,30 +281,6 @@
     <value>pl_loginscreen_footer</value>
   </data>
   <data name="&gt;&gt;btn_loginscreen_close.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pl_loginscreen_footer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="pl_loginscreen_footer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 408</value>
-  </data>
-  <data name="pl_loginscreen_footer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>800, 42</value>
-  </data>
-  <data name="pl_loginscreen_footer.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pl_loginscreen_footer.Name" xml:space="preserve">
-    <value>pl_loginscreen_footer</value>
-  </data>
-  <data name="&gt;&gt;pl_loginscreen_footer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pl_loginscreen_footer.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pl_loginscreen_footer.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="lbl_loginscreen_version.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -305,7 +332,7 @@
     <value>Flat</value>
   </data>
   <data name="btn_loginscreen_login.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 11pt, style=Bold</value>
+    <value>Candara, 11.25pt, style=Bold</value>
   </data>
   <data name="btn_loginscreen_login.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -334,8 +361,333 @@
   <data name="&gt;&gt;btn_loginscreen_login.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;rbtn_driveforyourowncompany.Name" xml:space="preserve">
+    <value>rbtn_driveforyourowncompany</value>
+  </data>
+  <data name="&gt;&gt;rbtn_driveforyourowncompany.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_driveforyourowncompany.Parent" xml:space="preserve">
+    <value>pl_loginscreen_chooseplayoption</value>
+  </data>
+  <data name="&gt;&gt;rbtn_driveforyourowncompany.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;rbtn_loginscreen_driveforacompany.Name" xml:space="preserve">
+    <value>rbtn_loginscreen_driveforacompany</value>
+  </data>
+  <data name="&gt;&gt;rbtn_loginscreen_driveforacompany.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtn_loginscreen_driveforacompany.Parent" xml:space="preserve">
+    <value>pl_loginscreen_chooseplayoption</value>
+  </data>
+  <data name="&gt;&gt;rbtn_loginscreen_driveforacompany.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pb_loginscreen_driveforowncompany.Name" xml:space="preserve">
+    <value>pb_loginscreen_driveforowncompany</value>
+  </data>
+  <data name="&gt;&gt;pb_loginscreen_driveforowncompany.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pb_loginscreen_driveforowncompany.Parent" xml:space="preserve">
+    <value>pl_loginscreen_chooseplayoption</value>
+  </data>
+  <data name="&gt;&gt;pb_loginscreen_driveforowncompany.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pb_loginscreen_driveforcompany.Name" xml:space="preserve">
+    <value>pb_loginscreen_driveforcompany</value>
+  </data>
+  <data name="&gt;&gt;pb_loginscreen_driveforcompany.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pb_loginscreen_driveforcompany.Parent" xml:space="preserve">
+    <value>pl_loginscreen_chooseplayoption</value>
+  </data>
+  <data name="&gt;&gt;pb_loginscreen_driveforcompany.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_choosegamemode.Name" xml:space="preserve">
+    <value>lbl_loginscreen_choosegamemode</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_choosegamemode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_choosegamemode.Parent" xml:space="preserve">
+    <value>pl_loginscreen_chooseplayoption</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_choosegamemode.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pl_loginscreen_chooseplayoption.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 63</value>
+  </data>
+  <data name="pl_loginscreen_chooseplayoption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 339</value>
+  </data>
+  <data name="pl_loginscreen_chooseplayoption.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;pl_loginscreen_chooseplayoption.Name" xml:space="preserve">
+    <value>pl_loginscreen_chooseplayoption</value>
+  </data>
+  <data name="&gt;&gt;pl_loginscreen_chooseplayoption.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pl_loginscreen_chooseplayoption.Parent" xml:space="preserve">
+    <value>pl_loginsreen_main</value>
+  </data>
+  <data name="&gt;&gt;pl_loginscreen_chooseplayoption.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="llbl_loginscreen_needhelp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="llbl_loginscreen_needhelp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="llbl_loginscreen_needhelp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 8.25pt</value>
+  </data>
+  <data name="llbl_loginscreen_needhelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="llbl_loginscreen_needhelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 380</value>
+  </data>
+  <data name="llbl_loginscreen_needhelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="llbl_loginscreen_needhelp.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="llbl_loginscreen_needhelp.Text" xml:space="preserve">
+    <value>Need Help?</value>
+  </data>
+  <data name="&gt;&gt;llbl_loginscreen_needhelp.Name" xml:space="preserve">
+    <value>llbl_loginscreen_needhelp</value>
+  </data>
+  <data name="&gt;&gt;llbl_loginscreen_needhelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;llbl_loginscreen_needhelp.Parent" xml:space="preserve">
+    <value>pl_loginsreen_main</value>
+  </data>
+  <data name="&gt;&gt;llbl_loginscreen_needhelp.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_loginscreen_ps_titel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_loginscreen_ps_titel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt, style=Bold</value>
+  </data>
+  <data name="lbl_loginscreen_ps_titel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_loginscreen_ps_titel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 209</value>
+  </data>
+  <data name="lbl_loginscreen_ps_titel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 19</value>
+  </data>
+  <data name="lbl_loginscreen_ps_titel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbl_loginscreen_ps_titel.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_ps_titel.Name" xml:space="preserve">
+    <value>lbl_loginscreen_ps_titel</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_ps_titel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_ps_titel.Parent" xml:space="preserve">
+    <value>pl_loginsreen_main</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_ps_titel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_loginscreen_loginname_titel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_loginscreen_loginname_titel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt, style=Bold</value>
+  </data>
+  <data name="lbl_loginscreen_loginname_titel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_loginscreen_loginname_titel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 115</value>
+  </data>
+  <data name="lbl_loginscreen_loginname_titel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 19</value>
+  </data>
+  <data name="lbl_loginscreen_loginname_titel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lbl_loginscreen_loginname_titel.Text" xml:space="preserve">
+    <value>Username:</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_loginname_titel.Name" xml:space="preserve">
+    <value>lbl_loginscreen_loginname_titel</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_loginname_titel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_loginname_titel.Parent" xml:space="preserve">
+    <value>pl_loginsreen_main</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_loginname_titel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tb_loginscreen_ps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 238</value>
+  </data>
+  <data name="tb_loginscreen_ps.MaxLength" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="tb_loginscreen_ps.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tb_loginscreen_ps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 20</value>
+  </data>
+  <data name="tb_loginscreen_ps.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tb_loginscreen_ps.Name" xml:space="preserve">
+    <value>tb_loginscreen_ps</value>
+  </data>
+  <data name="&gt;&gt;tb_loginscreen_ps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_loginscreen_ps.Parent" xml:space="preserve">
+    <value>pl_loginsreen_main</value>
+  </data>
+  <data name="&gt;&gt;tb_loginscreen_ps.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tb_loginscreen_name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 147</value>
+  </data>
+  <data name="tb_loginscreen_name.MaxLength" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="tb_loginscreen_name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 20</value>
+  </data>
+  <data name="tb_loginscreen_name.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tb_loginscreen_name.Name" xml:space="preserve">
+    <value>tb_loginscreen_name</value>
+  </data>
+  <data name="&gt;&gt;tb_loginscreen_name.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_loginscreen_name.Parent" xml:space="preserve">
+    <value>pl_loginsreen_main</value>
+  </data>
+  <data name="&gt;&gt;tb_loginscreen_name.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbl_loginscreen_progname_footer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_loginscreen_progname_footer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 9pt</value>
+  </data>
+  <data name="lbl_loginscreen_progname_footer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_loginscreen_progname_footer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 39</value>
+  </data>
+  <data name="lbl_loginscreen_progname_footer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 14</value>
+  </data>
+  <data name="lbl_loginscreen_progname_footer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lbl_loginscreen_progname_footer.Text" xml:space="preserve">
+    <value>My Omsi Company</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_progname_footer.Name" xml:space="preserve">
+    <value>lbl_loginscreen_progname_footer</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_progname_footer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_progname_footer.Parent" xml:space="preserve">
+    <value>pl_loginsreen_main</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_progname_footer.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbl_loginscreen_progname.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_loginscreen_progname.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Lato, 18pt, style=Bold</value>
+  </data>
+  <data name="lbl_loginscreen_progname.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_loginscreen_progname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="lbl_loginscreen_progname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 30</value>
+  </data>
+  <data name="lbl_loginscreen_progname.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbl_loginscreen_progname.Text" xml:space="preserve">
+    <value>MOCompany
+</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_progname.Name" xml:space="preserve">
+    <value>lbl_loginscreen_progname</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_progname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_progname.Parent" xml:space="preserve">
+    <value>pl_loginsreen_main</value>
+  </data>
+  <data name="&gt;&gt;lbl_loginscreen_progname.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="pl_loginsreen_main.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pl_loginsreen_main.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 408</value>
+  </data>
+  <data name="pl_loginsreen_main.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pl_loginsreen_main.Name" xml:space="preserve">
+    <value>pl_loginsreen_main</value>
+  </data>
+  <data name="&gt;&gt;pl_loginsreen_main.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pl_loginsreen_main.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pl_loginsreen_main.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="rbtn_driveforyourowncompany.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="rbtn_driveforyourowncompany.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 8.25pt</value>
   </data>
   <data name="rbtn_driveforyourowncompany.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -344,7 +696,7 @@
     <value>43, 304</value>
   </data>
   <data name="rbtn_driveforyourowncompany.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 17</value>
+    <value>155, 17</value>
   </data>
   <data name="rbtn_driveforyourowncompany.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -367,6 +719,9 @@
   <data name="rbtn_loginscreen_driveforacompany.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="rbtn_loginscreen_driveforacompany.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 8.25pt</value>
+  </data>
   <data name="rbtn_loginscreen_driveforacompany.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -374,7 +729,7 @@
     <value>43, 155</value>
   </data>
   <data name="rbtn_loginscreen_driveforacompany.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 17</value>
+    <value>135, 17</value>
   </data>
   <data name="rbtn_loginscreen_driveforacompany.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -791,7 +1146,7 @@
     <value>True</value>
   </data>
   <data name="lbl_loginscreen_choosegamemode.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 10pt, style=Bold</value>
+    <value>Candara, 9.75pt, style=Bold</value>
   </data>
   <data name="lbl_loginscreen_choosegamemode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -800,7 +1155,7 @@
     <value>4, 4</value>
   </data>
   <data name="lbl_loginscreen_choosegamemode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 17</value>
+    <value>126, 15</value>
   </data>
   <data name="lbl_loginscreen_choosegamemode.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -820,265 +1175,9 @@
   <data name="&gt;&gt;lbl_loginscreen_choosegamemode.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="pl_loginscreen_chooseplayoption.Location" type="System.Drawing.Point, System.Drawing">
-    <value>459, 63</value>
-  </data>
-  <data name="pl_loginscreen_chooseplayoption.Size" type="System.Drawing.Size, System.Drawing">
-    <value>338, 339</value>
-  </data>
-  <data name="pl_loginscreen_chooseplayoption.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;pl_loginscreen_chooseplayoption.Name" xml:space="preserve">
-    <value>pl_loginscreen_chooseplayoption</value>
-  </data>
-  <data name="&gt;&gt;pl_loginscreen_chooseplayoption.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pl_loginscreen_chooseplayoption.Parent" xml:space="preserve">
-    <value>pl_loginsreen_main</value>
-  </data>
-  <data name="&gt;&gt;pl_loginscreen_chooseplayoption.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="llbl_loginscreen_needhelp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="llbl_loginscreen_needhelp.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="llbl_loginscreen_needhelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="llbl_loginscreen_needhelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 380</value>
-  </data>
-  <data name="llbl_loginscreen_needhelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 13</value>
-  </data>
-  <data name="llbl_loginscreen_needhelp.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="llbl_loginscreen_needhelp.Text" xml:space="preserve">
-    <value>Need Help?</value>
-  </data>
-  <data name="&gt;&gt;llbl_loginscreen_needhelp.Name" xml:space="preserve">
-    <value>llbl_loginscreen_needhelp</value>
-  </data>
-  <data name="&gt;&gt;llbl_loginscreen_needhelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;llbl_loginscreen_needhelp.Parent" xml:space="preserve">
-    <value>pl_loginsreen_main</value>
-  </data>
-  <data name="&gt;&gt;llbl_loginscreen_needhelp.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="lbl_loginscreen_ps_titel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_loginscreen_ps_titel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 10pt, style=Bold</value>
-  </data>
-  <data name="lbl_loginscreen_ps_titel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lbl_loginscreen_ps_titel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>60, 209</value>
-  </data>
-  <data name="lbl_loginscreen_ps_titel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 17</value>
-  </data>
-  <data name="lbl_loginscreen_ps_titel.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lbl_loginscreen_ps_titel.Text" xml:space="preserve">
-    <value>Password:</value>
-  </data>
-  <data name="&gt;&gt;lbl_loginscreen_ps_titel.Name" xml:space="preserve">
-    <value>lbl_loginscreen_ps_titel</value>
-  </data>
-  <data name="&gt;&gt;lbl_loginscreen_ps_titel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_loginscreen_ps_titel.Parent" xml:space="preserve">
-    <value>pl_loginsreen_main</value>
-  </data>
-  <data name="&gt;&gt;lbl_loginscreen_ps_titel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="lbl_loginscreen_loginname_titel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_loginscreen_loginname_titel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 10pt, style=Bold</value>
-  </data>
-  <data name="lbl_loginscreen_loginname_titel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lbl_loginscreen_loginname_titel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>60, 115</value>
-  </data>
-  <data name="lbl_loginscreen_loginname_titel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 17</value>
-  </data>
-  <data name="lbl_loginscreen_loginname_titel.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lbl_loginscreen_loginname_titel.Text" xml:space="preserve">
-    <value>Username:</value>
-  </data>
-  <data name="&gt;&gt;lbl_loginscreen_loginname_titel.Name" xml:space="preserve">
-    <value>lbl_loginscreen_loginname_titel</value>
-  </data>
-  <data name="&gt;&gt;lbl_loginscreen_loginname_titel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_loginscreen_loginname_titel.Parent" xml:space="preserve">
-    <value>pl_loginsreen_main</value>
-  </data>
-  <data name="&gt;&gt;lbl_loginscreen_loginname_titel.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="tb_loginscreen_ps.Location" type="System.Drawing.Point, System.Drawing">
-    <value>73, 238</value>
-  </data>
-  <data name="tb_loginscreen_ps.MaxLength" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="tb_loginscreen_ps.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="tb_loginscreen_ps.Size" type="System.Drawing.Size, System.Drawing">
-    <value>305, 20</value>
-  </data>
-  <data name="tb_loginscreen_ps.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;tb_loginscreen_ps.Name" xml:space="preserve">
-    <value>tb_loginscreen_ps</value>
-  </data>
-  <data name="&gt;&gt;tb_loginscreen_ps.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tb_loginscreen_ps.Parent" xml:space="preserve">
-    <value>pl_loginsreen_main</value>
-  </data>
-  <data name="&gt;&gt;tb_loginscreen_ps.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="tb_loginscreen_name.Location" type="System.Drawing.Point, System.Drawing">
-    <value>73, 147</value>
-  </data>
-  <data name="tb_loginscreen_name.MaxLength" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="tb_loginscreen_name.Size" type="System.Drawing.Size, System.Drawing">
-    <value>305, 20</value>
-  </data>
-  <data name="tb_loginscreen_name.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tb_loginscreen_name.Name" xml:space="preserve">
-    <value>tb_loginscreen_name</value>
-  </data>
-  <data name="&gt;&gt;tb_loginscreen_name.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tb_loginscreen_name.Parent" xml:space="preserve">
-    <value>pl_loginsreen_main</value>
-  </data>
-  <data name="&gt;&gt;tb_loginscreen_name.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="lbl_loginscreen_progname_footer.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_loginscreen_progname_footer.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 8pt</value>
-  </data>
-  <data name="lbl_loginscreen_progname_footer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lbl_loginscreen_progname_footer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 39</value>
-  </data>
-  <data name="lbl_loginscreen_progname_footer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 14</value>
-  </data>
-  <data name="lbl_loginscreen_progname_footer.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lbl_loginscreen_progname_footer.Text" xml:space="preserve">
-    <value>My Omsi Company</value>
-  </data>
-  <data name="&gt;&gt;lbl_loginscreen_progname_footer.Name" xml:space="preserve">
-    <value>lbl_loginscreen_progname_footer</value>
-  </data>
-  <data name="&gt;&gt;lbl_loginscreen_progname_footer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_loginscreen_progname_footer.Parent" xml:space="preserve">
-    <value>pl_loginsreen_main</value>
-  </data>
-  <data name="&gt;&gt;lbl_loginscreen_progname_footer.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="lbl_loginscreen_progname.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_loginscreen_progname.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 18pt, style=Bold</value>
-  </data>
-  <data name="lbl_loginscreen_progname.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lbl_loginscreen_progname.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 9</value>
-  </data>
-  <data name="lbl_loginscreen_progname.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 30</value>
-  </data>
-  <data name="lbl_loginscreen_progname.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lbl_loginscreen_progname.Text" xml:space="preserve">
-    <value>MOCompany
-</value>
-  </data>
-  <data name="&gt;&gt;lbl_loginscreen_progname.Name" xml:space="preserve">
-    <value>lbl_loginscreen_progname</value>
-  </data>
-  <data name="&gt;&gt;lbl_loginscreen_progname.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_loginscreen_progname.Parent" xml:space="preserve">
-    <value>pl_loginsreen_main</value>
-  </data>
-  <data name="&gt;&gt;lbl_loginscreen_progname.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="pl_loginsreen_main.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pl_loginsreen_main.Size" type="System.Drawing.Size, System.Drawing">
-    <value>800, 408</value>
-  </data>
-  <data name="pl_loginsreen_main.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;pl_loginsreen_main.Name" xml:space="preserve">
-    <value>pl_loginsreen_main</value>
-  </data>
-  <data name="&gt;&gt;pl_loginsreen_main.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pl_loginsreen_main.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pl_loginsreen_main.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
+  <metadata name="ttip_loginscreen.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

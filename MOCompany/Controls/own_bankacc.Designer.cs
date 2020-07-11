@@ -97,24 +97,24 @@
             // lb_bankpg_logo_text
             // 
             this.lb_bankpg_logo_text.AutoSize = true;
-            this.lb_bankpg_logo_text.Font = new System.Drawing.Font("Lato", 8.25F);
+            this.lb_bankpg_logo_text.Font = new System.Drawing.Font("Candara", 9F);
             this.lb_bankpg_logo_text.ForeColor = System.Drawing.Color.White;
             this.lb_bankpg_logo_text.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lb_bankpg_logo_text.Location = new System.Drawing.Point(219, 70);
+            this.lb_bankpg_logo_text.Location = new System.Drawing.Point(209, 70);
             this.lb_bankpg_logo_text.Name = "lb_bankpg_logo_text";
-            this.lb_bankpg_logo_text.Size = new System.Drawing.Size(138, 14);
+            this.lb_bankpg_logo_text.Size = new System.Drawing.Size(149, 14);
             this.lb_bankpg_logo_text.TabIndex = 2;
             this.lb_bankpg_logo_text.Text = "Where your money is loved";
             // 
             // lb_bankpg_logo_bankname
             // 
             this.lb_bankpg_logo_bankname.AutoSize = true;
-            this.lb_bankpg_logo_bankname.Font = new System.Drawing.Font("Lato", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.lb_bankpg_logo_bankname.Font = new System.Drawing.Font("Candara", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_bankpg_logo_bankname.ForeColor = System.Drawing.Color.White;
             this.lb_bankpg_logo_bankname.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lb_bankpg_logo_bankname.Location = new System.Drawing.Point(168, 37);
+            this.lb_bankpg_logo_bankname.Location = new System.Drawing.Point(168, 34);
             this.lb_bankpg_logo_bankname.Name = "lb_bankpg_logo_bankname";
-            this.lb_bankpg_logo_bankname.Size = new System.Drawing.Size(133, 33);
+            this.lb_bankpg_logo_bankname.Size = new System.Drawing.Size(125, 33);
             this.lb_bankpg_logo_bankname.TabIndex = 1;
             this.lb_bankpg_logo_bankname.Text = "MOCBank";
             // 
@@ -132,11 +132,11 @@
             // lb_bankpg_advertising_title
             // 
             this.lb_bankpg_advertising_title.AutoSize = true;
-            this.lb_bankpg_advertising_title.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.lb_bankpg_advertising_title.Font = new System.Drawing.Font("Candara", 9.75F);
             this.lb_bankpg_advertising_title.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lb_bankpg_advertising_title.Location = new System.Drawing.Point(3, 12);
             this.lb_bankpg_advertising_title.Name = "lb_bankpg_advertising_title";
-            this.lb_bankpg_advertising_title.Size = new System.Drawing.Size(69, 15);
+            this.lb_bankpg_advertising_title.Size = new System.Drawing.Size(73, 15);
             this.lb_bankpg_advertising_title.TabIndex = 0;
             this.lb_bankpg_advertising_title.Text = "Advertising:";
             // 
@@ -175,21 +175,24 @@
             // lb_bankpg_advertising_admessage
             // 
             this.lb_bankpg_advertising_admessage.AutoSize = true;
+            this.lb_bankpg_advertising_admessage.Font = new System.Drawing.Font("Candara", 9F);
+            this.lb_bankpg_advertising_admessage.ForeColor = System.Drawing.Color.DimGray;
             this.lb_bankpg_advertising_admessage.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lb_bankpg_advertising_admessage.Location = new System.Drawing.Point(19, 195);
             this.lb_bankpg_advertising_admessage.Name = "lb_bankpg_advertising_admessage";
-            this.lb_bankpg_advertising_admessage.Size = new System.Drawing.Size(125, 39);
+            this.lb_bankpg_advertising_admessage.Size = new System.Drawing.Size(135, 42);
             this.lb_bankpg_advertising_admessage.TabIndex = 1;
             this.lb_bankpg_advertising_admessage.Text = "Then contact one of our \r\nemployees and see your \r\nmoney growing ...";
             // 
             // lb_bankpg_advertising_adtitel
             // 
             this.lb_bankpg_advertising_adtitel.AutoSize = true;
-            this.lb_bankpg_advertising_adtitel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic);
+            this.lb_bankpg_advertising_adtitel.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Italic);
+            this.lb_bankpg_advertising_adtitel.ForeColor = System.Drawing.Color.White;
             this.lb_bankpg_advertising_adtitel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lb_bankpg_advertising_adtitel.Location = new System.Drawing.Point(3, 132);
             this.lb_bankpg_advertising_adtitel.Name = "lb_bankpg_advertising_adtitel";
-            this.lb_bankpg_advertising_adtitel.Size = new System.Drawing.Size(162, 40);
+            this.lb_bankpg_advertising_adtitel.Size = new System.Drawing.Size(175, 46);
             this.lb_bankpg_advertising_adtitel.TabIndex = 0;
             this.lb_bankpg_advertising_adtitel.Text = "You want to increase \r\nyour money?";
             // 
@@ -231,11 +234,11 @@
             // lb_bankpg_bacc1_accnameofcompany
             // 
             this.lb_bankpg_bacc1_accnameofcompany.AutoSize = true;
-            this.lb_bankpg_bacc1_accnameofcompany.Font = new System.Drawing.Font("Lato", 8.25F);
+            this.lb_bankpg_bacc1_accnameofcompany.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_bankpg_bacc1_accnameofcompany.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lb_bankpg_bacc1_accnameofcompany.Location = new System.Drawing.Point(4, 40);
             this.lb_bankpg_bacc1_accnameofcompany.Name = "lb_bankpg_bacc1_accnameofcompany";
-            this.lb_bankpg_bacc1_accnameofcompany.Size = new System.Drawing.Size(11, 14);
+            this.lb_bankpg_bacc1_accnameofcompany.Size = new System.Drawing.Size(10, 14);
             this.lb_bankpg_bacc1_accnameofcompany.TabIndex = 2;
             this.lb_bankpg_bacc1_accnameofcompany.Text = "-";
             this.lb_bankpg_bacc1_accnameofcompany.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -243,22 +246,22 @@
             // lb_bankpg_bacc1_accountnumber
             // 
             this.lb_bankpg_bacc1_accountnumber.AutoSize = true;
-            this.lb_bankpg_bacc1_accountnumber.Font = new System.Drawing.Font("Lato", 8.25F);
+            this.lb_bankpg_bacc1_accountnumber.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_bankpg_bacc1_accountnumber.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lb_bankpg_bacc1_accountnumber.Location = new System.Drawing.Point(4, 26);
             this.lb_bankpg_bacc1_accountnumber.Name = "lb_bankpg_bacc1_accountnumber";
-            this.lb_bankpg_bacc1_accountnumber.Size = new System.Drawing.Size(143, 14);
+            this.lb_bankpg_bacc1_accountnumber.Size = new System.Drawing.Size(141, 14);
             this.lb_bankpg_bacc1_accountnumber.TabIndex = 1;
             this.lb_bankpg_bacc1_accountnumber.Text = "MOC81 0012 3300 4175 00";
             // 
             // lb_bankpg_bacc1_name
             // 
             this.lb_bankpg_bacc1_name.AutoSize = true;
-            this.lb_bankpg_bacc1_name.Font = new System.Drawing.Font("Lato", 10F);
+            this.lb_bankpg_bacc1_name.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_bankpg_bacc1_name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lb_bankpg_bacc1_name.Location = new System.Drawing.Point(4, 4);
             this.lb_bankpg_bacc1_name.Name = "lb_bankpg_bacc1_name";
-            this.lb_bankpg_bacc1_name.Size = new System.Drawing.Size(116, 17);
+            this.lb_bankpg_bacc1_name.Size = new System.Drawing.Size(116, 18);
             this.lb_bankpg_bacc1_name.TabIndex = 0;
             this.lb_bankpg_bacc1_name.Text = "Demand deposits";
             // 
@@ -332,11 +335,11 @@
             // lb_bankpg_bacc2_nameofperson
             // 
             this.lb_bankpg_bacc2_nameofperson.AutoSize = true;
-            this.lb_bankpg_bacc2_nameofperson.Font = new System.Drawing.Font("Lato", 8.25F);
+            this.lb_bankpg_bacc2_nameofperson.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_bankpg_bacc2_nameofperson.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lb_bankpg_bacc2_nameofperson.Location = new System.Drawing.Point(4, 40);
             this.lb_bankpg_bacc2_nameofperson.Name = "lb_bankpg_bacc2_nameofperson";
-            this.lb_bankpg_bacc2_nameofperson.Size = new System.Drawing.Size(11, 14);
+            this.lb_bankpg_bacc2_nameofperson.Size = new System.Drawing.Size(10, 14);
             this.lb_bankpg_bacc2_nameofperson.TabIndex = 2;
             this.lb_bankpg_bacc2_nameofperson.Text = "-";
             this.lb_bankpg_bacc2_nameofperson.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -344,22 +347,22 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Lato", 8.25F);
+            this.label3.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label3.Location = new System.Drawing.Point(4, 26);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(144, 14);
+            this.label3.Size = new System.Drawing.Size(137, 14);
             this.label3.TabIndex = 1;
             this.label3.Text = "MOC81 0012 3300 4175 21";
             // 
             // lb_bankpg_bacc2_name
             // 
             this.lb_bankpg_bacc2_name.AutoSize = true;
-            this.lb_bankpg_bacc2_name.Font = new System.Drawing.Font("Lato", 10F);
+            this.lb_bankpg_bacc2_name.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_bankpg_bacc2_name.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.lb_bankpg_bacc2_name.Location = new System.Drawing.Point(4, 4);
             this.lb_bankpg_bacc2_name.Name = "lb_bankpg_bacc2_name";
-            this.lb_bankpg_bacc2_name.Size = new System.Drawing.Size(116, 17);
+            this.lb_bankpg_bacc2_name.Size = new System.Drawing.Size(116, 18);
             this.lb_bankpg_bacc2_name.TabIndex = 0;
             this.lb_bankpg_bacc2_name.Text = "Demand deposits";
             // 

@@ -74,24 +74,24 @@
             // 
             // pl_driverdata_headerpanel
             // 
-            resources.ApplyResources(this.pl_driverdata_headerpanel, "pl_driverdata_headerpanel");
             this.pl_driverdata_headerpanel.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pl_driverdata_headerpanel.Controls.Add(this.pl_settings_header_pgtitel);
+            resources.ApplyResources(this.pl_driverdata_headerpanel, "pl_driverdata_headerpanel");
             this.pl_driverdata_headerpanel.Name = "pl_driverdata_headerpanel";
             // 
             // pl_settings_header_pgtitel
             // 
-            resources.ApplyResources(this.pl_settings_header_pgtitel, "pl_settings_header_pgtitel");
             this.pl_settings_header_pgtitel.BackColor = System.Drawing.Color.SteelBlue;
             this.pl_settings_header_pgtitel.Controls.Add(this.lb_driverdata_titleheader);
+            resources.ApplyResources(this.pl_settings_header_pgtitel, "pl_settings_header_pgtitel");
             this.pl_settings_header_pgtitel.Name = "pl_settings_header_pgtitel";
             // 
             // pl_driverdata_drivenkm
             // 
-            resources.ApplyResources(this.pl_driverdata_drivenkm, "pl_driverdata_drivenkm");
             this.pl_driverdata_drivenkm.BackColor = System.Drawing.Color.SteelBlue;
             this.pl_driverdata_drivenkm.Controls.Add(this.lb_driverdata_drivenkms_value);
             this.pl_driverdata_drivenkm.Controls.Add(this.lb_driverdata_drivenkms_title);
+            resources.ApplyResources(this.pl_driverdata_drivenkm, "pl_driverdata_drivenkm");
             this.pl_driverdata_drivenkm.Name = "pl_driverdata_drivenkm";
             // 
             // lb_driverdata_drivenkms_value
@@ -120,10 +120,10 @@
             // 
             // pl_driverdata_busstops
             // 
-            resources.ApplyResources(this.pl_driverdata_busstops, "pl_driverdata_busstops");
             this.pl_driverdata_busstops.BackColor = System.Drawing.Color.SteelBlue;
             this.pl_driverdata_busstops.Controls.Add(this.lb_driverdata_busstops_value);
             this.pl_driverdata_busstops.Controls.Add(this.lb_driverdata_busstops_title);
+            resources.ApplyResources(this.pl_driverdata_busstops, "pl_driverdata_busstops");
             this.pl_driverdata_busstops.Name = "pl_driverdata_busstops";
             // 
             // lb_driverdata_boughttickets_value
@@ -140,10 +140,10 @@
             // 
             // pl_driverdata_boughttickets
             // 
-            resources.ApplyResources(this.pl_driverdata_boughttickets, "pl_driverdata_boughttickets");
             this.pl_driverdata_boughttickets.BackColor = System.Drawing.Color.SteelBlue;
             this.pl_driverdata_boughttickets.Controls.Add(this.lb_driverdata_boughttickets_value);
             this.pl_driverdata_boughttickets.Controls.Add(this.lb_driverdata_boughttickets_title);
+            resources.ApplyResources(this.pl_driverdata_boughttickets, "pl_driverdata_boughttickets");
             this.pl_driverdata_boughttickets.Name = "pl_driverdata_boughttickets";
             // 
             // lb_driverdata_money_value
@@ -160,10 +160,10 @@
             // 
             // pl_driverdata_money
             // 
-            resources.ApplyResources(this.pl_driverdata_money, "pl_driverdata_money");
             this.pl_driverdata_money.BackColor = System.Drawing.Color.SteelBlue;
             this.pl_driverdata_money.Controls.Add(this.lb_driverdata_money_value);
             this.pl_driverdata_money.Controls.Add(this.lb_driverdata_money_title);
+            resources.ApplyResources(this.pl_driverdata_money, "pl_driverdata_money");
             this.pl_driverdata_money.Name = "pl_driverdata_money";
             // 
             // lb_driverdata_title_general
@@ -190,10 +190,10 @@
             // 
             // pl_driverdata_crashes
             // 
-            resources.ApplyResources(this.pl_driverdata_crashes, "pl_driverdata_crashes");
             this.pl_driverdata_crashes.BackColor = System.Drawing.Color.SteelBlue;
             this.pl_driverdata_crashes.Controls.Add(this.lb_driverdata_crashes_value);
             this.pl_driverdata_crashes.Controls.Add(this.lb_driverdata_crashes_title);
+            resources.ApplyResources(this.pl_driverdata_crashes, "pl_driverdata_crashes");
             this.pl_driverdata_crashes.Name = "pl_driverdata_crashes";
             // 
             // lb_driverdata_hitandruns_value
@@ -210,10 +210,10 @@
             // 
             // pl_driverdata_hitandruns
             // 
-            resources.ApplyResources(this.pl_driverdata_hitandruns, "pl_driverdata_hitandruns");
             this.pl_driverdata_hitandruns.BackColor = System.Drawing.Color.SteelBlue;
             this.pl_driverdata_hitandruns.Controls.Add(this.lb_driverdata_hitandruns_value);
             this.pl_driverdata_hitandruns.Controls.Add(this.lb_driverdata_hitandruns_title);
+            resources.ApplyResources(this.pl_driverdata_hitandruns, "pl_driverdata_hitandruns");
             this.pl_driverdata_hitandruns.Name = "pl_driverdata_hitandruns";
             // 
             // lb_driverdata_injuredpedestrians_value
@@ -230,10 +230,10 @@
             // 
             // pl_driverdata_injuredpedestrians
             // 
-            resources.ApplyResources(this.pl_driverdata_injuredpedestrians, "pl_driverdata_injuredpedestrians");
             this.pl_driverdata_injuredpedestrians.BackColor = System.Drawing.Color.SteelBlue;
             this.pl_driverdata_injuredpedestrians.Controls.Add(this.lb_driverdata_injuredpedestrians_value);
             this.pl_driverdata_injuredpedestrians.Controls.Add(this.lb_driverdata_injuredpedestrians_title);
+            resources.ApplyResources(this.pl_driverdata_injuredpedestrians, "pl_driverdata_injuredpedestrians");
             this.pl_driverdata_injuredpedestrians.Name = "pl_driverdata_injuredpedestrians";
             // 
             // gl_driverdata

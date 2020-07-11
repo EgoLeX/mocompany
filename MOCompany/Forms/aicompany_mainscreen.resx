@@ -175,7 +175,7 @@
     <value>Flat</value>
   </data>
   <data name="btn_aimode_nav_company.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>Candara, 14.25pt, style=Bold</value>
   </data>
   <data name="btn_aimode_nav_company.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -247,7 +247,7 @@
     <value>Flat</value>
   </data>
   <data name="btn_aimode_nav_bank.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>Candara, 14.25pt, style=Bold</value>
   </data>
   <data name="btn_aimode_nav_bank.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -316,7 +316,7 @@
     <value>Flat</value>
   </data>
   <data name="btn_aimode_nav_driverstatistic.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>Candara, 14.25pt, style=Bold</value>
   </data>
   <data name="btn_aimode_nav_driverstatistic.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -385,7 +385,7 @@
     <value>Flat</value>
   </data>
   <data name="btn_aimode_nav_drive.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+    <value>Candara, 14.25pt, style=Bold</value>
   </data>
   <data name="btn_aimode_nav_drive.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>

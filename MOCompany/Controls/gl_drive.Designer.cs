@@ -50,23 +50,23 @@
             // 
             // pl_drive_headerpanel
             // 
-            resources.ApplyResources(this.pl_drive_headerpanel, "pl_drive_headerpanel");
             this.pl_drive_headerpanel.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pl_drive_headerpanel.Controls.Add(this.pl_settings_header_pgtitel);
+            resources.ApplyResources(this.pl_drive_headerpanel, "pl_drive_headerpanel");
             this.pl_drive_headerpanel.Name = "pl_drive_headerpanel";
             // 
             // pl_settings_header_pgtitel
             // 
-            resources.ApplyResources(this.pl_settings_header_pgtitel, "pl_settings_header_pgtitel");
             this.pl_settings_header_pgtitel.BackColor = System.Drawing.Color.SteelBlue;
             this.pl_settings_header_pgtitel.Controls.Add(this.lb_drive_titleheader);
+            resources.ApplyResources(this.pl_settings_header_pgtitel, "pl_settings_header_pgtitel");
             this.pl_settings_header_pgtitel.Name = "pl_settings_header_pgtitel";
             // 
             // btn_drive_startdriving
             // 
-            resources.ApplyResources(this.btn_drive_startdriving, "btn_drive_startdriving");
             this.btn_drive_startdriving.BackColor = System.Drawing.Color.SteelBlue;
             this.btn_drive_startdriving.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btn_drive_startdriving, "btn_drive_startdriving");
             this.btn_drive_startdriving.ForeColor = System.Drawing.Color.White;
             this.btn_drive_startdriving.Name = "btn_drive_startdriving";
             this.btn_drive_startdriving.UseVisualStyleBackColor = false;
@@ -89,16 +89,16 @@
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.panel1.Controls.Add(this.btn_drive_acceptdrive);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // rtb_drive_evaluation
             // 
-            resources.ApplyResources(this.rtb_drive_evaluation, "rtb_drive_evaluation");
             this.rtb_drive_evaluation.BackColor = System.Drawing.SystemColors.Control;
             this.rtb_drive_evaluation.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.rtb_drive_evaluation, "rtb_drive_evaluation");
             this.rtb_drive_evaluation.Name = "rtb_drive_evaluation";
             this.rtb_drive_evaluation.ReadOnly = true;
             // 

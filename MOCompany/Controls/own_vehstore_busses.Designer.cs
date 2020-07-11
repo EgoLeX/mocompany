@@ -37,36 +37,43 @@
             this.btn_man_ac_o530le_details = new System.Windows.Forms.Button();
             this.btn_man_ac_o530le_buy = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
+            this.pb_ac_o530le_preview = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.btn_man_ac_o530gl_details = new System.Windows.Forms.Button();
             this.btn_man_ac_o530gl_buy = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
+            this.pb_ac_o530gl_preview = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.btn_man_ac_o530g_details = new System.Windows.Forms.Button();
             this.btn_man_ac_o530g_buy = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
+            this.pb_ac_o530g_preview = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.btn_man_ac_o530_details = new System.Windows.Forms.Button();
             this.btn_man_ac_o530_buy = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
+            this.pb_ac_o530_preview = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.btn_man_o530g_details = new System.Windows.Forms.Button();
             this.btn_man_o530g_buy = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.pb_man_o530g_preview = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.btn_man_o530_details = new System.Windows.Forms.Button();
             this.btn_man_o530_buy = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.pb_man_o530_preview = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.btn_man_lionscitya21_details = new System.Windows.Forms.Button();
             this.btn_man_lionscitya21_buy = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.pb_man_lionscitya21_preview = new System.Windows.Forms.PictureBox();
             this.tpage_vanhool = new System.Windows.Forms.TabPage();
             this.pl_vanhool_main = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
@@ -74,46 +81,55 @@
             this.btn_vanhool_a360_details = new System.Windows.Forms.Button();
             this.btn_vanhool_a360_buy = new System.Windows.Forms.Button();
             this.label32 = new System.Windows.Forms.Label();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.panel15 = new System.Windows.Forms.Panel();
             this.label29 = new System.Windows.Forms.Label();
             this.button29 = new System.Windows.Forms.Button();
             this.btn_vanhool_a320_buy = new System.Windows.Forms.Button();
             this.label30 = new System.Windows.Forms.Label();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.panel14 = new System.Windows.Forms.Panel();
             this.label27 = new System.Windows.Forms.Label();
             this.button27 = new System.Windows.Forms.Button();
             this.btn_vanhool_ag300_buy = new System.Windows.Forms.Button();
             this.label28 = new System.Windows.Forms.Label();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.panel13 = new System.Windows.Forms.Panel();
             this.label25 = new System.Windows.Forms.Label();
             this.button25 = new System.Windows.Forms.Button();
             this.btn_vanhool_ag280_buy = new System.Windows.Forms.Button();
             this.label26 = new System.Windows.Forms.Label();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.panel12 = new System.Windows.Forms.Panel();
             this.label23 = new System.Windows.Forms.Label();
             this.button23 = new System.Windows.Forms.Button();
             this.btn_vanhool_a120_buy = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label21 = new System.Windows.Forms.Label();
             this.button21 = new System.Windows.Forms.Button();
             this.btn_vanhool_agg300_2007_buy = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label19 = new System.Windows.Forms.Label();
             this.button19 = new System.Windows.Forms.Button();
             this.btn_vanhool_agg300_2005_buy = new System.Windows.Forms.Button();
             this.label20 = new System.Windows.Forms.Label();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
             this.label17 = new System.Windows.Forms.Label();
             this.button17 = new System.Windows.Forms.Button();
             this.btn_vanhool_a330_2007_buy = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
             this.button15 = new System.Windows.Forms.Button();
             this.btn_vanhool_a330_2005_buy = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.tpage_hamburgerbusses = new System.Windows.Forms.TabPage();
             this.pl_bus_hhbusses = new System.Windows.Forms.Panel();
             this.panel18 = new System.Windows.Forms.Panel();
@@ -121,72 +137,56 @@
             this.btn_hh_v7900lh_details = new System.Windows.Forms.Button();
             this.btn_hh_v7900lh_buy = new System.Windows.Forms.Button();
             this.label36 = new System.Windows.Forms.Label();
+            this.pb_hh_v7900lh_preview = new System.Windows.Forms.PictureBox();
             this.panel17 = new System.Windows.Forms.Panel();
             this.label33 = new System.Windows.Forms.Label();
             this.btn_hh_v7900l_details = new System.Windows.Forms.Button();
             this.btn_hh_v7900l_buy = new System.Windows.Forms.Button();
             this.label34 = new System.Windows.Forms.Label();
-            this.pb_ac_o530le_preview = new System.Windows.Forms.PictureBox();
-            this.pb_ac_o530gl_preview = new System.Windows.Forms.PictureBox();
-            this.pb_ac_o530g_preview = new System.Windows.Forms.PictureBox();
-            this.pb_ac_o530_preview = new System.Windows.Forms.PictureBox();
-            this.pb_man_o530g_preview = new System.Windows.Forms.PictureBox();
-            this.pb_man_o530_preview = new System.Windows.Forms.PictureBox();
-            this.pb_man_lionscitya21_preview = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pb_hh_v7900lh_preview = new System.Windows.Forms.PictureBox();
             this.pb_hh_v7900l_preview = new System.Windows.Forms.PictureBox();
             this.pl_opnvstore_busses_main.SuspendLayout();
             this.tabC_busses.SuspendLayout();
             this.tpage_man.SuspendLayout();
             this.pl_man_main.SuspendLayout();
             this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_ac_o530le_preview)).BeginInit();
             this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_ac_o530gl_preview)).BeginInit();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_ac_o530g_preview)).BeginInit();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_ac_o530_preview)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_man_o530g_preview)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_man_o530_preview)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_man_lionscitya21_preview)).BeginInit();
             this.tpage_vanhool.SuspendLayout();
             this.pl_vanhool_main.SuspendLayout();
             this.panel16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.panel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             this.panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.panel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.panel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.tpage_hamburgerbusses.SuspendLayout();
             this.pl_bus_hhbusses.SuspendLayout();
             this.panel18.SuspendLayout();
-            this.panel17.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_ac_o530le_preview)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_ac_o530gl_preview)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_ac_o530g_preview)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_ac_o530_preview)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_man_o530g_preview)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_man_o530_preview)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_man_lionscitya21_preview)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_hh_v7900lh_preview)).BeginInit();
+            this.panel17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_hh_v7900l_preview)).BeginInit();
             this.SuspendLayout();
             // 
@@ -205,6 +205,7 @@
             this.tabC_busses.Controls.Add(this.tpage_man);
             this.tabC_busses.Controls.Add(this.tpage_vanhool);
             this.tabC_busses.Controls.Add(this.tpage_hamburgerbusses);
+            this.tabC_busses.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabC_busses.Location = new System.Drawing.Point(3, 3);
             this.tabC_busses.Name = "tabC_busses";
             this.tabC_busses.SelectedIndex = 0;
@@ -214,10 +215,10 @@
             // tpage_man
             // 
             this.tpage_man.Controls.Add(this.pl_man_main);
-            this.tpage_man.Location = new System.Drawing.Point(4, 22);
+            this.tpage_man.Location = new System.Drawing.Point(4, 23);
             this.tpage_man.Name = "tpage_man";
             this.tpage_man.Padding = new System.Windows.Forms.Padding(3);
-            this.tpage_man.Size = new System.Drawing.Size(705, 492);
+            this.tpage_man.Size = new System.Drawing.Size(705, 491);
             this.tpage_man.TabIndex = 0;
             this.tpage_man.Text = "MAN";
             this.tpage_man.UseVisualStyleBackColor = true;
@@ -235,7 +236,7 @@
             this.pl_man_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pl_man_main.Location = new System.Drawing.Point(3, 3);
             this.pl_man_main.Name = "pl_man_main";
-            this.pl_man_main.Size = new System.Drawing.Size(699, 486);
+            this.pl_man_main.Size = new System.Drawing.Size(699, 485);
             this.pl_man_main.TabIndex = 0;
             // 
             // panel7
@@ -254,10 +255,10 @@
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.YellowGreen;
-            this.label13.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(30, 120);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(91, 14);
+            this.label13.Size = new System.Drawing.Size(92, 14);
             this.label13.TabIndex = 4;
             this.label13.Text = "Price: 3500 MCD";
             // 
@@ -279,7 +280,7 @@
             this.btn_man_ac_o530le_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_man_ac_o530le_buy.FlatAppearance.BorderSize = 0;
             this.btn_man_ac_o530le_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_man_ac_o530le_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_man_ac_o530le_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_man_ac_o530le_buy.ForeColor = System.Drawing.Color.White;
             this.btn_man_ac_o530le_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_man_ac_o530le_buy.Name = "btn_man_ac_o530le_buy";
@@ -291,12 +292,22 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(3, 96);
+            this.label14.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(4, 96);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(144, 15);
+            this.label14.Size = new System.Drawing.Size(141, 15);
             this.label14.TabIndex = 1;
             this.label14.Text = "MAN O530LE AC-Version";
+            // 
+            // pb_ac_o530le_preview
+            // 
+            this.pb_ac_o530le_preview.BackgroundImage = global::MOCompany.Properties.Resources.bus_man_o530le_ac;
+            this.pb_ac_o530le_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb_ac_o530le_preview.Location = new System.Drawing.Point(3, 3);
+            this.pb_ac_o530le_preview.Name = "pb_ac_o530le_preview";
+            this.pb_ac_o530le_preview.Size = new System.Drawing.Size(145, 81);
+            this.pb_ac_o530le_preview.TabIndex = 0;
+            this.pb_ac_o530le_preview.TabStop = false;
             // 
             // panel6
             // 
@@ -314,10 +325,10 @@
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.YellowGreen;
-            this.label11.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(30, 120);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(91, 14);
+            this.label11.Size = new System.Drawing.Size(89, 14);
             this.label11.TabIndex = 4;
             this.label11.Text = "Price: 5150 MCD";
             // 
@@ -339,7 +350,7 @@
             this.btn_man_ac_o530gl_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_man_ac_o530gl_buy.FlatAppearance.BorderSize = 0;
             this.btn_man_ac_o530gl_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_man_ac_o530gl_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_man_ac_o530gl_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_man_ac_o530gl_buy.ForeColor = System.Drawing.Color.White;
             this.btn_man_ac_o530gl_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_man_ac_o530gl_buy.Name = "btn_man_ac_o530gl_buy";
@@ -351,12 +362,22 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(3, 96);
+            this.label12.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(4, 96);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(146, 15);
+            this.label12.Size = new System.Drawing.Size(142, 15);
             this.label12.TabIndex = 1;
             this.label12.Text = "MAN O530GL AC-Version";
+            // 
+            // pb_ac_o530gl_preview
+            // 
+            this.pb_ac_o530gl_preview.BackgroundImage = global::MOCompany.Properties.Resources.imagenotfound;
+            this.pb_ac_o530gl_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb_ac_o530gl_preview.Location = new System.Drawing.Point(3, 3);
+            this.pb_ac_o530gl_preview.Name = "pb_ac_o530gl_preview";
+            this.pb_ac_o530gl_preview.Size = new System.Drawing.Size(145, 81);
+            this.pb_ac_o530gl_preview.TabIndex = 0;
+            this.pb_ac_o530gl_preview.TabStop = false;
             // 
             // panel5
             // 
@@ -374,10 +395,10 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.YellowGreen;
-            this.label9.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(30, 120);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(90, 14);
+            this.label9.Size = new System.Drawing.Size(93, 14);
             this.label9.TabIndex = 4;
             this.label9.Text = "Price: 4800 MCD";
             // 
@@ -399,7 +420,7 @@
             this.btn_man_ac_o530g_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_man_ac_o530g_buy.FlatAppearance.BorderSize = 0;
             this.btn_man_ac_o530g_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_man_ac_o530g_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_man_ac_o530g_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_man_ac_o530g_buy.ForeColor = System.Drawing.Color.White;
             this.btn_man_ac_o530g_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_man_ac_o530g_buy.Name = "btn_man_ac_o530g_buy";
@@ -411,12 +432,22 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(6, 96);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(140, 15);
+            this.label10.Size = new System.Drawing.Size(136, 15);
             this.label10.TabIndex = 1;
             this.label10.Text = "MAN O530G AC-Version";
+            // 
+            // pb_ac_o530g_preview
+            // 
+            this.pb_ac_o530g_preview.BackgroundImage = global::MOCompany.Properties.Resources.bus_man_o530g_ac;
+            this.pb_ac_o530g_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb_ac_o530g_preview.Location = new System.Drawing.Point(3, 3);
+            this.pb_ac_o530g_preview.Name = "pb_ac_o530g_preview";
+            this.pb_ac_o530g_preview.Size = new System.Drawing.Size(145, 81);
+            this.pb_ac_o530g_preview.TabIndex = 0;
+            this.pb_ac_o530g_preview.TabStop = false;
             // 
             // panel4
             // 
@@ -434,10 +465,10 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.YellowGreen;
-            this.label7.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(30, 120);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(90, 14);
+            this.label7.Size = new System.Drawing.Size(93, 14);
             this.label7.TabIndex = 4;
             this.label7.Text = "Price: 3000 MCD";
             // 
@@ -459,7 +490,7 @@
             this.btn_man_ac_o530_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_man_ac_o530_buy.FlatAppearance.BorderSize = 0;
             this.btn_man_ac_o530_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_man_ac_o530_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_man_ac_o530_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_man_ac_o530_buy.ForeColor = System.Drawing.Color.White;
             this.btn_man_ac_o530_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_man_ac_o530_buy.Name = "btn_man_ac_o530_buy";
@@ -471,12 +502,22 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(11, 96);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(131, 15);
+            this.label8.Size = new System.Drawing.Size(128, 15);
             this.label8.TabIndex = 1;
             this.label8.Text = "MAN O530 AC-Version";
+            // 
+            // pb_ac_o530_preview
+            // 
+            this.pb_ac_o530_preview.BackgroundImage = global::MOCompany.Properties.Resources.bus_man_o530_ac;
+            this.pb_ac_o530_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb_ac_o530_preview.Location = new System.Drawing.Point(3, 3);
+            this.pb_ac_o530_preview.Name = "pb_ac_o530_preview";
+            this.pb_ac_o530_preview.Size = new System.Drawing.Size(145, 81);
+            this.pb_ac_o530_preview.TabIndex = 0;
+            this.pb_ac_o530_preview.TabStop = false;
             // 
             // panel3
             // 
@@ -494,10 +535,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.YellowGreen;
-            this.label5.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(30, 120);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 14);
+            this.label5.Size = new System.Drawing.Size(92, 14);
             this.label5.TabIndex = 4;
             this.label5.Text = "Price: 4500 MCD";
             // 
@@ -519,7 +560,7 @@
             this.btn_man_o530g_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_man_o530g_buy.FlatAppearance.BorderSize = 0;
             this.btn_man_o530g_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_man_o530g_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_man_o530g_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_man_o530g_buy.ForeColor = System.Drawing.Color.White;
             this.btn_man_o530g_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_man_o530g_buy.Name = "btn_man_o530g_buy";
@@ -531,12 +572,22 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(37, 96);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(79, 15);
+            this.label6.Size = new System.Drawing.Size(77, 15);
             this.label6.TabIndex = 1;
             this.label6.Text = "MAN O530 G";
+            // 
+            // pb_man_o530g_preview
+            // 
+            this.pb_man_o530g_preview.BackgroundImage = global::MOCompany.Properties.Resources.imagenotfound;
+            this.pb_man_o530g_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb_man_o530g_preview.Location = new System.Drawing.Point(3, 3);
+            this.pb_man_o530g_preview.Name = "pb_man_o530g_preview";
+            this.pb_man_o530g_preview.Size = new System.Drawing.Size(145, 81);
+            this.pb_man_o530g_preview.TabIndex = 0;
+            this.pb_man_o530g_preview.TabStop = false;
             // 
             // panel2
             // 
@@ -554,10 +605,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.YellowGreen;
-            this.label3.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(30, 120);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(90, 14);
+            this.label3.Size = new System.Drawing.Size(92, 14);
             this.label3.TabIndex = 4;
             this.label3.Text = "Price: 2700 MCD";
             // 
@@ -579,7 +630,7 @@
             this.btn_man_o530_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_man_o530_buy.FlatAppearance.BorderSize = 0;
             this.btn_man_o530_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_man_o530_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_man_o530_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_man_o530_buy.ForeColor = System.Drawing.Color.White;
             this.btn_man_o530_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_man_o530_buy.Name = "btn_man_o530_buy";
@@ -591,12 +642,22 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(42, 96);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 15);
+            this.label4.Size = new System.Drawing.Size(66, 15);
             this.label4.TabIndex = 1;
             this.label4.Text = "MAN O530";
+            // 
+            // pb_man_o530_preview
+            // 
+            this.pb_man_o530_preview.BackgroundImage = global::MOCompany.Properties.Resources.bus_o530;
+            this.pb_man_o530_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb_man_o530_preview.Location = new System.Drawing.Point(3, 3);
+            this.pb_man_o530_preview.Name = "pb_man_o530_preview";
+            this.pb_man_o530_preview.Size = new System.Drawing.Size(145, 81);
+            this.pb_man_o530_preview.TabIndex = 0;
+            this.pb_man_o530_preview.TabStop = false;
             // 
             // panel1
             // 
@@ -614,10 +675,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.YellowGreen;
-            this.label2.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(30, 120);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 14);
+            this.label2.Size = new System.Drawing.Size(92, 14);
             this.label2.TabIndex = 4;
             this.label2.Text = "Price: 3500 MCD";
             // 
@@ -639,7 +700,7 @@
             this.btn_man_lionscitya21_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_man_lionscitya21_buy.FlatAppearance.BorderSize = 0;
             this.btn_man_lionscitya21_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_man_lionscitya21_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_man_lionscitya21_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_man_lionscitya21_buy.ForeColor = System.Drawing.Color.White;
             this.btn_man_lionscitya21_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_man_lionscitya21_buy.Name = "btn_man_lionscitya21_buy";
@@ -651,20 +712,30 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(20, 96);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(112, 15);
             this.label1.TabIndex = 1;
             this.label1.Text = "MAN Lions City A21";
             // 
+            // pb_man_lionscitya21_preview
+            // 
+            this.pb_man_lionscitya21_preview.BackgroundImage = global::MOCompany.Properties.Resources.bus_manlionscitya21;
+            this.pb_man_lionscitya21_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb_man_lionscitya21_preview.Location = new System.Drawing.Point(3, 3);
+            this.pb_man_lionscitya21_preview.Name = "pb_man_lionscitya21_preview";
+            this.pb_man_lionscitya21_preview.Size = new System.Drawing.Size(145, 81);
+            this.pb_man_lionscitya21_preview.TabIndex = 0;
+            this.pb_man_lionscitya21_preview.TabStop = false;
+            // 
             // tpage_vanhool
             // 
             this.tpage_vanhool.Controls.Add(this.pl_vanhool_main);
-            this.tpage_vanhool.Location = new System.Drawing.Point(4, 22);
+            this.tpage_vanhool.Location = new System.Drawing.Point(4, 23);
             this.tpage_vanhool.Name = "tpage_vanhool";
             this.tpage_vanhool.Padding = new System.Windows.Forms.Padding(3);
-            this.tpage_vanhool.Size = new System.Drawing.Size(705, 492);
+            this.tpage_vanhool.Size = new System.Drawing.Size(705, 491);
             this.tpage_vanhool.TabIndex = 1;
             this.tpage_vanhool.Text = "Van Hool";
             this.tpage_vanhool.UseVisualStyleBackColor = true;
@@ -684,7 +755,7 @@
             this.pl_vanhool_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pl_vanhool_main.Location = new System.Drawing.Point(3, 3);
             this.pl_vanhool_main.Name = "pl_vanhool_main";
-            this.pl_vanhool_main.Size = new System.Drawing.Size(699, 486);
+            this.pl_vanhool_main.Size = new System.Drawing.Size(699, 485);
             this.pl_vanhool_main.TabIndex = 0;
             // 
             // panel16
@@ -703,10 +774,10 @@
             // 
             this.label31.AutoSize = true;
             this.label31.BackColor = System.Drawing.Color.YellowGreen;
-            this.label31.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.Location = new System.Drawing.Point(32, 118);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(91, 14);
+            this.label31.Size = new System.Drawing.Size(89, 14);
             this.label31.TabIndex = 4;
             this.label31.Text = "Price: 3150 MCD";
             // 
@@ -728,7 +799,7 @@
             this.btn_vanhool_a360_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_vanhool_a360_buy.FlatAppearance.BorderSize = 0;
             this.btn_vanhool_a360_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_vanhool_a360_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_vanhool_a360_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_vanhool_a360_buy.ForeColor = System.Drawing.Color.White;
             this.btn_vanhool_a360_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_vanhool_a360_buy.Name = "btn_vanhool_a360_buy";
@@ -740,12 +811,22 @@
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(35, 90);
+            this.label32.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(37, 90);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(85, 15);
+            this.label32.Size = new System.Drawing.Size(83, 15);
             this.label32.TabIndex = 1;
             this.label32.Text = "VanHool A360";
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.BackgroundImage = global::MOCompany.Properties.Resources.bus_a360;
+            this.pictureBox16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox16.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(145, 81);
+            this.pictureBox16.TabIndex = 0;
+            this.pictureBox16.TabStop = false;
             // 
             // panel15
             // 
@@ -763,10 +844,10 @@
             // 
             this.label29.AutoSize = true;
             this.label29.BackColor = System.Drawing.Color.YellowGreen;
-            this.label29.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(32, 118);
+            this.label29.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(30, 118);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(90, 14);
+            this.label29.Size = new System.Drawing.Size(93, 14);
             this.label29.TabIndex = 4;
             this.label29.Text = "Price: 3000 MCD";
             // 
@@ -788,7 +869,7 @@
             this.btn_vanhool_a320_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_vanhool_a320_buy.FlatAppearance.BorderSize = 0;
             this.btn_vanhool_a320_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_vanhool_a320_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_vanhool_a320_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_vanhool_a320_buy.ForeColor = System.Drawing.Color.White;
             this.btn_vanhool_a320_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_vanhool_a320_buy.Name = "btn_vanhool_a320_buy";
@@ -800,12 +881,22 @@
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.Location = new System.Drawing.Point(35, 90);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(85, 15);
+            this.label30.Size = new System.Drawing.Size(82, 15);
             this.label30.TabIndex = 1;
             this.label30.Text = "VanHool A320";
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.BackgroundImage = global::MOCompany.Properties.Resources.bus_a320;
+            this.pictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox15.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(145, 81);
+            this.pictureBox15.TabIndex = 0;
+            this.pictureBox15.TabStop = false;
             // 
             // panel14
             // 
@@ -823,7 +914,7 @@
             // 
             this.label27.AutoSize = true;
             this.label27.BackColor = System.Drawing.Color.YellowGreen;
-            this.label27.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.Location = new System.Drawing.Point(32, 118);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(91, 14);
@@ -848,7 +939,7 @@
             this.btn_vanhool_ag300_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_vanhool_ag300_buy.FlatAppearance.BorderSize = 0;
             this.btn_vanhool_ag300_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_vanhool_ag300_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_vanhool_ag300_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_vanhool_ag300_buy.ForeColor = System.Drawing.Color.White;
             this.btn_vanhool_ag300_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_vanhool_ag300_buy.Name = "btn_vanhool_ag300_buy";
@@ -860,12 +951,22 @@
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.Location = new System.Drawing.Point(30, 90);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(94, 15);
+            this.label28.Size = new System.Drawing.Size(91, 15);
             this.label28.TabIndex = 1;
             this.label28.Text = "VanHool AG300";
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.BackgroundImage = global::MOCompany.Properties.Resources.bus_ag300;
+            this.pictureBox14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox14.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(145, 81);
+            this.pictureBox14.TabIndex = 0;
+            this.pictureBox14.TabStop = false;
             // 
             // panel13
             // 
@@ -883,10 +984,10 @@
             // 
             this.label25.AutoSize = true;
             this.label25.BackColor = System.Drawing.Color.YellowGreen;
-            this.label25.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(32, 118);
+            this.label25.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(28, 118);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(91, 14);
+            this.label25.Size = new System.Drawing.Size(93, 14);
             this.label25.TabIndex = 4;
             this.label25.Text = "Price: 3800 MCD";
             // 
@@ -908,7 +1009,7 @@
             this.btn_vanhool_ag280_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_vanhool_ag280_buy.FlatAppearance.BorderSize = 0;
             this.btn_vanhool_ag280_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_vanhool_ag280_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_vanhool_ag280_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_vanhool_ag280_buy.ForeColor = System.Drawing.Color.White;
             this.btn_vanhool_ag280_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_vanhool_ag280_buy.Name = "btn_vanhool_ag280_buy";
@@ -920,12 +1021,22 @@
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.Location = new System.Drawing.Point(31, 90);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(94, 15);
+            this.label26.Size = new System.Drawing.Size(91, 15);
             this.label26.TabIndex = 1;
             this.label26.Text = "VanHool AG280";
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.BackgroundImage = global::MOCompany.Properties.Resources.bus_ag280;
+            this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox13.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(145, 81);
+            this.pictureBox13.TabIndex = 0;
+            this.pictureBox13.TabStop = false;
             // 
             // panel12
             // 
@@ -943,10 +1054,10 @@
             // 
             this.label23.AutoSize = true;
             this.label23.BackColor = System.Drawing.Color.YellowGreen;
-            this.label23.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(32, 118);
+            this.label23.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(30, 118);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(90, 14);
+            this.label23.Size = new System.Drawing.Size(93, 14);
             this.label23.TabIndex = 4;
             this.label23.Text = "Price: 2600 MCD";
             // 
@@ -968,7 +1079,7 @@
             this.btn_vanhool_a120_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_vanhool_a120_buy.FlatAppearance.BorderSize = 0;
             this.btn_vanhool_a120_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_vanhool_a120_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_vanhool_a120_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_vanhool_a120_buy.ForeColor = System.Drawing.Color.White;
             this.btn_vanhool_a120_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_vanhool_a120_buy.Name = "btn_vanhool_a120_buy";
@@ -980,12 +1091,22 @@
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(35, 90);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(85, 15);
+            this.label24.Size = new System.Drawing.Size(81, 15);
             this.label24.TabIndex = 1;
             this.label24.Text = "VanHool A120";
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BackgroundImage = global::MOCompany.Properties.Resources.bus_a120;
+            this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox12.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(145, 81);
+            this.pictureBox12.TabIndex = 0;
+            this.pictureBox12.TabStop = false;
             // 
             // panel11
             // 
@@ -1003,10 +1124,10 @@
             // 
             this.label21.AutoSize = true;
             this.label21.BackColor = System.Drawing.Color.YellowGreen;
-            this.label21.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(33, 124);
+            this.label21.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(29, 124);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(89, 14);
+            this.label21.Size = new System.Drawing.Size(94, 14);
             this.label21.TabIndex = 4;
             this.label21.Text = "Price: 6000 MCD";
             // 
@@ -1028,7 +1149,7 @@
             this.btn_vanhool_agg300_2007_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_vanhool_agg300_2007_buy.FlatAppearance.BorderSize = 0;
             this.btn_vanhool_agg300_2007_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_vanhool_agg300_2007_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_vanhool_agg300_2007_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_vanhool_agg300_2007_buy.ForeColor = System.Drawing.Color.White;
             this.btn_vanhool_agg300_2007_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_vanhool_agg300_2007_buy.Name = "btn_vanhool_agg300_2007_buy";
@@ -1040,12 +1161,22 @@
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.Location = new System.Drawing.Point(23, 87);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(105, 30);
+            this.label22.Size = new System.Drawing.Size(102, 30);
             this.label22.TabIndex = 1;
             this.label22.Text = "VanHool AGG 300\r\n(2007 - Version)";
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.BackgroundImage = global::MOCompany.Properties.Resources.bus_agg300;
+            this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox11.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(145, 81);
+            this.pictureBox11.TabIndex = 0;
+            this.pictureBox11.TabStop = false;
             // 
             // panel10
             // 
@@ -1063,10 +1194,10 @@
             // 
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.Color.YellowGreen;
-            this.label19.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(33, 124);
+            this.label19.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(29, 124);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(90, 14);
+            this.label19.Size = new System.Drawing.Size(93, 14);
             this.label19.TabIndex = 4;
             this.label19.Text = "Price: 5900 MCD";
             // 
@@ -1088,7 +1219,7 @@
             this.btn_vanhool_agg300_2005_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_vanhool_agg300_2005_buy.FlatAppearance.BorderSize = 0;
             this.btn_vanhool_agg300_2005_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_vanhool_agg300_2005_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_vanhool_agg300_2005_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_vanhool_agg300_2005_buy.ForeColor = System.Drawing.Color.White;
             this.btn_vanhool_agg300_2005_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_vanhool_agg300_2005_buy.Name = "btn_vanhool_agg300_2005_buy";
@@ -1100,12 +1231,22 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(23, 87);
+            this.label20.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(25, 87);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(105, 30);
+            this.label20.Size = new System.Drawing.Size(102, 30);
             this.label20.TabIndex = 1;
             this.label20.Text = "VanHool AGG 300\r\n(2005 - Version)";
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackgroundImage = global::MOCompany.Properties.Resources.bus_agg300;
+            this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox10.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(145, 81);
+            this.pictureBox10.TabIndex = 0;
+            this.pictureBox10.TabStop = false;
             // 
             // panel9
             // 
@@ -1123,10 +1264,10 @@
             // 
             this.label17.AutoSize = true;
             this.label17.BackColor = System.Drawing.Color.YellowGreen;
-            this.label17.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(33, 124);
+            this.label17.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(30, 124);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(91, 14);
+            this.label17.Size = new System.Drawing.Size(92, 14);
             this.label17.TabIndex = 4;
             this.label17.Text = "Price: 3650 MCD";
             // 
@@ -1148,7 +1289,7 @@
             this.btn_vanhool_a330_2007_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_vanhool_a330_2007_buy.FlatAppearance.BorderSize = 0;
             this.btn_vanhool_a330_2007_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_vanhool_a330_2007_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_vanhool_a330_2007_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_vanhool_a330_2007_buy.ForeColor = System.Drawing.Color.White;
             this.btn_vanhool_a330_2007_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_vanhool_a330_2007_buy.Name = "btn_vanhool_a330_2007_buy";
@@ -1160,12 +1301,22 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(29, 89);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(92, 30);
+            this.label18.Size = new System.Drawing.Size(93, 30);
             this.label18.TabIndex = 1;
             this.label18.Text = "VanHool A330\r\n(2007 - Version)";
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackgroundImage = global::MOCompany.Properties.Resources.bus_a330;
+            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox9.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(145, 81);
+            this.pictureBox9.TabIndex = 0;
+            this.pictureBox9.TabStop = false;
             // 
             // panel8
             // 
@@ -1183,10 +1334,10 @@
             // 
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.YellowGreen;
-            this.label15.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(33, 124);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(92, 14);
+            this.label15.Size = new System.Drawing.Size(91, 14);
             this.label15.TabIndex = 4;
             this.label15.Text = "Price: 3550 MCD";
             // 
@@ -1208,7 +1359,7 @@
             this.btn_vanhool_a330_2005_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_vanhool_a330_2005_buy.FlatAppearance.BorderSize = 0;
             this.btn_vanhool_a330_2005_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_vanhool_a330_2005_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_vanhool_a330_2005_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_vanhool_a330_2005_buy.ForeColor = System.Drawing.Color.White;
             this.btn_vanhool_a330_2005_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_vanhool_a330_2005_buy.Name = "btn_vanhool_a330_2005_buy";
@@ -1220,19 +1371,29 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(29, 89);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(92, 30);
+            this.label16.Size = new System.Drawing.Size(93, 30);
             this.label16.TabIndex = 1;
             this.label16.Text = "VanHool A330\r\n(2005 - Version)";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackgroundImage = global::MOCompany.Properties.Resources.bus_a330;
+            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox8.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(145, 81);
+            this.pictureBox8.TabIndex = 0;
+            this.pictureBox8.TabStop = false;
             // 
             // tpage_hamburgerbusses
             // 
             this.tpage_hamburgerbusses.Controls.Add(this.pl_bus_hhbusses);
-            this.tpage_hamburgerbusses.Location = new System.Drawing.Point(4, 22);
+            this.tpage_hamburgerbusses.Location = new System.Drawing.Point(4, 23);
             this.tpage_hamburgerbusses.Name = "tpage_hamburgerbusses";
-            this.tpage_hamburgerbusses.Size = new System.Drawing.Size(705, 492);
+            this.tpage_hamburgerbusses.Size = new System.Drawing.Size(705, 491);
             this.tpage_hamburgerbusses.TabIndex = 2;
             this.tpage_hamburgerbusses.Text = "Hamburger Busses";
             this.tpage_hamburgerbusses.UseVisualStyleBackColor = true;
@@ -1245,7 +1406,7 @@
             this.pl_bus_hhbusses.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pl_bus_hhbusses.Location = new System.Drawing.Point(0, 0);
             this.pl_bus_hhbusses.Name = "pl_bus_hhbusses";
-            this.pl_bus_hhbusses.Size = new System.Drawing.Size(705, 492);
+            this.pl_bus_hhbusses.Size = new System.Drawing.Size(705, 491);
             this.pl_bus_hhbusses.TabIndex = 0;
             // 
             // panel18
@@ -1264,10 +1425,10 @@
             // 
             this.label35.AutoSize = true;
             this.label35.BackColor = System.Drawing.Color.YellowGreen;
-            this.label35.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.Location = new System.Drawing.Point(30, 120);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(90, 14);
+            this.label35.Size = new System.Drawing.Size(92, 14);
             this.label35.TabIndex = 4;
             this.label35.Text = "Price: 4950 MCD";
             // 
@@ -1289,7 +1450,7 @@
             this.btn_hh_v7900lh_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_hh_v7900lh_buy.FlatAppearance.BorderSize = 0;
             this.btn_hh_v7900lh_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_hh_v7900lh_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_hh_v7900lh_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_hh_v7900lh_buy.ForeColor = System.Drawing.Color.White;
             this.btn_hh_v7900lh_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_hh_v7900lh_buy.Name = "btn_hh_v7900lh_buy";
@@ -1301,12 +1462,22 @@
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.Location = new System.Drawing.Point(24, 96);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(105, 15);
+            this.label36.Size = new System.Drawing.Size(103, 15);
             this.label36.TabIndex = 1;
             this.label36.Text = "V7900 LH - Hybrid";
+            // 
+            // pb_hh_v7900lh_preview
+            // 
+            this.pb_hh_v7900lh_preview.BackgroundImage = global::MOCompany.Properties.Resources.imagenotfound;
+            this.pb_hh_v7900lh_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb_hh_v7900lh_preview.Location = new System.Drawing.Point(3, 3);
+            this.pb_hh_v7900lh_preview.Name = "pb_hh_v7900lh_preview";
+            this.pb_hh_v7900lh_preview.Size = new System.Drawing.Size(145, 81);
+            this.pb_hh_v7900lh_preview.TabIndex = 0;
+            this.pb_hh_v7900lh_preview.TabStop = false;
             // 
             // panel17
             // 
@@ -1324,10 +1495,10 @@
             // 
             this.label33.AutoSize = true;
             this.label33.BackColor = System.Drawing.Color.YellowGreen;
-            this.label33.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.Location = new System.Drawing.Point(30, 120);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(91, 14);
+            this.label33.Size = new System.Drawing.Size(92, 14);
             this.label33.TabIndex = 4;
             this.label33.Text = "Price: 3870 MCD";
             // 
@@ -1349,7 +1520,7 @@
             this.btn_hh_v7900l_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_hh_v7900l_buy.FlatAppearance.BorderSize = 0;
             this.btn_hh_v7900l_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_hh_v7900l_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_hh_v7900l_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_hh_v7900l_buy.ForeColor = System.Drawing.Color.White;
             this.btn_hh_v7900l_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_hh_v7900l_buy.Name = "btn_hh_v7900l_buy";
@@ -1361,182 +1532,12 @@
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.Location = new System.Drawing.Point(27, 96);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(96, 15);
+            this.label34.Size = new System.Drawing.Size(95, 15);
             this.label34.TabIndex = 1;
             this.label34.Text = "V7900 L - Hybrid";
-            // 
-            // pb_ac_o530le_preview
-            // 
-            this.pb_ac_o530le_preview.BackgroundImage = global::MOCompany.Properties.Resources.bus_man_o530le_ac;
-            this.pb_ac_o530le_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb_ac_o530le_preview.Location = new System.Drawing.Point(3, 3);
-            this.pb_ac_o530le_preview.Name = "pb_ac_o530le_preview";
-            this.pb_ac_o530le_preview.Size = new System.Drawing.Size(145, 81);
-            this.pb_ac_o530le_preview.TabIndex = 0;
-            this.pb_ac_o530le_preview.TabStop = false;
-            // 
-            // pb_ac_o530gl_preview
-            // 
-            this.pb_ac_o530gl_preview.BackgroundImage = global::MOCompany.Properties.Resources.imagenotfound;
-            this.pb_ac_o530gl_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb_ac_o530gl_preview.Location = new System.Drawing.Point(3, 3);
-            this.pb_ac_o530gl_preview.Name = "pb_ac_o530gl_preview";
-            this.pb_ac_o530gl_preview.Size = new System.Drawing.Size(145, 81);
-            this.pb_ac_o530gl_preview.TabIndex = 0;
-            this.pb_ac_o530gl_preview.TabStop = false;
-            // 
-            // pb_ac_o530g_preview
-            // 
-            this.pb_ac_o530g_preview.BackgroundImage = global::MOCompany.Properties.Resources.bus_man_o530g_ac;
-            this.pb_ac_o530g_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb_ac_o530g_preview.Location = new System.Drawing.Point(3, 3);
-            this.pb_ac_o530g_preview.Name = "pb_ac_o530g_preview";
-            this.pb_ac_o530g_preview.Size = new System.Drawing.Size(145, 81);
-            this.pb_ac_o530g_preview.TabIndex = 0;
-            this.pb_ac_o530g_preview.TabStop = false;
-            // 
-            // pb_ac_o530_preview
-            // 
-            this.pb_ac_o530_preview.BackgroundImage = global::MOCompany.Properties.Resources.bus_man_o530_ac;
-            this.pb_ac_o530_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb_ac_o530_preview.Location = new System.Drawing.Point(3, 3);
-            this.pb_ac_o530_preview.Name = "pb_ac_o530_preview";
-            this.pb_ac_o530_preview.Size = new System.Drawing.Size(145, 81);
-            this.pb_ac_o530_preview.TabIndex = 0;
-            this.pb_ac_o530_preview.TabStop = false;
-            // 
-            // pb_man_o530g_preview
-            // 
-            this.pb_man_o530g_preview.BackgroundImage = global::MOCompany.Properties.Resources.imagenotfound;
-            this.pb_man_o530g_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb_man_o530g_preview.Location = new System.Drawing.Point(3, 3);
-            this.pb_man_o530g_preview.Name = "pb_man_o530g_preview";
-            this.pb_man_o530g_preview.Size = new System.Drawing.Size(145, 81);
-            this.pb_man_o530g_preview.TabIndex = 0;
-            this.pb_man_o530g_preview.TabStop = false;
-            // 
-            // pb_man_o530_preview
-            // 
-            this.pb_man_o530_preview.BackgroundImage = global::MOCompany.Properties.Resources.bus_o530;
-            this.pb_man_o530_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb_man_o530_preview.Location = new System.Drawing.Point(3, 3);
-            this.pb_man_o530_preview.Name = "pb_man_o530_preview";
-            this.pb_man_o530_preview.Size = new System.Drawing.Size(145, 81);
-            this.pb_man_o530_preview.TabIndex = 0;
-            this.pb_man_o530_preview.TabStop = false;
-            // 
-            // pb_man_lionscitya21_preview
-            // 
-            this.pb_man_lionscitya21_preview.BackgroundImage = global::MOCompany.Properties.Resources.bus_manlionscitya21;
-            this.pb_man_lionscitya21_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb_man_lionscitya21_preview.Location = new System.Drawing.Point(3, 3);
-            this.pb_man_lionscitya21_preview.Name = "pb_man_lionscitya21_preview";
-            this.pb_man_lionscitya21_preview.Size = new System.Drawing.Size(145, 81);
-            this.pb_man_lionscitya21_preview.TabIndex = 0;
-            this.pb_man_lionscitya21_preview.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.BackgroundImage = global::MOCompany.Properties.Resources.bus_a360;
-            this.pictureBox16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox16.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(145, 81);
-            this.pictureBox16.TabIndex = 0;
-            this.pictureBox16.TabStop = false;
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.BackgroundImage = global::MOCompany.Properties.Resources.bus_a320;
-            this.pictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox15.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(145, 81);
-            this.pictureBox15.TabIndex = 0;
-            this.pictureBox15.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.BackgroundImage = global::MOCompany.Properties.Resources.bus_ag300;
-            this.pictureBox14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox14.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(145, 81);
-            this.pictureBox14.TabIndex = 0;
-            this.pictureBox14.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.BackgroundImage = global::MOCompany.Properties.Resources.bus_ag280;
-            this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox13.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(145, 81);
-            this.pictureBox13.TabIndex = 0;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.BackgroundImage = global::MOCompany.Properties.Resources.bus_a120;
-            this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox12.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(145, 81);
-            this.pictureBox12.TabIndex = 0;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.BackgroundImage = global::MOCompany.Properties.Resources.bus_agg300;
-            this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox11.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(145, 81);
-            this.pictureBox11.TabIndex = 0;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.BackgroundImage = global::MOCompany.Properties.Resources.bus_agg300;
-            this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox10.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(145, 81);
-            this.pictureBox10.TabIndex = 0;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackgroundImage = global::MOCompany.Properties.Resources.bus_a330;
-            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox9.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(145, 81);
-            this.pictureBox9.TabIndex = 0;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackgroundImage = global::MOCompany.Properties.Resources.bus_a330;
-            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox8.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(145, 81);
-            this.pictureBox8.TabIndex = 0;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pb_hh_v7900lh_preview
-            // 
-            this.pb_hh_v7900lh_preview.BackgroundImage = global::MOCompany.Properties.Resources.imagenotfound;
-            this.pb_hh_v7900lh_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pb_hh_v7900lh_preview.Location = new System.Drawing.Point(3, 3);
-            this.pb_hh_v7900lh_preview.Name = "pb_hh_v7900lh_preview";
-            this.pb_hh_v7900lh_preview.Size = new System.Drawing.Size(145, 81);
-            this.pb_hh_v7900lh_preview.TabIndex = 0;
-            this.pb_hh_v7900lh_preview.TabStop = false;
             // 
             // pb_hh_v7900l_preview
             // 
@@ -1562,61 +1563,61 @@
             this.pl_man_main.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_ac_o530le_preview)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_ac_o530gl_preview)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_ac_o530g_preview)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_ac_o530_preview)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_man_o530g_preview)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_man_o530_preview)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_man_lionscitya21_preview)).EndInit();
             this.tpage_vanhool.ResumeLayout(false);
             this.pl_vanhool_main.ResumeLayout(false);
             this.panel16.ResumeLayout(false);
             this.panel16.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.panel14.ResumeLayout(false);
             this.panel14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.tpage_hamburgerbusses.ResumeLayout(false);
             this.pl_bus_hhbusses.ResumeLayout(false);
             this.panel18.ResumeLayout(false);
             this.panel18.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_hh_v7900lh_preview)).EndInit();
             this.panel17.ResumeLayout(false);
             this.panel17.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_ac_o530le_preview)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_ac_o530gl_preview)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_ac_o530g_preview)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_ac_o530_preview)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_man_o530g_preview)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_man_o530_preview)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_man_lionscitya21_preview)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_hh_v7900lh_preview)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_hh_v7900l_preview)).EndInit();
             this.ResumeLayout(false);
 

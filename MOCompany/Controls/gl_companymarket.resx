@@ -220,7 +220,7 @@
     <value>Fill</value>
   </data>
   <data name="lb_comp_header_title.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Glasgow, 17pt</value>
+    <value>Candara, 18pt</value>
   </data>
   <data name="lb_comp_header_title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -301,7 +301,7 @@
     <value>2</value>
   </data>
   <data name="lb_comp_slogan.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 9pt</value>
+    <value>Candara, 9.75pt</value>
   </data>
   <data name="lb_comp_slogan.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -388,7 +388,7 @@
     <value>3</value>
   </data>
   <data name="lb_comp_compmarket24_place.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 9pt</value>
+    <value>Candara, 9.75pt</value>
   </data>
   <data name="lb_comp_compmarket24_place.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -448,11 +448,38 @@ Unternehmensallee 7
   <data name="&gt;&gt;pl_comp_sidepanel_space.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="pb_compmarket_logo.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pb_compmarket_logo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pb_compmarket_logo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 14</value>
+  </data>
+  <data name="pb_compmarket_logo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="pb_compmarket_logo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pb_compmarket_logo.Name" xml:space="preserve">
+    <value>pb_compmarket_logo</value>
+  </data>
+  <data name="&gt;&gt;pb_compmarket_logo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pb_compmarket_logo.Parent" xml:space="preserve">
+    <value>pl_comp_slogan</value>
+  </data>
+  <data name="&gt;&gt;pb_compmarket_logo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="pl_comp_main.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="lb_comp_c05_price.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+    <value>Candara, 9.75pt, style=Bold</value>
   </data>
   <data name="lb_comp_c05_price.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -485,7 +512,7 @@ Unternehmensallee 7
     <value>0</value>
   </data>
   <data name="lb_comp_c05_values.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 8.25pt</value>
+    <value>Candara, 8.25pt</value>
   </data>
   <data name="lb_comp_c05_values.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -494,7 +521,7 @@ Unternehmensallee 7
     <value>150, 150</value>
   </data>
   <data name="lb_comp_c05_values.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 77</value>
+    <value>48, 64</value>
   </data>
   <data name="lb_comp_c05_values.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -528,7 +555,7 @@ YES
     <value>Flat</value>
   </data>
   <data name="btn_comp_c05_buy.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 9pt, style=Bold</value>
+    <value>Candara, 9.75pt, style=Bold</value>
   </data>
   <data name="btn_comp_c05_buy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -558,7 +585,7 @@ YES
     <value>2</value>
   </data>
   <data name="lb_comp_c05_desc.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 8.25pt</value>
+    <value>Candara, 8.25pt</value>
   </data>
   <data name="lb_comp_c05_desc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -591,7 +618,7 @@ Maintenance Hangar:</value>
     <value>3</value>
   </data>
   <data name="lb_comp_c05_title.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 9pt</value>
+    <value>Candara, 9.75pt</value>
   </data>
   <data name="lb_comp_c05_title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -674,6 +701,27 @@ Maintenance Hangar:</value>
   <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="lb_comp_c04_price.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lb_comp_c04_price.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_comp_c04_price.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 227</value>
+  </data>
+  <data name="lb_comp_c04_price.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 18</value>
+  </data>
+  <data name="lb_comp_c04_price.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lb_comp_c04_price.Text" xml:space="preserve">
+    <value>Price:   30.000 MCD</value>
+  </data>
+  <data name="lb_comp_c04_price.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
   <data name="&gt;&gt;lb_comp_c04_price.Name" xml:space="preserve">
     <value>lb_comp_c04_price</value>
   </data>
@@ -685,6 +733,31 @@ Maintenance Hangar:</value>
   </data>
   <data name="&gt;&gt;lb_comp_c04_price.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="lb_comp_c04_values.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 8.25pt</value>
+  </data>
+  <data name="lb_comp_c04_values.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_comp_c04_values.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="lb_comp_c04_values.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 64</value>
+  </data>
+  <data name="lb_comp_c04_values.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lb_comp_c04_values.Text" xml:space="preserve">
+    <value>12
+10
+3
+YES
+</value>
+  </data>
+  <data name="lb_comp_c04_values.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;lb_comp_c04_values.Name" xml:space="preserve">
     <value>lb_comp_c04_values</value>
@@ -698,6 +771,30 @@ Maintenance Hangar:</value>
   <data name="&gt;&gt;lb_comp_c04_values.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="btn_comp_c04_buy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btn_comp_c04_buy.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_comp_c04_buy.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 9.75pt, style=Bold</value>
+  </data>
+  <data name="btn_comp_c04_buy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_comp_c04_buy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 248</value>
+  </data>
+  <data name="btn_comp_c04_buy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 23</value>
+  </data>
+  <data name="btn_comp_c04_buy.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btn_comp_c04_buy.Text" xml:space="preserve">
+    <value>Buy this Depot</value>
+  </data>
   <data name="&gt;&gt;btn_comp_c04_buy.Name" xml:space="preserve">
     <value>btn_comp_c04_buy</value>
   </data>
@@ -709,6 +806,27 @@ Maintenance Hangar:</value>
   </data>
   <data name="&gt;&gt;btn_comp_c04_buy.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="lb_comp_c04_desc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 8.25pt</value>
+  </data>
+  <data name="lb_comp_c04_desc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_comp_c04_desc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 150</value>
+  </data>
+  <data name="lb_comp_c04_desc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 77</value>
+  </data>
+  <data name="lb_comp_c04_desc.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lb_comp_c04_desc.Text" xml:space="preserve">
+    <value>Plots f. Singlebusses:
+Plots f. Articulated Busses:
+Plots f. Tram:
+Maintenance Hangar:</value>
   </data>
   <data name="&gt;&gt;lb_comp_c04_desc.Name" xml:space="preserve">
     <value>lb_comp_c04_desc</value>
@@ -722,6 +840,27 @@ Maintenance Hangar:</value>
   <data name="&gt;&gt;lb_comp_c04_desc.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="lb_comp_c04_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 9.75pt</value>
+  </data>
+  <data name="lb_comp_c04_title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_comp_c04_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 116</value>
+  </data>
+  <data name="lb_comp_c04_title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 25</value>
+  </data>
+  <data name="lb_comp_c04_title.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lb_comp_c04_title.Text" xml:space="preserve">
+    <value>C04 - Big Size</value>
+  </data>
+  <data name="lb_comp_c04_title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
   <data name="&gt;&gt;lb_comp_c04_title.Name" xml:space="preserve">
     <value>lb_comp_c04_title</value>
   </data>
@@ -733,6 +872,24 @@ Maintenance Hangar:</value>
   </data>
   <data name="&gt;&gt;lb_comp_c04_title.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="pb_comp_c04_pic.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pb_comp_c04_pic.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pb_comp_c04_pic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pb_comp_c04_pic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pb_comp_c04_pic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 113</value>
+  </data>
+  <data name="pb_comp_c04_pic.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;pb_comp_c04_pic.Name" xml:space="preserve">
     <value>pb_comp_c04_pic</value>
@@ -767,6 +924,27 @@ Maintenance Hangar:</value>
   <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="lb_comp_c02_price.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lb_comp_c02_price.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_comp_c02_price.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 227</value>
+  </data>
+  <data name="lb_comp_c02_price.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 18</value>
+  </data>
+  <data name="lb_comp_c02_price.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lb_comp_c02_price.Text" xml:space="preserve">
+    <value>Price:   15.000 MCD</value>
+  </data>
+  <data name="lb_comp_c02_price.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
   <data name="&gt;&gt;lb_comp_c02_price.Name" xml:space="preserve">
     <value>lb_comp_c02_price</value>
   </data>
@@ -778,6 +956,31 @@ Maintenance Hangar:</value>
   </data>
   <data name="&gt;&gt;lb_comp_c02_price.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="lb_comp_c02_values.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 8.25pt</value>
+  </data>
+  <data name="lb_comp_c02_values.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_comp_c02_values.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="lb_comp_c02_values.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 59</value>
+  </data>
+  <data name="lb_comp_c02_values.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lb_comp_c02_values.Text" xml:space="preserve">
+    <value>5
+3
+0
+NO
+</value>
+  </data>
+  <data name="lb_comp_c02_values.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;lb_comp_c02_values.Name" xml:space="preserve">
     <value>lb_comp_c02_values</value>
@@ -791,6 +994,30 @@ Maintenance Hangar:</value>
   <data name="&gt;&gt;lb_comp_c02_values.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="btn_comp_c02_buy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btn_comp_c02_buy.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_comp_c02_buy.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 9.75pt, style=Bold</value>
+  </data>
+  <data name="btn_comp_c02_buy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_comp_c02_buy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 248</value>
+  </data>
+  <data name="btn_comp_c02_buy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 23</value>
+  </data>
+  <data name="btn_comp_c02_buy.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btn_comp_c02_buy.Text" xml:space="preserve">
+    <value>Buy this Depot</value>
+  </data>
   <data name="&gt;&gt;btn_comp_c02_buy.Name" xml:space="preserve">
     <value>btn_comp_c02_buy</value>
   </data>
@@ -802,6 +1029,27 @@ Maintenance Hangar:</value>
   </data>
   <data name="&gt;&gt;btn_comp_c02_buy.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="lb_comp_c02_desc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 8.25pt</value>
+  </data>
+  <data name="lb_comp_c02_desc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_comp_c02_desc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 150</value>
+  </data>
+  <data name="lb_comp_c02_desc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 77</value>
+  </data>
+  <data name="lb_comp_c02_desc.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lb_comp_c02_desc.Text" xml:space="preserve">
+    <value>Plots f. Singlebusses:
+Plots f. Articulated Busses:
+Plots f. Tram:
+Maintenance Hangar:</value>
   </data>
   <data name="&gt;&gt;lb_comp_c02_desc.Name" xml:space="preserve">
     <value>lb_comp_c02_desc</value>
@@ -815,6 +1063,27 @@ Maintenance Hangar:</value>
   <data name="&gt;&gt;lb_comp_c02_desc.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="lb_comp_c02_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 9.75pt</value>
+  </data>
+  <data name="lb_comp_c02_title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_comp_c02_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 116</value>
+  </data>
+  <data name="lb_comp_c02_title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 25</value>
+  </data>
+  <data name="lb_comp_c02_title.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lb_comp_c02_title.Text" xml:space="preserve">
+    <value>C02 - Middle Size</value>
+  </data>
+  <data name="lb_comp_c02_title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
   <data name="&gt;&gt;lb_comp_c02_title.Name" xml:space="preserve">
     <value>lb_comp_c02_title</value>
   </data>
@@ -826,6 +1095,24 @@ Maintenance Hangar:</value>
   </data>
   <data name="&gt;&gt;lb_comp_c02_title.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="pb_comp_c02_pic.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pb_comp_c02_pic.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pb_comp_c02_pic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pb_comp_c02_pic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pb_comp_c02_pic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 113</value>
+  </data>
+  <data name="pb_comp_c02_pic.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;pb_comp_c02_pic.Name" xml:space="preserve">
     <value>pb_comp_c02_pic</value>
@@ -860,6 +1147,27 @@ Maintenance Hangar:</value>
   <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="lb_comp_c03_price.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lb_comp_c03_price.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_comp_c03_price.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 227</value>
+  </data>
+  <data name="lb_comp_c03_price.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 18</value>
+  </data>
+  <data name="lb_comp_c03_price.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lb_comp_c03_price.Text" xml:space="preserve">
+    <value>Price:   21.000 MCD</value>
+  </data>
+  <data name="lb_comp_c03_price.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
   <data name="&gt;&gt;lb_comp_c03_price.Name" xml:space="preserve">
     <value>lb_comp_c03_price</value>
   </data>
@@ -871,6 +1179,32 @@ Maintenance Hangar:</value>
   </data>
   <data name="&gt;&gt;lb_comp_c03_price.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="lb_comp_c03_values.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 8.25pt</value>
+  </data>
+  <data name="lb_comp_c03_values.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_comp_c03_values.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="lb_comp_c03_values.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 77</value>
+  </data>
+  <data name="lb_comp_c03_values.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lb_comp_c03_values.Text" xml:space="preserve">
+    <value>9
+6
+1
+YES
+
+</value>
+  </data>
+  <data name="lb_comp_c03_values.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;lb_comp_c03_values.Name" xml:space="preserve">
     <value>lb_comp_c03_values</value>
@@ -884,6 +1218,30 @@ Maintenance Hangar:</value>
   <data name="&gt;&gt;lb_comp_c03_values.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="btn_comp_c03_buy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btn_comp_c03_buy.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_comp_c03_buy.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 9.75pt, style=Bold</value>
+  </data>
+  <data name="btn_comp_c03_buy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_comp_c03_buy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 248</value>
+  </data>
+  <data name="btn_comp_c03_buy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 23</value>
+  </data>
+  <data name="btn_comp_c03_buy.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btn_comp_c03_buy.Text" xml:space="preserve">
+    <value>Buy this Depot</value>
+  </data>
   <data name="&gt;&gt;btn_comp_c03_buy.Name" xml:space="preserve">
     <value>btn_comp_c03_buy</value>
   </data>
@@ -895,6 +1253,27 @@ Maintenance Hangar:</value>
   </data>
   <data name="&gt;&gt;btn_comp_c03_buy.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="lb_comp_c03_desc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 8.25pt</value>
+  </data>
+  <data name="lb_comp_c03_desc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_comp_c03_desc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 150</value>
+  </data>
+  <data name="lb_comp_c03_desc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 77</value>
+  </data>
+  <data name="lb_comp_c03_desc.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lb_comp_c03_desc.Text" xml:space="preserve">
+    <value>Plots f. Singlebusses:
+Plots f. Articulated Busses:
+Plots f. Tram:
+Maintenance Hangar:</value>
   </data>
   <data name="&gt;&gt;lb_comp_c03_desc.Name" xml:space="preserve">
     <value>lb_comp_c03_desc</value>
@@ -908,6 +1287,27 @@ Maintenance Hangar:</value>
   <data name="&gt;&gt;lb_comp_c03_desc.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="lb_comp_c03_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 9.75pt</value>
+  </data>
+  <data name="lb_comp_c03_title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_comp_c03_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 116</value>
+  </data>
+  <data name="lb_comp_c03_title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 25</value>
+  </data>
+  <data name="lb_comp_c03_title.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lb_comp_c03_title.Text" xml:space="preserve">
+    <value>C03 - Middle Size</value>
+  </data>
+  <data name="lb_comp_c03_title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
   <data name="&gt;&gt;lb_comp_c03_title.Name" xml:space="preserve">
     <value>lb_comp_c03_title</value>
   </data>
@@ -919,6 +1319,24 @@ Maintenance Hangar:</value>
   </data>
   <data name="&gt;&gt;lb_comp_c03_title.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="pb_comp_c03_pic.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pb_comp_c03_pic.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pb_comp_c03_pic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pb_comp_c03_pic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pb_comp_c03_pic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 113</value>
+  </data>
+  <data name="pb_comp_c03_pic.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;pb_comp_c03_pic.Name" xml:space="preserve">
     <value>pb_comp_c03_pic</value>
@@ -953,6 +1371,27 @@ Maintenance Hangar:</value>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="lb_comp_c01_price.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lb_comp_c01_price.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_comp_c01_price.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 227</value>
+  </data>
+  <data name="lb_comp_c01_price.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 18</value>
+  </data>
+  <data name="lb_comp_c01_price.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lb_comp_c01_price.Text" xml:space="preserve">
+    <value>Price:   10.000 MCD</value>
+  </data>
+  <data name="lb_comp_c01_price.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
   <data name="&gt;&gt;lb_comp_c01_price.Name" xml:space="preserve">
     <value>lb_comp_c01_price</value>
   </data>
@@ -964,6 +1403,31 @@ Maintenance Hangar:</value>
   </data>
   <data name="&gt;&gt;lb_comp_c01_price.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="lb_comp_c01_values.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 8.25pt</value>
+  </data>
+  <data name="lb_comp_c01_values.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_comp_c01_values.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="lb_comp_c01_values.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 59</value>
+  </data>
+  <data name="lb_comp_c01_values.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lb_comp_c01_values.Text" xml:space="preserve">
+    <value>3
+1
+0
+NO
+</value>
+  </data>
+  <data name="lb_comp_c01_values.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;lb_comp_c01_values.Name" xml:space="preserve">
     <value>lb_comp_c01_values</value>
@@ -977,6 +1441,30 @@ Maintenance Hangar:</value>
   <data name="&gt;&gt;lb_comp_c01_values.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="btn_comp_c01_buy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btn_comp_c01_buy.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_comp_c01_buy.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 9.75pt, style=Bold</value>
+  </data>
+  <data name="btn_comp_c01_buy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_comp_c01_buy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 248</value>
+  </data>
+  <data name="btn_comp_c01_buy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 23</value>
+  </data>
+  <data name="btn_comp_c01_buy.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btn_comp_c01_buy.Text" xml:space="preserve">
+    <value>Buy this Depot</value>
+  </data>
   <data name="&gt;&gt;btn_comp_c01_buy.Name" xml:space="preserve">
     <value>btn_comp_c01_buy</value>
   </data>
@@ -988,6 +1476,27 @@ Maintenance Hangar:</value>
   </data>
   <data name="&gt;&gt;btn_comp_c01_buy.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="lb_comp_c01_desc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 8.25pt</value>
+  </data>
+  <data name="lb_comp_c01_desc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_comp_c01_desc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 150</value>
+  </data>
+  <data name="lb_comp_c01_desc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 77</value>
+  </data>
+  <data name="lb_comp_c01_desc.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lb_comp_c01_desc.Text" xml:space="preserve">
+    <value>Plots f. Singlebusses:
+Plots f. Articulated Busses:
+Plots f. Tram:
+Maintenance Hangar:</value>
   </data>
   <data name="&gt;&gt;lb_comp_c01_desc.Name" xml:space="preserve">
     <value>lb_comp_c01_desc</value>
@@ -1001,6 +1510,27 @@ Maintenance Hangar:</value>
   <data name="&gt;&gt;lb_comp_c01_desc.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="lb_comp_c01_title.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 9.75pt</value>
+  </data>
+  <data name="lb_comp_c01_title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lb_comp_c01_title.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 116</value>
+  </data>
+  <data name="lb_comp_c01_title.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 25</value>
+  </data>
+  <data name="lb_comp_c01_title.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lb_comp_c01_title.Text" xml:space="preserve">
+    <value>C01 - Small Size</value>
+  </data>
+  <data name="lb_comp_c01_title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
   <data name="&gt;&gt;lb_comp_c01_title.Name" xml:space="preserve">
     <value>lb_comp_c01_title</value>
   </data>
@@ -1012,6 +1542,24 @@ Maintenance Hangar:</value>
   </data>
   <data name="&gt;&gt;lb_comp_c01_title.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="pb_comp_c01_pic.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pb_comp_c01_pic.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pb_comp_c01_pic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pb_comp_c01_pic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pb_comp_c01_pic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 113</value>
+  </data>
+  <data name="pb_comp_c01_pic.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;pb_comp_c01_pic.Name" xml:space="preserve">
     <value>pb_comp_c01_pic</value>
@@ -1067,700 +1615,11 @@ Maintenance Hangar:</value>
   <data name="&gt;&gt;pl_comp_main.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="lb_comp_c04_price.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="lb_comp_c04_price.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lb_comp_c04_price.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 227</value>
-  </data>
-  <data name="lb_comp_c04_price.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 18</value>
-  </data>
-  <data name="lb_comp_c04_price.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lb_comp_c04_price.Text" xml:space="preserve">
-    <value>Price:   30.000 MCD</value>
-  </data>
-  <data name="lb_comp_c04_price.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c04_price.Name" xml:space="preserve">
-    <value>lb_comp_c04_price</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c04_price.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c04_price.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c04_price.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lb_comp_c04_values.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 8.25pt</value>
-  </data>
-  <data name="lb_comp_c04_values.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lb_comp_c04_values.Location" type="System.Drawing.Point, System.Drawing">
-    <value>150, 150</value>
-  </data>
-  <data name="lb_comp_c04_values.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 77</value>
-  </data>
-  <data name="lb_comp_c04_values.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lb_comp_c04_values.Text" xml:space="preserve">
-    <value>12
-10
-3
-YES
-</value>
-  </data>
-  <data name="lb_comp_c04_values.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c04_values.Name" xml:space="preserve">
-    <value>lb_comp_c04_values</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c04_values.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c04_values.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c04_values.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btn_comp_c04_buy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="btn_comp_c04_buy.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btn_comp_c04_buy.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 9pt, style=Bold</value>
-  </data>
-  <data name="btn_comp_c04_buy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btn_comp_c04_buy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 248</value>
-  </data>
-  <data name="btn_comp_c04_buy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 23</value>
-  </data>
-  <data name="btn_comp_c04_buy.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="btn_comp_c04_buy.Text" xml:space="preserve">
-    <value>Buy this Depot</value>
-  </data>
-  <data name="&gt;&gt;btn_comp_c04_buy.Name" xml:space="preserve">
-    <value>btn_comp_c04_buy</value>
-  </data>
-  <data name="&gt;&gt;btn_comp_c04_buy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_comp_c04_buy.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;btn_comp_c04_buy.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="lb_comp_c04_desc.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 8.25pt</value>
-  </data>
-  <data name="lb_comp_c04_desc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lb_comp_c04_desc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 150</value>
-  </data>
-  <data name="lb_comp_c04_desc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 77</value>
-  </data>
-  <data name="lb_comp_c04_desc.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lb_comp_c04_desc.Text" xml:space="preserve">
-    <value>Plots f. Singlebusses:
-Plots f. Articulated Busses:
-Plots f. Tram:
-Maintenance Hangar:</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c04_desc.Name" xml:space="preserve">
-    <value>lb_comp_c04_desc</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c04_desc.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c04_desc.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c04_desc.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="lb_comp_c04_title.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 9pt</value>
-  </data>
-  <data name="lb_comp_c04_title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lb_comp_c04_title.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 116</value>
-  </data>
-  <data name="lb_comp_c04_title.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 25</value>
-  </data>
-  <data name="lb_comp_c04_title.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lb_comp_c04_title.Text" xml:space="preserve">
-    <value>C04 - Big Size</value>
-  </data>
-  <data name="lb_comp_c04_title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c04_title.Name" xml:space="preserve">
-    <value>lb_comp_c04_title</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c04_title.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c04_title.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c04_title.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="lb_comp_c02_price.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="lb_comp_c02_price.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lb_comp_c02_price.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 227</value>
-  </data>
-  <data name="lb_comp_c02_price.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 18</value>
-  </data>
-  <data name="lb_comp_c02_price.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lb_comp_c02_price.Text" xml:space="preserve">
-    <value>Price:   15.000 MCD</value>
-  </data>
-  <data name="lb_comp_c02_price.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c02_price.Name" xml:space="preserve">
-    <value>lb_comp_c02_price</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c02_price.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c02_price.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c02_price.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lb_comp_c02_values.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 8.25pt</value>
-  </data>
-  <data name="lb_comp_c02_values.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lb_comp_c02_values.Location" type="System.Drawing.Point, System.Drawing">
-    <value>150, 150</value>
-  </data>
-  <data name="lb_comp_c02_values.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 77</value>
-  </data>
-  <data name="lb_comp_c02_values.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lb_comp_c02_values.Text" xml:space="preserve">
-    <value>5
-3
-0
-NO
-</value>
-  </data>
-  <data name="lb_comp_c02_values.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c02_values.Name" xml:space="preserve">
-    <value>lb_comp_c02_values</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c02_values.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c02_values.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c02_values.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btn_comp_c02_buy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="btn_comp_c02_buy.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btn_comp_c02_buy.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 9pt, style=Bold</value>
-  </data>
-  <data name="btn_comp_c02_buy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btn_comp_c02_buy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 248</value>
-  </data>
-  <data name="btn_comp_c02_buy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 23</value>
-  </data>
-  <data name="btn_comp_c02_buy.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="btn_comp_c02_buy.Text" xml:space="preserve">
-    <value>Buy this Depot</value>
-  </data>
-  <data name="&gt;&gt;btn_comp_c02_buy.Name" xml:space="preserve">
-    <value>btn_comp_c02_buy</value>
-  </data>
-  <data name="&gt;&gt;btn_comp_c02_buy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_comp_c02_buy.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;btn_comp_c02_buy.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="lb_comp_c02_desc.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 8.25pt</value>
-  </data>
-  <data name="lb_comp_c02_desc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lb_comp_c02_desc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 150</value>
-  </data>
-  <data name="lb_comp_c02_desc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 77</value>
-  </data>
-  <data name="lb_comp_c02_desc.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lb_comp_c02_desc.Text" xml:space="preserve">
-    <value>Plots f. Singlebusses:
-Plots f. Articulated Busses:
-Plots f. Tram:
-Maintenance Hangar:</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c02_desc.Name" xml:space="preserve">
-    <value>lb_comp_c02_desc</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c02_desc.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c02_desc.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c02_desc.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="lb_comp_c02_title.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 9pt</value>
-  </data>
-  <data name="lb_comp_c02_title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lb_comp_c02_title.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 116</value>
-  </data>
-  <data name="lb_comp_c02_title.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 25</value>
-  </data>
-  <data name="lb_comp_c02_title.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lb_comp_c02_title.Text" xml:space="preserve">
-    <value>C02 - Middle Size</value>
-  </data>
-  <data name="lb_comp_c02_title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c02_title.Name" xml:space="preserve">
-    <value>lb_comp_c02_title</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c02_title.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c02_title.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c02_title.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="lb_comp_c03_price.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="lb_comp_c03_price.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lb_comp_c03_price.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 227</value>
-  </data>
-  <data name="lb_comp_c03_price.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 18</value>
-  </data>
-  <data name="lb_comp_c03_price.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lb_comp_c03_price.Text" xml:space="preserve">
-    <value>Price:   21.000 MCD</value>
-  </data>
-  <data name="lb_comp_c03_price.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c03_price.Name" xml:space="preserve">
-    <value>lb_comp_c03_price</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c03_price.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c03_price.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c03_price.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lb_comp_c03_values.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 8.25pt</value>
-  </data>
-  <data name="lb_comp_c03_values.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lb_comp_c03_values.Location" type="System.Drawing.Point, System.Drawing">
-    <value>150, 150</value>
-  </data>
-  <data name="lb_comp_c03_values.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 77</value>
-  </data>
-  <data name="lb_comp_c03_values.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lb_comp_c03_values.Text" xml:space="preserve">
-    <value>9
-6
-1
-YES
-
-</value>
-  </data>
-  <data name="lb_comp_c03_values.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c03_values.Name" xml:space="preserve">
-    <value>lb_comp_c03_values</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c03_values.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c03_values.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c03_values.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btn_comp_c03_buy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="btn_comp_c03_buy.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btn_comp_c03_buy.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 9pt, style=Bold</value>
-  </data>
-  <data name="btn_comp_c03_buy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btn_comp_c03_buy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 248</value>
-  </data>
-  <data name="btn_comp_c03_buy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 23</value>
-  </data>
-  <data name="btn_comp_c03_buy.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="btn_comp_c03_buy.Text" xml:space="preserve">
-    <value>Buy this Depot</value>
-  </data>
-  <data name="&gt;&gt;btn_comp_c03_buy.Name" xml:space="preserve">
-    <value>btn_comp_c03_buy</value>
-  </data>
-  <data name="&gt;&gt;btn_comp_c03_buy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_comp_c03_buy.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;btn_comp_c03_buy.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="lb_comp_c03_desc.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 8.25pt</value>
-  </data>
-  <data name="lb_comp_c03_desc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lb_comp_c03_desc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 150</value>
-  </data>
-  <data name="lb_comp_c03_desc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 77</value>
-  </data>
-  <data name="lb_comp_c03_desc.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lb_comp_c03_desc.Text" xml:space="preserve">
-    <value>Plots f. Singlebusses:
-Plots f. Articulated Busses:
-Plots f. Tram:
-Maintenance Hangar:</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c03_desc.Name" xml:space="preserve">
-    <value>lb_comp_c03_desc</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c03_desc.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c03_desc.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c03_desc.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="lb_comp_c03_title.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 9pt</value>
-  </data>
-  <data name="lb_comp_c03_title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lb_comp_c03_title.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 116</value>
-  </data>
-  <data name="lb_comp_c03_title.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 25</value>
-  </data>
-  <data name="lb_comp_c03_title.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lb_comp_c03_title.Text" xml:space="preserve">
-    <value>C03 - Middle Size</value>
-  </data>
-  <data name="lb_comp_c03_title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c03_title.Name" xml:space="preserve">
-    <value>lb_comp_c03_title</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c03_title.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c03_title.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c03_title.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="lb_comp_c01_price.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="lb_comp_c01_price.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lb_comp_c01_price.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 227</value>
-  </data>
-  <data name="lb_comp_c01_price.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 18</value>
-  </data>
-  <data name="lb_comp_c01_price.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="lb_comp_c01_price.Text" xml:space="preserve">
-    <value>Price:   10.000 MCD</value>
-  </data>
-  <data name="lb_comp_c01_price.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c01_price.Name" xml:space="preserve">
-    <value>lb_comp_c01_price</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c01_price.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c01_price.Parent" xml:space="preserve">
-    <value>pl_comp_c01s</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c01_price.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lb_comp_c01_values.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 8.25pt</value>
-  </data>
-  <data name="lb_comp_c01_values.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lb_comp_c01_values.Location" type="System.Drawing.Point, System.Drawing">
-    <value>150, 150</value>
-  </data>
-  <data name="lb_comp_c01_values.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 77</value>
-  </data>
-  <data name="lb_comp_c01_values.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lb_comp_c01_values.Text" xml:space="preserve">
-    <value>3
-1
-0
-NO
-</value>
-  </data>
-  <data name="lb_comp_c01_values.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c01_values.Name" xml:space="preserve">
-    <value>lb_comp_c01_values</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c01_values.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c01_values.Parent" xml:space="preserve">
-    <value>pl_comp_c01s</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c01_values.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btn_comp_c01_buy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="btn_comp_c01_buy.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btn_comp_c01_buy.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 9pt, style=Bold</value>
-  </data>
-  <data name="btn_comp_c01_buy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btn_comp_c01_buy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 248</value>
-  </data>
-  <data name="btn_comp_c01_buy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 23</value>
-  </data>
-  <data name="btn_comp_c01_buy.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="btn_comp_c01_buy.Text" xml:space="preserve">
-    <value>Buy this Depot</value>
-  </data>
-  <data name="&gt;&gt;btn_comp_c01_buy.Name" xml:space="preserve">
-    <value>btn_comp_c01_buy</value>
-  </data>
-  <data name="&gt;&gt;btn_comp_c01_buy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btn_comp_c01_buy.Parent" xml:space="preserve">
-    <value>pl_comp_c01s</value>
-  </data>
-  <data name="&gt;&gt;btn_comp_c01_buy.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="lb_comp_c01_desc.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 8.25pt</value>
-  </data>
-  <data name="lb_comp_c01_desc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lb_comp_c01_desc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 150</value>
-  </data>
-  <data name="lb_comp_c01_desc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 77</value>
-  </data>
-  <data name="lb_comp_c01_desc.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="lb_comp_c01_desc.Text" xml:space="preserve">
-    <value>Plots f. Singlebusses:
-Plots f. Articulated Busses:
-Plots f. Tram:
-Maintenance Hangar:</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c01_desc.Name" xml:space="preserve">
-    <value>lb_comp_c01_desc</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c01_desc.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c01_desc.Parent" xml:space="preserve">
-    <value>pl_comp_c01s</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c01_desc.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="lb_comp_c01_title.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 9pt</value>
-  </data>
-  <data name="lb_comp_c01_title.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lb_comp_c01_title.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 116</value>
-  </data>
-  <data name="lb_comp_c01_title.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 25</value>
-  </data>
-  <data name="lb_comp_c01_title.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="lb_comp_c01_title.Text" xml:space="preserve">
-    <value>C01 - Small Size</value>
-  </data>
-  <data name="lb_comp_c01_title.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c01_title.Name" xml:space="preserve">
-    <value>lb_comp_c01_title</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c01_title.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c01_title.Parent" xml:space="preserve">
-    <value>pl_comp_c01s</value>
-  </data>
-  <data name="&gt;&gt;lb_comp_c01_title.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="lb_comp_searchlbl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="lb_comp_searchlbl.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 8.25pt</value>
+    <value>Candara, 9pt</value>
   </data>
   <data name="lb_comp_searchlbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1769,7 +1628,7 @@ Maintenance Hangar:</value>
     <value>664, 73</value>
   </data>
   <data name="lb_comp_searchlbl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 14</value>
+    <value>62, 14</value>
   </data>
   <data name="lb_comp_searchlbl.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1821,153 +1680,6 @@ Maintenance Hangar:</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="pb_comp_c04_pic.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pb_comp_c04_pic.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="pb_comp_c04_pic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pb_comp_c04_pic.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pb_comp_c04_pic.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 113</value>
-  </data>
-  <data name="pb_comp_c04_pic.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pb_comp_c04_pic.Name" xml:space="preserve">
-    <value>pb_comp_c04_pic</value>
-  </data>
-  <data name="&gt;&gt;pb_comp_c04_pic.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pb_comp_c04_pic.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;pb_comp_c04_pic.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="pb_comp_c02_pic.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pb_comp_c02_pic.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="pb_comp_c02_pic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pb_comp_c02_pic.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pb_comp_c02_pic.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 113</value>
-  </data>
-  <data name="pb_comp_c02_pic.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pb_comp_c02_pic.Name" xml:space="preserve">
-    <value>pb_comp_c02_pic</value>
-  </data>
-  <data name="&gt;&gt;pb_comp_c02_pic.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pb_comp_c02_pic.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;pb_comp_c02_pic.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="pb_comp_c03_pic.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pb_comp_c03_pic.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="pb_comp_c03_pic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pb_comp_c03_pic.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pb_comp_c03_pic.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 113</value>
-  </data>
-  <data name="pb_comp_c03_pic.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pb_comp_c03_pic.Name" xml:space="preserve">
-    <value>pb_comp_c03_pic</value>
-  </data>
-  <data name="&gt;&gt;pb_comp_c03_pic.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pb_comp_c03_pic.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;pb_comp_c03_pic.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="pb_comp_c01_pic.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pb_comp_c01_pic.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="pb_comp_c01_pic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pb_comp_c01_pic.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pb_comp_c01_pic.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 113</value>
-  </data>
-  <data name="pb_comp_c01_pic.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pb_comp_c01_pic.Name" xml:space="preserve">
-    <value>pb_comp_c01_pic</value>
-  </data>
-  <data name="&gt;&gt;pb_comp_c01_pic.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pb_comp_c01_pic.Parent" xml:space="preserve">
-    <value>pl_comp_c01s</value>
-  </data>
-  <data name="&gt;&gt;pb_comp_c01_pic.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="pb_compmarket_logo.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pb_compmarket_logo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pb_compmarket_logo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 14</value>
-  </data>
-  <data name="pb_compmarket_logo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 100</value>
-  </data>
-  <data name="pb_compmarket_logo.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pb_compmarket_logo.Name" xml:space="preserve">
-    <value>pb_compmarket_logo</value>
-  </data>
-  <data name="&gt;&gt;pb_compmarket_logo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pb_compmarket_logo.Parent" xml:space="preserve">
-    <value>pl_comp_slogan</value>
-  </data>
-  <data name="&gt;&gt;pb_compmarket_logo.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

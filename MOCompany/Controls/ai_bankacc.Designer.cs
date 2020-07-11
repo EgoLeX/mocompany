@@ -33,6 +33,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lb_bankpg_logo_text = new System.Windows.Forms.Label();
             this.lb_bankpg_logo_bankname = new System.Windows.Forms.Label();
+            this.pb_bankpg_logo = new System.Windows.Forms.PictureBox();
             this.pl_bankpg_ = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lb_bankpg_bacc1_balance = new System.Windows.Forms.Label();
@@ -41,6 +42,7 @@
             this.lb_bankpg_bacc1_name = new System.Windows.Forms.Label();
             this.pl_bankpg_advertising = new System.Windows.Forms.Panel();
             this.pl_bankpg_advertising_mainadpanel = new System.Windows.Forms.Panel();
+            this.pb_bankpg_adlogo = new System.Windows.Forms.PictureBox();
             this.lb_bankpg_advertising_admessage = new System.Windows.Forms.Label();
             this.lb_bankpg_advertising_adtitel = new System.Windows.Forms.Label();
             this.lb_bankpg_advertising_title = new System.Windows.Forms.Label();
@@ -48,17 +50,15 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.lb_footer_time = new System.Windows.Forms.Label();
             this.timerBankTime = new System.Windows.Forms.Timer(this.components);
-            this.pb_bankpg_adlogo = new System.Windows.Forms.PictureBox();
-            this.pb_bankpg_logo = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_bankpg_logo)).BeginInit();
             this.pl_bankpg_.SuspendLayout();
             this.panel2.SuspendLayout();
             this.pl_bankpg_advertising.SuspendLayout();
             this.pl_bankpg_advertising_mainadpanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_bankpg_adlogo)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_bankpg_adlogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_bankpg_logo)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -82,21 +82,28 @@
             this.lb_bankpg_logo_bankname.ForeColor = System.Drawing.Color.White;
             this.lb_bankpg_logo_bankname.Name = "lb_bankpg_logo_bankname";
             // 
+            // pb_bankpg_logo
+            // 
+            this.pb_bankpg_logo.BackgroundImage = global::MOCompany.Properties.Resources.bankeuro;
+            resources.ApplyResources(this.pb_bankpg_logo, "pb_bankpg_logo");
+            this.pb_bankpg_logo.Name = "pb_bankpg_logo";
+            this.pb_bankpg_logo.TabStop = false;
+            // 
             // pl_bankpg_
             // 
-            resources.ApplyResources(this.pl_bankpg_, "pl_bankpg_");
             this.pl_bankpg_.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pl_bankpg_.Controls.Add(this.panel2);
             this.pl_bankpg_.Controls.Add(this.lb_bankpg_bacc1_accnameofperson);
             this.pl_bankpg_.Controls.Add(this.lb_bankpg_bacc1_accountnumber);
             this.pl_bankpg_.Controls.Add(this.lb_bankpg_bacc1_name);
+            resources.ApplyResources(this.pl_bankpg_, "pl_bankpg_");
             this.pl_bankpg_.Name = "pl_bankpg_";
             // 
             // panel2
             // 
-            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.BackColor = System.Drawing.Color.SlateGray;
             this.panel2.Controls.Add(this.lb_bankpg_bacc1_balance);
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
             // lb_bankpg_bacc1_balance
@@ -130,21 +137,30 @@
             // 
             // pl_bankpg_advertising_mainadpanel
             // 
-            resources.ApplyResources(this.pl_bankpg_advertising_mainadpanel, "pl_bankpg_advertising_mainadpanel");
             this.pl_bankpg_advertising_mainadpanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(202)))), ((int)(((byte)(71)))));
             this.pl_bankpg_advertising_mainadpanel.Controls.Add(this.pb_bankpg_adlogo);
             this.pl_bankpg_advertising_mainadpanel.Controls.Add(this.lb_bankpg_advertising_admessage);
             this.pl_bankpg_advertising_mainadpanel.Controls.Add(this.lb_bankpg_advertising_adtitel);
+            resources.ApplyResources(this.pl_bankpg_advertising_mainadpanel, "pl_bankpg_advertising_mainadpanel");
             this.pl_bankpg_advertising_mainadpanel.Name = "pl_bankpg_advertising_mainadpanel";
+            // 
+            // pb_bankpg_adlogo
+            // 
+            this.pb_bankpg_adlogo.BackgroundImage = global::MOCompany.Properties.Resources.advertismentico;
+            resources.ApplyResources(this.pb_bankpg_adlogo, "pb_bankpg_adlogo");
+            this.pb_bankpg_adlogo.Name = "pb_bankpg_adlogo";
+            this.pb_bankpg_adlogo.TabStop = false;
             // 
             // lb_bankpg_advertising_admessage
             // 
             resources.ApplyResources(this.lb_bankpg_advertising_admessage, "lb_bankpg_advertising_admessage");
+            this.lb_bankpg_advertising_admessage.ForeColor = System.Drawing.Color.DimGray;
             this.lb_bankpg_advertising_admessage.Name = "lb_bankpg_advertising_admessage";
             // 
             // lb_bankpg_advertising_adtitel
             // 
             resources.ApplyResources(this.lb_bankpg_advertising_adtitel, "lb_bankpg_advertising_adtitel");
+            this.lb_bankpg_advertising_adtitel.ForeColor = System.Drawing.Color.White;
             this.lb_bankpg_advertising_adtitel.Name = "lb_bankpg_advertising_adtitel";
             // 
             // lb_bankpg_advertising_title
@@ -154,16 +170,16 @@
             // 
             // panel3
             // 
-            resources.ApplyResources(this.panel3, "panel3");
             this.panel3.BackColor = System.Drawing.SystemColors.ControlLight;
             this.panel3.Controls.Add(this.panel4);
+            resources.ApplyResources(this.panel3, "panel3");
             this.panel3.Name = "panel3";
             // 
             // panel4
             // 
-            resources.ApplyResources(this.panel4, "panel4");
             this.panel4.BackColor = System.Drawing.Color.SlateGray;
             this.panel4.Controls.Add(this.lb_footer_time);
+            resources.ApplyResources(this.panel4, "panel4");
             this.panel4.Name = "panel4";
             // 
             // lb_footer_time
@@ -176,20 +192,6 @@
             // 
             this.timerBankTime.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // pb_bankpg_adlogo
-            // 
-            resources.ApplyResources(this.pb_bankpg_adlogo, "pb_bankpg_adlogo");
-            this.pb_bankpg_adlogo.BackgroundImage = global::MOCompany.Properties.Resources.advertismentico;
-            this.pb_bankpg_adlogo.Name = "pb_bankpg_adlogo";
-            this.pb_bankpg_adlogo.TabStop = false;
-            // 
-            // pb_bankpg_logo
-            // 
-            resources.ApplyResources(this.pb_bankpg_logo, "pb_bankpg_logo");
-            this.pb_bankpg_logo.BackgroundImage = global::MOCompany.Properties.Resources.bankeuro;
-            this.pb_bankpg_logo.Name = "pb_bankpg_logo";
-            this.pb_bankpg_logo.TabStop = false;
-            // 
             // ai_bankacc
             // 
             resources.ApplyResources(this, "$this");
@@ -201,6 +203,7 @@
             this.Name = "ai_bankacc";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_bankpg_logo)).EndInit();
             this.pl_bankpg_.ResumeLayout(false);
             this.pl_bankpg_.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -208,10 +211,9 @@
             this.pl_bankpg_advertising.PerformLayout();
             this.pl_bankpg_advertising_mainadpanel.ResumeLayout(false);
             this.pl_bankpg_advertising_mainadpanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_bankpg_adlogo)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pb_bankpg_adlogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_bankpg_logo)).EndInit();
             this.ResumeLayout(false);
 
         }

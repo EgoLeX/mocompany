@@ -138,7 +138,7 @@
             this.btn_ownmode_nav_personalagency.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btn_ownmode_nav_personalagency.FlatAppearance.BorderSize = 0;
             this.btn_ownmode_nav_personalagency.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ownmode_nav_personalagency.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_ownmode_nav_personalagency.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ownmode_nav_personalagency.ForeColor = System.Drawing.Color.White;
             this.btn_ownmode_nav_personalagency.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_ownmode_nav_personalagency.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -166,7 +166,7 @@
             this.btn_ownmode_nav_management.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btn_ownmode_nav_management.FlatAppearance.BorderSize = 0;
             this.btn_ownmode_nav_management.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ownmode_nav_management.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_ownmode_nav_management.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ownmode_nav_management.ForeColor = System.Drawing.Color.White;
             this.btn_ownmode_nav_management.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_ownmode_nav_management.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -195,7 +195,7 @@
             this.btn_ownmode_nav_oepnvstore.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btn_ownmode_nav_oepnvstore.FlatAppearance.BorderSize = 0;
             this.btn_ownmode_nav_oepnvstore.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ownmode_nav_oepnvstore.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_ownmode_nav_oepnvstore.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ownmode_nav_oepnvstore.ForeColor = System.Drawing.Color.White;
             this.btn_ownmode_nav_oepnvstore.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_ownmode_nav_oepnvstore.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -224,7 +224,7 @@
             this.btn_ownmode_nav_company.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btn_ownmode_nav_company.FlatAppearance.BorderSize = 0;
             this.btn_ownmode_nav_company.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ownmode_nav_company.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_ownmode_nav_company.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ownmode_nav_company.ForeColor = System.Drawing.Color.White;
             this.btn_ownmode_nav_company.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_ownmode_nav_company.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -253,7 +253,7 @@
             this.btn_ownmode_nav_bank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btn_ownmode_nav_bank.FlatAppearance.BorderSize = 0;
             this.btn_ownmode_nav_bank.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ownmode_nav_bank.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_ownmode_nav_bank.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ownmode_nav_bank.ForeColor = System.Drawing.Color.White;
             this.btn_ownmode_nav_bank.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_ownmode_nav_bank.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -282,7 +282,7 @@
             this.btn_ownmode_nav_drive.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btn_ownmode_nav_drive.FlatAppearance.BorderSize = 0;
             this.btn_ownmode_nav_drive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ownmode_nav_drive.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_ownmode_nav_drive.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ownmode_nav_drive.ForeColor = System.Drawing.Color.White;
             this.btn_ownmode_nav_drive.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_ownmode_nav_drive.ImeMode = System.Windows.Forms.ImeMode.NoControl;

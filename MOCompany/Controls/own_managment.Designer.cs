@@ -30,11 +30,11 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_managment_nav_employees = new System.Windows.Forms.Button();
+            this.btn_managment_nav_carpool = new System.Windows.Forms.Button();
             this.lb_managment_compname = new System.Windows.Forms.Label();
             this.pl_managment_main = new System.Windows.Forms.Panel();
             this.tt_own_management_main = new System.Windows.Forms.ToolTip(this.components);
-            this.btn_managment_nav_employees = new System.Windows.Forms.Button();
-            this.btn_managment_nav_carpool = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,27 +49,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(858, 58);
             this.panel1.TabIndex = 0;
-            // 
-            // lb_managment_compname
-            // 
-            this.lb_managment_compname.AutoSize = true;
-            this.lb_managment_compname.Font = new System.Drawing.Font("Lato", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_managment_compname.ForeColor = System.Drawing.Color.White;
-            this.lb_managment_compname.Location = new System.Drawing.Point(12, 20);
-            this.lb_managment_compname.Name = "lb_managment_compname";
-            this.lb_managment_compname.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lb_managment_compname.Size = new System.Drawing.Size(130, 19);
-            this.lb_managment_compname.TabIndex = 0;
-            this.lb_managment_compname.Text = "mycompanyname";
-            this.lb_managment_compname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pl_managment_main
-            // 
-            this.pl_managment_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pl_managment_main.Location = new System.Drawing.Point(0, 58);
-            this.pl_managment_main.Name = "pl_managment_main";
-            this.pl_managment_main.Size = new System.Drawing.Size(858, 561);
-            this.pl_managment_main.TabIndex = 1;
             // 
             // btn_managment_nav_employees
             // 
@@ -97,6 +76,27 @@
             this.tt_own_management_main.SetToolTip(this.btn_managment_nav_carpool, "Carpool");
             this.btn_managment_nav_carpool.UseVisualStyleBackColor = true;
             this.btn_managment_nav_carpool.Click += new System.EventHandler(this.btn_managment_nav_carpool_Click);
+            // 
+            // lb_managment_compname
+            // 
+            this.lb_managment_compname.AutoSize = true;
+            this.lb_managment_compname.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_managment_compname.ForeColor = System.Drawing.Color.White;
+            this.lb_managment_compname.Location = new System.Drawing.Point(12, 20);
+            this.lb_managment_compname.Name = "lb_managment_compname";
+            this.lb_managment_compname.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.lb_managment_compname.Size = new System.Drawing.Size(131, 19);
+            this.lb_managment_compname.TabIndex = 0;
+            this.lb_managment_compname.Text = "mycompanyname";
+            this.lb_managment_compname.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pl_managment_main
+            // 
+            this.pl_managment_main.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pl_managment_main.Location = new System.Drawing.Point(0, 58);
+            this.pl_managment_main.Name = "pl_managment_main";
+            this.pl_managment_main.Size = new System.Drawing.Size(858, 561);
+            this.pl_managment_main.TabIndex = 1;
             // 
             // own_managment
             // 

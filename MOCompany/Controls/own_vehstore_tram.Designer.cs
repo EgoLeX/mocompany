@@ -31,38 +31,38 @@
             this.pl_opnvstore_tram_main = new System.Windows.Forms.Panel();
             this.tabC_tram = new System.Windows.Forms.TabControl();
             this.tab_tatra = new System.Windows.Forms.TabPage();
-            this.tab_sonstige = new System.Windows.Forms.TabPage();
             this.pl_opnvstore_tram_tatra = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btn_details_tatra_kt4dm = new System.Windows.Forms.Button();
-            this.btn_buy_tatra_kt4dm = new System.Windows.Forms.Button();
-            this.lbl_tatra_kt4dm = new System.Windows.Forms.Label();
-            this.pl_opnvstore_tram_sonstige = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_details_tatra_kt4dtm = new System.Windows.Forms.Button();
             this.btn_buy_tatra_kt4dtm = new System.Windows.Forms.Button();
             this.lbl_tatra_kt4dtm = new System.Windows.Forms.Label();
+            this.pbox_tatra_kt4dtm_preview = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btn_details_tatra_kt4dm = new System.Windows.Forms.Button();
+            this.btn_buy_tatra_kt4dm = new System.Windows.Forms.Button();
+            this.lbl_tatra_kt4dm = new System.Windows.Forms.Label();
+            this.pbox_tatra_kt4dm_preview = new System.Windows.Forms.PictureBox();
+            this.tab_sonstige = new System.Windows.Forms.TabPage();
+            this.pl_opnvstore_tram_sonstige = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.btn_sonstiges_nf6d_details = new System.Windows.Forms.Button();
             this.btn_sonstiges_nf6d_buy = new System.Windows.Forms.Button();
             this.lbl_sonstiges_nf6d_titel = new System.Windows.Forms.Label();
-            this.pbox_tatra_kt4dtm_preview = new System.Windows.Forms.PictureBox();
-            this.pbox_tatra_kt4dm_preview = new System.Windows.Forms.PictureBox();
             this.pb_sonstiges_nf6d_preview = new System.Windows.Forms.PictureBox();
             this.pl_opnvstore_tram_main.SuspendLayout();
             this.tabC_tram.SuspendLayout();
             this.tab_tatra.SuspendLayout();
-            this.tab_sonstige.SuspendLayout();
             this.pl_opnvstore_tram_tatra.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.pl_opnvstore_tram_sonstige.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbox_tatra_kt4dtm_preview)).BeginInit();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbox_tatra_kt4dm_preview)).BeginInit();
+            this.tab_sonstige.SuspendLayout();
+            this.pl_opnvstore_tram_sonstige.SuspendLayout();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_sonstiges_nf6d_preview)).BeginInit();
             this.SuspendLayout();
             // 
@@ -96,17 +96,6 @@
             this.tab_tatra.Text = "Tatra";
             this.tab_tatra.UseVisualStyleBackColor = true;
             // 
-            // tab_sonstige
-            // 
-            this.tab_sonstige.Controls.Add(this.pl_opnvstore_tram_sonstige);
-            this.tab_sonstige.Location = new System.Drawing.Point(4, 22);
-            this.tab_sonstige.Name = "tab_sonstige";
-            this.tab_sonstige.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_sonstige.Size = new System.Drawing.Size(705, 492);
-            this.tab_sonstige.TabIndex = 1;
-            this.tab_sonstige.Text = "Sonstige";
-            this.tab_sonstige.UseVisualStyleBackColor = true;
-            // 
             // pl_opnvstore_tram_tatra
             // 
             this.pl_opnvstore_tram_tatra.AutoScroll = true;
@@ -117,76 +106,6 @@
             this.pl_opnvstore_tram_tatra.Name = "pl_opnvstore_tram_tatra";
             this.pl_opnvstore_tram_tatra.Size = new System.Drawing.Size(699, 486);
             this.pl_opnvstore_tram_tatra.TabIndex = 0;
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.btn_details_tatra_kt4dm);
-            this.panel1.Controls.Add(this.btn_buy_tatra_kt4dm);
-            this.panel1.Controls.Add(this.lbl_tatra_kt4dm);
-            this.panel1.Controls.Add(this.pbox_tatra_kt4dm_preview);
-            this.panel1.Location = new System.Drawing.Point(16, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(151, 174);
-            this.panel1.TabIndex = 1;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.YellowGreen;
-            this.label2.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(30, 120);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 14);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Price: 3500 MCD";
-            // 
-            // btn_details_tatra_kt4dm
-            // 
-            this.btn_details_tatra_kt4dm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
-            this.btn_details_tatra_kt4dm.FlatAppearance.BorderSize = 0;
-            this.btn_details_tatra_kt4dm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_details_tatra_kt4dm.ForeColor = System.Drawing.Color.White;
-            this.btn_details_tatra_kt4dm.Location = new System.Drawing.Point(84, 148);
-            this.btn_details_tatra_kt4dm.Name = "btn_details_tatra_kt4dm";
-            this.btn_details_tatra_kt4dm.Size = new System.Drawing.Size(64, 23);
-            this.btn_details_tatra_kt4dm.TabIndex = 3;
-            this.btn_details_tatra_kt4dm.Text = "Details";
-            this.btn_details_tatra_kt4dm.UseVisualStyleBackColor = false;
-            // 
-            // btn_buy_tatra_kt4dm
-            // 
-            this.btn_buy_tatra_kt4dm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
-            this.btn_buy_tatra_kt4dm.FlatAppearance.BorderSize = 0;
-            this.btn_buy_tatra_kt4dm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_buy_tatra_kt4dm.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_buy_tatra_kt4dm.ForeColor = System.Drawing.Color.White;
-            this.btn_buy_tatra_kt4dm.Location = new System.Drawing.Point(3, 148);
-            this.btn_buy_tatra_kt4dm.Name = "btn_buy_tatra_kt4dm";
-            this.btn_buy_tatra_kt4dm.Size = new System.Drawing.Size(75, 23);
-            this.btn_buy_tatra_kt4dm.TabIndex = 2;
-            this.btn_buy_tatra_kt4dm.Text = "Buy";
-            this.btn_buy_tatra_kt4dm.UseVisualStyleBackColor = false;
-            // 
-            // lbl_tatra_kt4dm
-            // 
-            this.lbl_tatra_kt4dm.AutoSize = true;
-            this.lbl_tatra_kt4dm.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_tatra_kt4dm.Location = new System.Drawing.Point(35, 96);
-            this.lbl_tatra_kt4dm.Name = "lbl_tatra_kt4dm";
-            this.lbl_tatra_kt4dm.Size = new System.Drawing.Size(78, 15);
-            this.lbl_tatra_kt4dm.TabIndex = 1;
-            this.lbl_tatra_kt4dm.Text = "Tatra KT4Dm";
-            // 
-            // pl_opnvstore_tram_sonstige
-            // 
-            this.pl_opnvstore_tram_sonstige.AutoScroll = true;
-            this.pl_opnvstore_tram_sonstige.Controls.Add(this.panel3);
-            this.pl_opnvstore_tram_sonstige.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pl_opnvstore_tram_sonstige.Location = new System.Drawing.Point(3, 3);
-            this.pl_opnvstore_tram_sonstige.Name = "pl_opnvstore_tram_sonstige";
-            this.pl_opnvstore_tram_sonstige.Size = new System.Drawing.Size(699, 486);
-            this.pl_opnvstore_tram_sonstige.TabIndex = 0;
             // 
             // panel2
             // 
@@ -204,10 +123,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.YellowGreen;
-            this.label1.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(30, 120);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 14);
+            this.label1.Size = new System.Drawing.Size(92, 14);
             this.label1.TabIndex = 4;
             this.label1.Text = "Price: 3500 MCD";
             // 
@@ -229,7 +148,7 @@
             this.btn_buy_tatra_kt4dtm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_buy_tatra_kt4dtm.FlatAppearance.BorderSize = 0;
             this.btn_buy_tatra_kt4dtm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_buy_tatra_kt4dtm.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_buy_tatra_kt4dtm.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_buy_tatra_kt4dtm.ForeColor = System.Drawing.Color.White;
             this.btn_buy_tatra_kt4dtm.Location = new System.Drawing.Point(3, 148);
             this.btn_buy_tatra_kt4dtm.Name = "btn_buy_tatra_kt4dtm";
@@ -241,12 +160,113 @@
             // lbl_tatra_kt4dtm
             // 
             this.lbl_tatra_kt4dtm.AutoSize = true;
-            this.lbl_tatra_kt4dtm.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_tatra_kt4dtm.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_tatra_kt4dtm.Location = new System.Drawing.Point(35, 96);
             this.lbl_tatra_kt4dtm.Name = "lbl_tatra_kt4dtm";
-            this.lbl_tatra_kt4dtm.Size = new System.Drawing.Size(82, 15);
+            this.lbl_tatra_kt4dtm.Size = new System.Drawing.Size(84, 15);
             this.lbl_tatra_kt4dtm.TabIndex = 1;
             this.lbl_tatra_kt4dtm.Text = "Tatra KT4Dtm";
+            // 
+            // pbox_tatra_kt4dtm_preview
+            // 
+            this.pbox_tatra_kt4dtm_preview.BackgroundImage = global::MOCompany.Properties.Resources.imagenotfound;
+            this.pbox_tatra_kt4dtm_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbox_tatra_kt4dtm_preview.Location = new System.Drawing.Point(3, 3);
+            this.pbox_tatra_kt4dtm_preview.Name = "pbox_tatra_kt4dtm_preview";
+            this.pbox_tatra_kt4dtm_preview.Size = new System.Drawing.Size(145, 81);
+            this.pbox_tatra_kt4dtm_preview.TabIndex = 0;
+            this.pbox_tatra_kt4dtm_preview.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.btn_details_tatra_kt4dm);
+            this.panel1.Controls.Add(this.btn_buy_tatra_kt4dm);
+            this.panel1.Controls.Add(this.lbl_tatra_kt4dm);
+            this.panel1.Controls.Add(this.pbox_tatra_kt4dm_preview);
+            this.panel1.Location = new System.Drawing.Point(16, 12);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(151, 174);
+            this.panel1.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.YellowGreen;
+            this.label2.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(30, 120);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(92, 14);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Price: 3500 MCD";
+            // 
+            // btn_details_tatra_kt4dm
+            // 
+            this.btn_details_tatra_kt4dm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
+            this.btn_details_tatra_kt4dm.FlatAppearance.BorderSize = 0;
+            this.btn_details_tatra_kt4dm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_details_tatra_kt4dm.ForeColor = System.Drawing.Color.White;
+            this.btn_details_tatra_kt4dm.Location = new System.Drawing.Point(84, 148);
+            this.btn_details_tatra_kt4dm.Name = "btn_details_tatra_kt4dm";
+            this.btn_details_tatra_kt4dm.Size = new System.Drawing.Size(64, 23);
+            this.btn_details_tatra_kt4dm.TabIndex = 3;
+            this.btn_details_tatra_kt4dm.Text = "Details";
+            this.btn_details_tatra_kt4dm.UseVisualStyleBackColor = false;
+            // 
+            // btn_buy_tatra_kt4dm
+            // 
+            this.btn_buy_tatra_kt4dm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
+            this.btn_buy_tatra_kt4dm.FlatAppearance.BorderSize = 0;
+            this.btn_buy_tatra_kt4dm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_buy_tatra_kt4dm.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_buy_tatra_kt4dm.ForeColor = System.Drawing.Color.White;
+            this.btn_buy_tatra_kt4dm.Location = new System.Drawing.Point(3, 148);
+            this.btn_buy_tatra_kt4dm.Name = "btn_buy_tatra_kt4dm";
+            this.btn_buy_tatra_kt4dm.Size = new System.Drawing.Size(75, 23);
+            this.btn_buy_tatra_kt4dm.TabIndex = 2;
+            this.btn_buy_tatra_kt4dm.Text = "Buy";
+            this.btn_buy_tatra_kt4dm.UseVisualStyleBackColor = false;
+            // 
+            // lbl_tatra_kt4dm
+            // 
+            this.lbl_tatra_kt4dm.AutoSize = true;
+            this.lbl_tatra_kt4dm.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_tatra_kt4dm.Location = new System.Drawing.Point(35, 96);
+            this.lbl_tatra_kt4dm.Name = "lbl_tatra_kt4dm";
+            this.lbl_tatra_kt4dm.Size = new System.Drawing.Size(79, 15);
+            this.lbl_tatra_kt4dm.TabIndex = 1;
+            this.lbl_tatra_kt4dm.Text = "Tatra KT4Dm";
+            // 
+            // pbox_tatra_kt4dm_preview
+            // 
+            this.pbox_tatra_kt4dm_preview.BackgroundImage = global::MOCompany.Properties.Resources.imagenotfound;
+            this.pbox_tatra_kt4dm_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbox_tatra_kt4dm_preview.Location = new System.Drawing.Point(3, 3);
+            this.pbox_tatra_kt4dm_preview.Name = "pbox_tatra_kt4dm_preview";
+            this.pbox_tatra_kt4dm_preview.Size = new System.Drawing.Size(145, 81);
+            this.pbox_tatra_kt4dm_preview.TabIndex = 0;
+            this.pbox_tatra_kt4dm_preview.TabStop = false;
+            // 
+            // tab_sonstige
+            // 
+            this.tab_sonstige.Controls.Add(this.pl_opnvstore_tram_sonstige);
+            this.tab_sonstige.Location = new System.Drawing.Point(4, 22);
+            this.tab_sonstige.Name = "tab_sonstige";
+            this.tab_sonstige.Padding = new System.Windows.Forms.Padding(3);
+            this.tab_sonstige.Size = new System.Drawing.Size(705, 492);
+            this.tab_sonstige.TabIndex = 1;
+            this.tab_sonstige.Text = "Sonstige";
+            this.tab_sonstige.UseVisualStyleBackColor = true;
+            // 
+            // pl_opnvstore_tram_sonstige
+            // 
+            this.pl_opnvstore_tram_sonstige.AutoScroll = true;
+            this.pl_opnvstore_tram_sonstige.Controls.Add(this.panel3);
+            this.pl_opnvstore_tram_sonstige.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pl_opnvstore_tram_sonstige.Location = new System.Drawing.Point(3, 3);
+            this.pl_opnvstore_tram_sonstige.Name = "pl_opnvstore_tram_sonstige";
+            this.pl_opnvstore_tram_sonstige.Size = new System.Drawing.Size(699, 486);
+            this.pl_opnvstore_tram_sonstige.TabIndex = 0;
             // 
             // panel3
             // 
@@ -264,10 +284,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.YellowGreen;
-            this.label3.Font = new System.Drawing.Font("Lato", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(30, 120);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(91, 14);
+            this.label3.Size = new System.Drawing.Size(92, 14);
             this.label3.TabIndex = 4;
             this.label3.Text = "Price: 3500 MCD";
             // 
@@ -289,7 +309,7 @@
             this.btn_sonstiges_nf6d_buy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
             this.btn_sonstiges_nf6d_buy.FlatAppearance.BorderSize = 0;
             this.btn_sonstiges_nf6d_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_sonstiges_nf6d_buy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_sonstiges_nf6d_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_sonstiges_nf6d_buy.ForeColor = System.Drawing.Color.White;
             this.btn_sonstiges_nf6d_buy.Location = new System.Drawing.Point(3, 148);
             this.btn_sonstiges_nf6d_buy.Name = "btn_sonstiges_nf6d_buy";
@@ -301,32 +321,12 @@
             // lbl_sonstiges_nf6d_titel
             // 
             this.lbl_sonstiges_nf6d_titel.AutoSize = true;
-            this.lbl_sonstiges_nf6d_titel.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_sonstiges_nf6d_titel.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_sonstiges_nf6d_titel.Location = new System.Drawing.Point(57, 95);
             this.lbl_sonstiges_nf6d_titel.Name = "lbl_sonstiges_nf6d_titel";
-            this.lbl_sonstiges_nf6d_titel.Size = new System.Drawing.Size(39, 15);
+            this.lbl_sonstiges_nf6d_titel.Size = new System.Drawing.Size(37, 15);
             this.lbl_sonstiges_nf6d_titel.TabIndex = 1;
             this.lbl_sonstiges_nf6d_titel.Text = "NF6D";
-            // 
-            // pbox_tatra_kt4dtm_preview
-            // 
-            this.pbox_tatra_kt4dtm_preview.BackgroundImage = global::MOCompany.Properties.Resources.imagenotfound;
-            this.pbox_tatra_kt4dtm_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbox_tatra_kt4dtm_preview.Location = new System.Drawing.Point(3, 3);
-            this.pbox_tatra_kt4dtm_preview.Name = "pbox_tatra_kt4dtm_preview";
-            this.pbox_tatra_kt4dtm_preview.Size = new System.Drawing.Size(145, 81);
-            this.pbox_tatra_kt4dtm_preview.TabIndex = 0;
-            this.pbox_tatra_kt4dtm_preview.TabStop = false;
-            // 
-            // pbox_tatra_kt4dm_preview
-            // 
-            this.pbox_tatra_kt4dm_preview.BackgroundImage = global::MOCompany.Properties.Resources.imagenotfound;
-            this.pbox_tatra_kt4dm_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbox_tatra_kt4dm_preview.Location = new System.Drawing.Point(3, 3);
-            this.pbox_tatra_kt4dm_preview.Name = "pbox_tatra_kt4dm_preview";
-            this.pbox_tatra_kt4dm_preview.Size = new System.Drawing.Size(145, 81);
-            this.pbox_tatra_kt4dm_preview.TabIndex = 0;
-            this.pbox_tatra_kt4dm_preview.TabStop = false;
             // 
             // pb_sonstiges_nf6d_preview
             // 
@@ -348,17 +348,17 @@
             this.pl_opnvstore_tram_main.ResumeLayout(false);
             this.tabC_tram.ResumeLayout(false);
             this.tab_tatra.ResumeLayout(false);
-            this.tab_sonstige.ResumeLayout(false);
             this.pl_opnvstore_tram_tatra.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.pl_opnvstore_tram_sonstige.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbox_tatra_kt4dtm_preview)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbox_tatra_kt4dm_preview)).EndInit();
+            this.tab_sonstige.ResumeLayout(false);
+            this.pl_opnvstore_tram_sonstige.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbox_tatra_kt4dtm_preview)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbox_tatra_kt4dm_preview)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_sonstiges_nf6d_preview)).EndInit();
             this.ResumeLayout(false);
 

@@ -67,25 +67,26 @@
             // lbox_vehtype
             // 
             this.lbox_vehtype.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(186)))), ((int)(((byte)(198)))));
-            this.lbox_vehtype.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbox_vehtype.Font = new System.Drawing.Font("Candara", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbox_vehtype.ForeColor = System.Drawing.SystemColors.Menu;
             this.lbox_vehtype.FormattingEnabled = true;
-            this.lbox_vehtype.ItemHeight = 16;
+            this.lbox_vehtype.ItemHeight = 18;
             this.lbox_vehtype.Items.AddRange(new object[] {
             "Bus",
             "Tram"});
             this.lbox_vehtype.Location = new System.Drawing.Point(3, 253);
             this.lbox_vehtype.Name = "lbox_vehtype";
-            this.lbox_vehtype.Size = new System.Drawing.Size(127, 36);
+            this.lbox_vehtype.Size = new System.Drawing.Size(127, 40);
             this.lbox_vehtype.TabIndex = 3;
             this.lbox_vehtype.SelectedIndexChanged += new System.EventHandler(this.lbox_vehtype_SelectedIndexChanged);
             // 
             // lb_opnvstore_welcometxt
             // 
             this.lb_opnvstore_welcometxt.AutoSize = true;
+            this.lb_opnvstore_welcometxt.Font = new System.Drawing.Font("Candara", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_opnvstore_welcometxt.Location = new System.Drawing.Point(3, 92);
             this.lb_opnvstore_welcometxt.Name = "lb_opnvstore_welcometxt";
-            this.lb_opnvstore_welcometxt.Size = new System.Drawing.Size(134, 117);
+            this.lb_opnvstore_welcometxt.Size = new System.Drawing.Size(129, 117);
             this.lb_opnvstore_welcometxt.TabIndex = 4;
             this.lb_opnvstore_welcometxt.Text = "Welcome at ÖPNV Store\r\n(Vehicle Store)\r\n\r\nWe offer multiple types of\r\nBusses and " +
     "Trams for your\r\npublic transportation \r\ncompany. You can choose\r\nbelow for your " +
@@ -94,10 +95,10 @@
             // lb_opnvstore_choosetype
             // 
             this.lb_opnvstore_choosetype.AutoSize = true;
-            this.lb_opnvstore_choosetype.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_opnvstore_choosetype.Font = new System.Drawing.Font("Candara", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_opnvstore_choosetype.Location = new System.Drawing.Point(3, 234);
             this.lb_opnvstore_choosetype.Name = "lb_opnvstore_choosetype";
-            this.lb_opnvstore_choosetype.Size = new System.Drawing.Size(128, 12);
+            this.lb_opnvstore_choosetype.Size = new System.Drawing.Size(119, 13);
             this.lb_opnvstore_choosetype.TabIndex = 5;
             this.lb_opnvstore_choosetype.Text = "Choose Type of Vehicle:";
             // 

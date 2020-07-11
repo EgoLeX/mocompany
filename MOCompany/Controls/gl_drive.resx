@@ -117,224 +117,44 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;lb_drive_evaluation_titel.Name" xml:space="preserve">
-    <value>lb_drive_evaluation_titel</value>
-  </data>
-  <data name="&gt;&gt;btn_drive_acceptdrive.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pl_drive_headerpanel.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lb_drive_titleheader.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lb_drive_titleheader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="lb_drive_titleheader.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 15.75pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
+  <data name="lb_drive_titleheader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="&gt;&gt;lb_drive_titleheader.Parent" xml:space="preserve">
-    <value>pl_settings_header_pgtitel</value>
+  <data name="lb_drive_titleheader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 54</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lb_drive_titleheader.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="rtb_drive_evaluation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 269</value>
-  </data>
-  <data name="&gt;&gt;lb_drive_evaluation_titel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>gl_drive</value>
-  </data>
-  <data name="rtb_drive_evaluation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>785, 274</value>
-  </data>
-  <data name="lb_drive_evaluation_titel.Text" xml:space="preserve">
-    <value>Evaluation:</value>
-  </data>
   <data name="lb_drive_titleheader.Text" xml:space="preserve">
     <value>Drive</value>
   </data>
-  <data name="btn_drive_startdriving.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 17pt, style=Bold</value>
-  </data>
-  <data name="lb_drive_evaluation_titel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 235</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pl_drive_headerpanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;rtb_drive_evaluation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="lb_drive_titleheader.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>858, 58</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="lb_drive_titleheader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="btn_drive_acceptdrive.Text" xml:space="preserve">
-    <value>Accept</value>
-  </data>
-  <data name="lb_drive_evaluation_titel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 11pt, style=Underline</value>
-  </data>
-  <data name="lb_drive_titleheader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 54</value>
-  </data>
-  <data name="&gt;&gt;btn_drive_startdriving.Name" xml:space="preserve">
-    <value>btn_drive_startdriving</value>
-  </data>
-  <data name="&gt;&gt;btn_drive_acceptdrive.Name" xml:space="preserve">
-    <value>btn_drive_acceptdrive</value>
-  </data>
-  <data name="btn_drive_acceptdrive.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="pl_settings_header_pgtitel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="pl_drive_headerpanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="btn_drive_startdriving.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="rtb_drive_evaluation.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="&gt;&gt;rtb_drive_evaluation.Name" xml:space="preserve">
-    <value>rtb_drive_evaluation</value>
+  <data name="lb_drive_titleheader.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="&gt;&gt;lb_drive_titleheader.Name" xml:space="preserve">
     <value>lb_drive_titleheader</value>
   </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;lb_drive_titleheader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pl_drive_headerpanel.Name" xml:space="preserve">
-    <value>pl_drive_headerpanel</value>
-  </data>
-  <data name="pl_settings_header_pgtitel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>574, 0</value>
-  </data>
-  <data name="btn_drive_startdriving.Text" xml:space="preserve">
-    <value>Drive Now</value>
-  </data>
-  <data name="pl_settings_header_pgtitel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 54</value>
-  </data>
-  <data name="&gt;&gt;pl_drive_headerpanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_drive_startdriving.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;pl_drive_headerpanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;rtb_drive_evaluation.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pl_settings_header_pgtitel.Name" xml:space="preserve">
+  <data name="&gt;&gt;lb_drive_titleheader.Parent" xml:space="preserve">
     <value>pl_settings_header_pgtitel</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="btn_drive_acceptdrive.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 52</value>
-  </data>
-  <data name="&gt;&gt;btn_drive_startdriving.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btn_drive_startdriving.Location" type="System.Drawing.Point, System.Drawing">
-    <value>204, 95</value>
-  </data>
-  <data name="&gt;&gt;btn_drive_acceptdrive.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_drive_acceptdrive.Location" type="System.Drawing.Point, System.Drawing">
-    <value>711, 3</value>
-  </data>
-  <data name="lb_drive_evaluation_titel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 19</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btn_drive_acceptdrive.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 10pt</value>
-  </data>
-  <data name="btn_drive_acceptdrive.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="&gt;&gt;rtb_drive_evaluation.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="rtb_drive_evaluation.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
-    <value>Vertical</value>
   </data>
   <data name="&gt;&gt;lb_drive_titleheader.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;btn_drive_startdriving.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lb_drive_evaluation_titel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
-    <value>858, 619</value>
-  </data>
-  <data name="btn_drive_startdriving.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 68</value>
-  </data>
-  <data name="&gt;&gt;lb_drive_evaluation_titel.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btn_drive_acceptdrive.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="pl_drive_headerpanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>858, 54</value>
-  </data>
-  <data name="lb_drive_evaluation_titel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="lb_drive_titleheader.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Lato, 15pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;lb_drive_titleheader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 561</value>
-  </data>
-  <data name="&gt;&gt;pl_settings_header_pgtitel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btn_drive_acceptdrive.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="pl_drive_headerpanel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;pl_settings_header_pgtitel.Name" xml:space="preserve">
+    <value>pl_settings_header_pgtitel</value>
   </data>
   <data name="&gt;&gt;pl_settings_header_pgtitel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -342,22 +162,217 @@
   <data name="&gt;&gt;pl_settings_header_pgtitel.Parent" xml:space="preserve">
     <value>pl_drive_headerpanel</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;pl_settings_header_pgtitel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pl_drive_headerpanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pl_drive_headerpanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pl_drive_headerpanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>858, 54</value>
+  </data>
+  <data name="pl_drive_headerpanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pl_drive_headerpanel.Name" xml:space="preserve">
+    <value>pl_drive_headerpanel</value>
+  </data>
+  <data name="&gt;&gt;pl_drive_headerpanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pl_drive_headerpanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pl_drive_headerpanel.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="pl_settings_header_pgtitel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
   </data>
+  <data name="pl_settings_header_pgtitel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>574, 0</value>
+  </data>
+  <data name="pl_settings_header_pgtitel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 54</value>
+  </data>
+  <data name="pl_settings_header_pgtitel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_header_pgtitel.Name" xml:space="preserve">
+    <value>pl_settings_header_pgtitel</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_header_pgtitel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_header_pgtitel.Parent" xml:space="preserve">
+    <value>pl_drive_headerpanel</value>
+  </data>
+  <data name="&gt;&gt;pl_settings_header_pgtitel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_drive_startdriving.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_drive_startdriving.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 18pt, style=Bold</value>
+  </data>
+  <data name="btn_drive_startdriving.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 95</value>
+  </data>
+  <data name="btn_drive_startdriving.Size" type="System.Drawing.Size, System.Drawing">
+    <value>445, 68</value>
+  </data>
+  <data name="btn_drive_startdriving.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btn_drive_startdriving.Text" xml:space="preserve">
+    <value>Drive Now</value>
+  </data>
+  <data name="&gt;&gt;btn_drive_startdriving.Name" xml:space="preserve">
+    <value>btn_drive_startdriving</value>
+  </data>
+  <data name="&gt;&gt;btn_drive_startdriving.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;btn_drive_startdriving.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_drive_startdriving.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="lb_drive_evaluation_titel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lb_drive_evaluation_titel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 12pt, style=Underline</value>
+  </data>
+  <data name="lb_drive_evaluation_titel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 235</value>
+  </data>
+  <data name="lb_drive_evaluation_titel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 19</value>
+  </data>
+  <data name="lb_drive_evaluation_titel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lb_drive_evaluation_titel.Text" xml:space="preserve">
+    <value>Evaluation:</value>
+  </data>
+  <data name="&gt;&gt;lb_drive_evaluation_titel.Name" xml:space="preserve">
+    <value>lb_drive_evaluation_titel</value>
+  </data>
+  <data name="&gt;&gt;lb_drive_evaluation_titel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lb_drive_evaluation_titel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lb_drive_evaluation_titel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_drive_acceptdrive.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="btn_drive_acceptdrive.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_drive_acceptdrive.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 11.25pt</value>
+  </data>
+  <data name="btn_drive_acceptdrive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>711, 3</value>
+  </data>
+  <data name="btn_drive_acceptdrive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 52</value>
+  </data>
+  <data name="btn_drive_acceptdrive.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btn_drive_acceptdrive.Text" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="&gt;&gt;btn_drive_acceptdrive.Name" xml:space="preserve">
+    <value>btn_drive_acceptdrive</value>
+  </data>
+  <data name="&gt;&gt;btn_drive_acceptdrive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_drive_acceptdrive.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btn_drive_acceptdrive.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 561</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>858, 58</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rtb_drive_evaluation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 9pt</value>
+  </data>
+  <data name="rtb_drive_evaluation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 269</value>
+  </data>
+  <data name="rtb_drive_evaluation.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="rtb_drive_evaluation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>785, 274</value>
+  </data>
+  <data name="rtb_drive_evaluation.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
   <data name="rtb_drive_evaluation.Text" xml:space="preserve">
     <value />
+  </data>
+  <data name="&gt;&gt;rtb_drive_evaluation.Name" xml:space="preserve">
+    <value>rtb_drive_evaluation</value>
+  </data>
+  <data name="&gt;&gt;rtb_drive_evaluation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtb_drive_evaluation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rtb_drive_evaluation.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>858, 619</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>gl_drive</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

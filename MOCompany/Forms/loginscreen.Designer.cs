@@ -126,6 +126,7 @@
             // rbtn_driveforyourowncompany
             // 
             resources.ApplyResources(this.rbtn_driveforyourowncompany, "rbtn_driveforyourowncompany");
+            this.rbtn_driveforyourowncompany.ForeColor = System.Drawing.SystemColors.ControlText;
             this.rbtn_driveforyourowncompany.Name = "rbtn_driveforyourowncompany";
             this.rbtn_driveforyourowncompany.TabStop = true;
             this.rbtn_driveforyourowncompany.UseVisualStyleBackColor = true;
