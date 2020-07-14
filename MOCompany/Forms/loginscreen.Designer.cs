@@ -50,11 +50,15 @@
             this.lbl_loginscreen_progname_footer = new System.Windows.Forms.Label();
             this.lbl_loginscreen_progname = new System.Windows.Forms.Label();
             this.ttip_loginscreen = new System.Windows.Forms.ToolTip(this.components);
+            this.pb_loginscreen_username = new System.Windows.Forms.PictureBox();
+            this.pb_loginscreen_password = new System.Windows.Forms.PictureBox();
             this.pl_loginscreen_footer.SuspendLayout();
             this.pl_loginsreen_main.SuspendLayout();
             this.pl_loginscreen_chooseplayoption.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_loginscreen_driveforowncompany)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_loginscreen_driveforcompany)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_loginscreen_username)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_loginscreen_password)).BeginInit();
             this.SuspendLayout();
             // 
             // pl_loginscreen_footer
@@ -74,6 +78,7 @@
             // btn_loginscreen_close
             // 
             resources.ApplyResources(this.btn_loginscreen_close, "btn_loginscreen_close");
+            this.btn_loginscreen_close.BackgroundImage = global::MOCompany.Properties.Resources.ico_close_materialio;
             this.btn_loginscreen_close.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_loginscreen_close.FlatAppearance.BorderSize = 0;
             this.btn_loginscreen_close.Name = "btn_loginscreen_close";
@@ -94,6 +99,8 @@
             this.pl_loginsreen_main.Controls.Add(this.tb_loginscreen_name);
             this.pl_loginsreen_main.Controls.Add(this.lbl_loginscreen_progname_footer);
             this.pl_loginsreen_main.Controls.Add(this.lbl_loginscreen_progname);
+            this.pl_loginsreen_main.Controls.Add(this.pb_loginscreen_username);
+            this.pl_loginsreen_main.Controls.Add(this.pb_loginscreen_password);
             resources.ApplyResources(this.pl_loginsreen_main, "pl_loginsreen_main");
             this.pl_loginsreen_main.Name = "pl_loginsreen_main";
             // 
@@ -178,11 +185,15 @@
             // 
             // tb_loginscreen_ps
             // 
+            this.tb_loginscreen_ps.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.tb_loginscreen_ps.BorderStyle = System.Windows.Forms.BorderStyle.None;
             resources.ApplyResources(this.tb_loginscreen_ps, "tb_loginscreen_ps");
             this.tb_loginscreen_ps.Name = "tb_loginscreen_ps";
             // 
             // tb_loginscreen_name
             // 
+            this.tb_loginscreen_name.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.tb_loginscreen_name.BorderStyle = System.Windows.Forms.BorderStyle.None;
             resources.ApplyResources(this.tb_loginscreen_name, "tb_loginscreen_name");
             this.tb_loginscreen_name.Name = "tb_loginscreen_name";
             // 
@@ -195,6 +206,20 @@
             // 
             resources.ApplyResources(this.lbl_loginscreen_progname, "lbl_loginscreen_progname");
             this.lbl_loginscreen_progname.Name = "lbl_loginscreen_progname";
+            // 
+            // pb_loginscreen_username
+            // 
+            this.pb_loginscreen_username.BackgroundImage = global::MOCompany.Properties.Resources.textfield;
+            resources.ApplyResources(this.pb_loginscreen_username, "pb_loginscreen_username");
+            this.pb_loginscreen_username.Name = "pb_loginscreen_username";
+            this.pb_loginscreen_username.TabStop = false;
+            // 
+            // pb_loginscreen_password
+            // 
+            this.pb_loginscreen_password.BackgroundImage = global::MOCompany.Properties.Resources.textfield;
+            resources.ApplyResources(this.pb_loginscreen_password, "pb_loginscreen_password");
+            this.pb_loginscreen_password.Name = "pb_loginscreen_password";
+            this.pb_loginscreen_password.TabStop = false;
             // 
             // loginscreen
             // 
@@ -213,6 +238,8 @@
             this.pl_loginscreen_chooseplayoption.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_loginscreen_driveforowncompany)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_loginscreen_driveforcompany)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_loginscreen_username)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_loginscreen_password)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -239,6 +266,8 @@
         private System.Windows.Forms.PictureBox pb_loginscreen_driveforcompany;
         private System.Windows.Forms.ToolTip ttip_loginscreen;
         private System.Windows.Forms.Label lbl_loginscreen_version;
+        private System.Windows.Forms.PictureBox pb_loginscreen_username;
+        private System.Windows.Forms.PictureBox pb_loginscreen_password;
     }
 }
 

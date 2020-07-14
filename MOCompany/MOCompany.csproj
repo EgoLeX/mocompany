@@ -391,5 +391,41 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round_account_balance_white_48dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_addbusiness_materialio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_employeecard_materialio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_commute_vehstore_materialio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_bus_materialio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\round_group_add_white_48dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_statistic_materialio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_logoutlogin_materialio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_close_materialio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_tune_sett_materialio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_widget_management_materialio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textfield.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

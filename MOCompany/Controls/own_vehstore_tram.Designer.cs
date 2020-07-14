@@ -72,7 +72,7 @@
             this.pl_opnvstore_tram_main.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pl_opnvstore_tram_main.Location = new System.Drawing.Point(0, 0);
             this.pl_opnvstore_tram_main.Name = "pl_opnvstore_tram_main";
-            this.pl_opnvstore_tram_main.Size = new System.Drawing.Size(719, 524);
+            this.pl_opnvstore_tram_main.Size = new System.Drawing.Size(719, 564);
             this.pl_opnvstore_tram_main.TabIndex = 0;
             // 
             // tabC_tram
@@ -82,16 +82,16 @@
             this.tabC_tram.Location = new System.Drawing.Point(3, 3);
             this.tabC_tram.Name = "tabC_tram";
             this.tabC_tram.SelectedIndex = 0;
-            this.tabC_tram.Size = new System.Drawing.Size(713, 518);
+            this.tabC_tram.Size = new System.Drawing.Size(713, 558);
             this.tabC_tram.TabIndex = 0;
             // 
             // tab_tatra
             // 
             this.tab_tatra.Controls.Add(this.pl_opnvstore_tram_tatra);
-            this.tab_tatra.Location = new System.Drawing.Point(4, 22);
+            this.tab_tatra.Location = new System.Drawing.Point(4, 23);
             this.tab_tatra.Name = "tab_tatra";
             this.tab_tatra.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_tatra.Size = new System.Drawing.Size(705, 492);
+            this.tab_tatra.Size = new System.Drawing.Size(705, 531);
             this.tab_tatra.TabIndex = 0;
             this.tab_tatra.Text = "Tatra";
             this.tab_tatra.UseVisualStyleBackColor = true;
@@ -104,7 +104,7 @@
             this.pl_opnvstore_tram_tatra.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pl_opnvstore_tram_tatra.Location = new System.Drawing.Point(3, 3);
             this.pl_opnvstore_tram_tatra.Name = "pl_opnvstore_tram_tatra";
-            this.pl_opnvstore_tram_tatra.Size = new System.Drawing.Size(699, 486);
+            this.pl_opnvstore_tram_tatra.Size = new System.Drawing.Size(699, 525);
             this.pl_opnvstore_tram_tatra.TabIndex = 0;
             // 
             // panel2
@@ -114,9 +114,9 @@
             this.panel2.Controls.Add(this.btn_buy_tatra_kt4dtm);
             this.panel2.Controls.Add(this.lbl_tatra_kt4dtm);
             this.panel2.Controls.Add(this.pbox_tatra_kt4dtm_preview);
-            this.panel2.Location = new System.Drawing.Point(184, 12);
+            this.panel2.Location = new System.Drawing.Point(184, 13);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(151, 174);
+            this.panel2.Size = new System.Drawing.Size(151, 187);
             this.panel2.TabIndex = 5;
             // 
             // label1
@@ -124,7 +124,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.YellowGreen;
             this.label1.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 120);
+            this.label1.Location = new System.Drawing.Point(30, 129);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(92, 14);
             this.label1.TabIndex = 4;
@@ -136,9 +136,9 @@
             this.btn_details_tatra_kt4dtm.FlatAppearance.BorderSize = 0;
             this.btn_details_tatra_kt4dtm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_details_tatra_kt4dtm.ForeColor = System.Drawing.Color.White;
-            this.btn_details_tatra_kt4dtm.Location = new System.Drawing.Point(84, 148);
+            this.btn_details_tatra_kt4dtm.Location = new System.Drawing.Point(84, 159);
             this.btn_details_tatra_kt4dtm.Name = "btn_details_tatra_kt4dtm";
-            this.btn_details_tatra_kt4dtm.Size = new System.Drawing.Size(64, 23);
+            this.btn_details_tatra_kt4dtm.Size = new System.Drawing.Size(64, 25);
             this.btn_details_tatra_kt4dtm.TabIndex = 3;
             this.btn_details_tatra_kt4dtm.Text = "Details";
             this.btn_details_tatra_kt4dtm.UseVisualStyleBackColor = false;
@@ -150,9 +150,9 @@
             this.btn_buy_tatra_kt4dtm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_buy_tatra_kt4dtm.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_buy_tatra_kt4dtm.ForeColor = System.Drawing.Color.White;
-            this.btn_buy_tatra_kt4dtm.Location = new System.Drawing.Point(3, 148);
+            this.btn_buy_tatra_kt4dtm.Location = new System.Drawing.Point(3, 159);
             this.btn_buy_tatra_kt4dtm.Name = "btn_buy_tatra_kt4dtm";
-            this.btn_buy_tatra_kt4dtm.Size = new System.Drawing.Size(75, 23);
+            this.btn_buy_tatra_kt4dtm.Size = new System.Drawing.Size(75, 25);
             this.btn_buy_tatra_kt4dtm.TabIndex = 2;
             this.btn_buy_tatra_kt4dtm.Text = "Buy";
             this.btn_buy_tatra_kt4dtm.UseVisualStyleBackColor = false;
@@ -161,7 +161,7 @@
             // 
             this.lbl_tatra_kt4dtm.AutoSize = true;
             this.lbl_tatra_kt4dtm.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_tatra_kt4dtm.Location = new System.Drawing.Point(35, 96);
+            this.lbl_tatra_kt4dtm.Location = new System.Drawing.Point(35, 103);
             this.lbl_tatra_kt4dtm.Name = "lbl_tatra_kt4dtm";
             this.lbl_tatra_kt4dtm.Size = new System.Drawing.Size(84, 15);
             this.lbl_tatra_kt4dtm.TabIndex = 1;
@@ -173,7 +173,7 @@
             this.pbox_tatra_kt4dtm_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbox_tatra_kt4dtm_preview.Location = new System.Drawing.Point(3, 3);
             this.pbox_tatra_kt4dtm_preview.Name = "pbox_tatra_kt4dtm_preview";
-            this.pbox_tatra_kt4dtm_preview.Size = new System.Drawing.Size(145, 81);
+            this.pbox_tatra_kt4dtm_preview.Size = new System.Drawing.Size(145, 87);
             this.pbox_tatra_kt4dtm_preview.TabIndex = 0;
             this.pbox_tatra_kt4dtm_preview.TabStop = false;
             // 
@@ -184,9 +184,9 @@
             this.panel1.Controls.Add(this.btn_buy_tatra_kt4dm);
             this.panel1.Controls.Add(this.lbl_tatra_kt4dm);
             this.panel1.Controls.Add(this.pbox_tatra_kt4dm_preview);
-            this.panel1.Location = new System.Drawing.Point(16, 12);
+            this.panel1.Location = new System.Drawing.Point(16, 13);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(151, 174);
+            this.panel1.Size = new System.Drawing.Size(151, 187);
             this.panel1.TabIndex = 1;
             // 
             // label2
@@ -194,7 +194,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.YellowGreen;
             this.label2.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(30, 120);
+            this.label2.Location = new System.Drawing.Point(30, 129);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(92, 14);
             this.label2.TabIndex = 4;
@@ -206,9 +206,9 @@
             this.btn_details_tatra_kt4dm.FlatAppearance.BorderSize = 0;
             this.btn_details_tatra_kt4dm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_details_tatra_kt4dm.ForeColor = System.Drawing.Color.White;
-            this.btn_details_tatra_kt4dm.Location = new System.Drawing.Point(84, 148);
+            this.btn_details_tatra_kt4dm.Location = new System.Drawing.Point(84, 159);
             this.btn_details_tatra_kt4dm.Name = "btn_details_tatra_kt4dm";
-            this.btn_details_tatra_kt4dm.Size = new System.Drawing.Size(64, 23);
+            this.btn_details_tatra_kt4dm.Size = new System.Drawing.Size(64, 25);
             this.btn_details_tatra_kt4dm.TabIndex = 3;
             this.btn_details_tatra_kt4dm.Text = "Details";
             this.btn_details_tatra_kt4dm.UseVisualStyleBackColor = false;
@@ -220,9 +220,9 @@
             this.btn_buy_tatra_kt4dm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_buy_tatra_kt4dm.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_buy_tatra_kt4dm.ForeColor = System.Drawing.Color.White;
-            this.btn_buy_tatra_kt4dm.Location = new System.Drawing.Point(3, 148);
+            this.btn_buy_tatra_kt4dm.Location = new System.Drawing.Point(3, 159);
             this.btn_buy_tatra_kt4dm.Name = "btn_buy_tatra_kt4dm";
-            this.btn_buy_tatra_kt4dm.Size = new System.Drawing.Size(75, 23);
+            this.btn_buy_tatra_kt4dm.Size = new System.Drawing.Size(75, 25);
             this.btn_buy_tatra_kt4dm.TabIndex = 2;
             this.btn_buy_tatra_kt4dm.Text = "Buy";
             this.btn_buy_tatra_kt4dm.UseVisualStyleBackColor = false;
@@ -231,7 +231,7 @@
             // 
             this.lbl_tatra_kt4dm.AutoSize = true;
             this.lbl_tatra_kt4dm.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_tatra_kt4dm.Location = new System.Drawing.Point(35, 96);
+            this.lbl_tatra_kt4dm.Location = new System.Drawing.Point(35, 103);
             this.lbl_tatra_kt4dm.Name = "lbl_tatra_kt4dm";
             this.lbl_tatra_kt4dm.Size = new System.Drawing.Size(79, 15);
             this.lbl_tatra_kt4dm.TabIndex = 1;
@@ -243,7 +243,7 @@
             this.pbox_tatra_kt4dm_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbox_tatra_kt4dm_preview.Location = new System.Drawing.Point(3, 3);
             this.pbox_tatra_kt4dm_preview.Name = "pbox_tatra_kt4dm_preview";
-            this.pbox_tatra_kt4dm_preview.Size = new System.Drawing.Size(145, 81);
+            this.pbox_tatra_kt4dm_preview.Size = new System.Drawing.Size(145, 87);
             this.pbox_tatra_kt4dm_preview.TabIndex = 0;
             this.pbox_tatra_kt4dm_preview.TabStop = false;
             // 
@@ -253,7 +253,7 @@
             this.tab_sonstige.Location = new System.Drawing.Point(4, 22);
             this.tab_sonstige.Name = "tab_sonstige";
             this.tab_sonstige.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_sonstige.Size = new System.Drawing.Size(705, 492);
+            this.tab_sonstige.Size = new System.Drawing.Size(705, 532);
             this.tab_sonstige.TabIndex = 1;
             this.tab_sonstige.Text = "Sonstige";
             this.tab_sonstige.UseVisualStyleBackColor = true;
@@ -265,7 +265,7 @@
             this.pl_opnvstore_tram_sonstige.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pl_opnvstore_tram_sonstige.Location = new System.Drawing.Point(3, 3);
             this.pl_opnvstore_tram_sonstige.Name = "pl_opnvstore_tram_sonstige";
-            this.pl_opnvstore_tram_sonstige.Size = new System.Drawing.Size(699, 486);
+            this.pl_opnvstore_tram_sonstige.Size = new System.Drawing.Size(699, 526);
             this.pl_opnvstore_tram_sonstige.TabIndex = 0;
             // 
             // panel3
@@ -275,9 +275,9 @@
             this.panel3.Controls.Add(this.btn_sonstiges_nf6d_buy);
             this.panel3.Controls.Add(this.lbl_sonstiges_nf6d_titel);
             this.panel3.Controls.Add(this.pb_sonstiges_nf6d_preview);
-            this.panel3.Location = new System.Drawing.Point(17, 13);
+            this.panel3.Location = new System.Drawing.Point(17, 14);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(151, 174);
+            this.panel3.Size = new System.Drawing.Size(151, 187);
             this.panel3.TabIndex = 2;
             // 
             // label3
@@ -285,7 +285,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.YellowGreen;
             this.label3.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(30, 120);
+            this.label3.Location = new System.Drawing.Point(30, 129);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(92, 14);
             this.label3.TabIndex = 4;
@@ -297,9 +297,9 @@
             this.btn_sonstiges_nf6d_details.FlatAppearance.BorderSize = 0;
             this.btn_sonstiges_nf6d_details.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_sonstiges_nf6d_details.ForeColor = System.Drawing.Color.White;
-            this.btn_sonstiges_nf6d_details.Location = new System.Drawing.Point(84, 148);
+            this.btn_sonstiges_nf6d_details.Location = new System.Drawing.Point(84, 159);
             this.btn_sonstiges_nf6d_details.Name = "btn_sonstiges_nf6d_details";
-            this.btn_sonstiges_nf6d_details.Size = new System.Drawing.Size(64, 23);
+            this.btn_sonstiges_nf6d_details.Size = new System.Drawing.Size(64, 25);
             this.btn_sonstiges_nf6d_details.TabIndex = 3;
             this.btn_sonstiges_nf6d_details.Text = "Details";
             this.btn_sonstiges_nf6d_details.UseVisualStyleBackColor = false;
@@ -311,9 +311,9 @@
             this.btn_sonstiges_nf6d_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_sonstiges_nf6d_buy.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_sonstiges_nf6d_buy.ForeColor = System.Drawing.Color.White;
-            this.btn_sonstiges_nf6d_buy.Location = new System.Drawing.Point(3, 148);
+            this.btn_sonstiges_nf6d_buy.Location = new System.Drawing.Point(3, 159);
             this.btn_sonstiges_nf6d_buy.Name = "btn_sonstiges_nf6d_buy";
-            this.btn_sonstiges_nf6d_buy.Size = new System.Drawing.Size(75, 23);
+            this.btn_sonstiges_nf6d_buy.Size = new System.Drawing.Size(75, 25);
             this.btn_sonstiges_nf6d_buy.TabIndex = 2;
             this.btn_sonstiges_nf6d_buy.Text = "Buy";
             this.btn_sonstiges_nf6d_buy.UseVisualStyleBackColor = false;
@@ -322,7 +322,7 @@
             // 
             this.lbl_sonstiges_nf6d_titel.AutoSize = true;
             this.lbl_sonstiges_nf6d_titel.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_sonstiges_nf6d_titel.Location = new System.Drawing.Point(57, 95);
+            this.lbl_sonstiges_nf6d_titel.Location = new System.Drawing.Point(57, 102);
             this.lbl_sonstiges_nf6d_titel.Name = "lbl_sonstiges_nf6d_titel";
             this.lbl_sonstiges_nf6d_titel.Size = new System.Drawing.Size(37, 15);
             this.lbl_sonstiges_nf6d_titel.TabIndex = 1;
@@ -334,17 +334,18 @@
             this.pb_sonstiges_nf6d_preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pb_sonstiges_nf6d_preview.Location = new System.Drawing.Point(3, 3);
             this.pb_sonstiges_nf6d_preview.Name = "pb_sonstiges_nf6d_preview";
-            this.pb_sonstiges_nf6d_preview.Size = new System.Drawing.Size(145, 81);
+            this.pb_sonstiges_nf6d_preview.Size = new System.Drawing.Size(145, 87);
             this.pb_sonstiges_nf6d_preview.TabIndex = 0;
             this.pb_sonstiges_nf6d_preview.TabStop = false;
             // 
             // own_vehstore_tram
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.pl_opnvstore_tram_main);
+            this.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "own_vehstore_tram";
-            this.Size = new System.Drawing.Size(719, 524);
+            this.Size = new System.Drawing.Size(719, 564);
             this.pl_opnvstore_tram_main.ResumeLayout(false);
             this.tabC_tram.ResumeLayout(false);
             this.tab_tatra.ResumeLayout(false);

@@ -37,11 +37,8 @@
             this.pl_settings_leftdock = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lb_settings_nav_generaltitel = new System.Windows.Forms.Label();
-            this.pb_settings_generalsettings = new System.Windows.Forms.PictureBox();
             this.lb_settings_nav_usrtitel = new System.Windows.Forms.Label();
-            this.pb_settings_usersettings = new System.Windows.Forms.PictureBox();
             this.pl_settings_usersettings = new System.Windows.Forms.Panel();
-            this.lb_settings_user_hascompcheck = new System.Windows.Forms.Label();
             this.lb_settings_user_hascompanytitle = new System.Windows.Forms.Label();
             this.tb_settings_user_passw = new System.Windows.Forms.TextBox();
             this.lb_settings_user_usrpwdtitel = new System.Windows.Forms.Label();
@@ -57,15 +54,24 @@
             this.llb_settings_credit_kartoffelphantom = new System.Windows.Forms.LinkLabel();
             this.lb_settings_credits_message = new System.Windows.Forms.Label();
             this.lb_settings_credits_title = new System.Windows.Forms.Label();
+            this.cb_sett_hascompany = new System.Windows.Forms.CheckBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pb_settings_generalsettings = new System.Windows.Forms.PictureBox();
+            this.pb_settings_usersettings = new System.Windows.Forms.PictureBox();
             this.pl_settings_headerpanel.SuspendLayout();
             this.pl_settings_header_pgtitel.SuspendLayout();
             this.pl_settings_leftdock.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_settings_generalsettings)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_settings_usersettings)).BeginInit();
             this.pl_settings_usersettings.SuspendLayout();
             this.pl_settings_generalsettings.SuspendLayout();
             this.pl_settings_credits.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_settings_generalsettings)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_settings_usersettings)).BeginInit();
             this.SuspendLayout();
             // 
             // pl_settings_headerpanel
@@ -123,42 +129,24 @@
             this.lb_settings_nav_generaltitel.ForeColor = System.Drawing.Color.White;
             this.lb_settings_nav_generaltitel.Name = "lb_settings_nav_generaltitel";
             // 
-            // pb_settings_generalsettings
-            // 
-            this.pb_settings_generalsettings.BackgroundImage = global::MOCompany.Properties.Resources.settingsgeneral1;
-            resources.ApplyResources(this.pb_settings_generalsettings, "pb_settings_generalsettings");
-            this.pb_settings_generalsettings.Name = "pb_settings_generalsettings";
-            this.pb_settings_generalsettings.TabStop = false;
-            // 
             // lb_settings_nav_usrtitel
             // 
             resources.ApplyResources(this.lb_settings_nav_usrtitel, "lb_settings_nav_usrtitel");
             this.lb_settings_nav_usrtitel.ForeColor = System.Drawing.Color.White;
             this.lb_settings_nav_usrtitel.Name = "lb_settings_nav_usrtitel";
             // 
-            // pb_settings_usersettings
-            // 
-            this.pb_settings_usersettings.BackgroundImage = global::MOCompany.Properties.Resources.userdefault;
-            resources.ApplyResources(this.pb_settings_usersettings, "pb_settings_usersettings");
-            this.pb_settings_usersettings.Name = "pb_settings_usersettings";
-            this.pb_settings_usersettings.TabStop = false;
-            // 
             // pl_settings_usersettings
             // 
-            this.pl_settings_usersettings.Controls.Add(this.lb_settings_user_hascompcheck);
+            this.pl_settings_usersettings.Controls.Add(this.cb_sett_hascompany);
             this.pl_settings_usersettings.Controls.Add(this.lb_settings_user_hascompanytitle);
             this.pl_settings_usersettings.Controls.Add(this.tb_settings_user_passw);
             this.pl_settings_usersettings.Controls.Add(this.lb_settings_user_usrpwdtitel);
             this.pl_settings_usersettings.Controls.Add(this.tb_settings_user_username);
             this.pl_settings_usersettings.Controls.Add(this.lb_settings_user_usrname_titel);
+            this.pl_settings_usersettings.Controls.Add(this.pictureBox2);
+            this.pl_settings_usersettings.Controls.Add(this.pictureBox1);
             resources.ApplyResources(this.pl_settings_usersettings, "pl_settings_usersettings");
             this.pl_settings_usersettings.Name = "pl_settings_usersettings";
-            // 
-            // lb_settings_user_hascompcheck
-            // 
-            resources.ApplyResources(this.lb_settings_user_hascompcheck, "lb_settings_user_hascompcheck");
-            this.lb_settings_user_hascompcheck.ForeColor = System.Drawing.Color.Black;
-            this.lb_settings_user_hascompcheck.Name = "lb_settings_user_hascompcheck";
             // 
             // lb_settings_user_hascompanytitle
             // 
@@ -167,7 +155,8 @@
             // 
             // tb_settings_user_passw
             // 
-            this.tb_settings_user_passw.BackColor = System.Drawing.SystemColors.Menu;
+            this.tb_settings_user_passw.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.tb_settings_user_passw.BorderStyle = System.Windows.Forms.BorderStyle.None;
             resources.ApplyResources(this.tb_settings_user_passw, "tb_settings_user_passw");
             this.tb_settings_user_passw.Name = "tb_settings_user_passw";
             // 
@@ -178,7 +167,8 @@
             // 
             // tb_settings_user_username
             // 
-            this.tb_settings_user_username.BackColor = System.Drawing.SystemColors.Menu;
+            this.tb_settings_user_username.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.tb_settings_user_username.BorderStyle = System.Windows.Forms.BorderStyle.None;
             resources.ApplyResources(this.tb_settings_user_username, "tb_settings_user_username");
             this.tb_settings_user_username.Name = "tb_settings_user_username";
             // 
@@ -191,12 +181,15 @@
             // 
             this.pl_settings_generalsettings.Controls.Add(this.tb_settings_general_pathtoomsidir);
             this.pl_settings_generalsettings.Controls.Add(this.lb_settings_general_pathtoomsidir);
+            this.pl_settings_generalsettings.Controls.Add(this.pictureBox3);
             resources.ApplyResources(this.pl_settings_generalsettings, "pl_settings_generalsettings");
             this.pl_settings_generalsettings.Name = "pl_settings_generalsettings";
             // 
             // tb_settings_general_pathtoomsidir
             // 
-            this.tb_settings_general_pathtoomsidir.BackColor = System.Drawing.SystemColors.Menu;
+            this.tb_settings_general_pathtoomsidir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.tb_settings_general_pathtoomsidir.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tb_settings_general_pathtoomsidir.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.tb_settings_general_pathtoomsidir, "tb_settings_general_pathtoomsidir");
             this.tb_settings_general_pathtoomsidir.Name = "tb_settings_general_pathtoomsidir";
             this.tb_settings_general_pathtoomsidir.ReadOnly = true;
@@ -248,6 +241,47 @@
             resources.ApplyResources(this.lb_settings_credits_title, "lb_settings_credits_title");
             this.lb_settings_credits_title.Name = "lb_settings_credits_title";
             // 
+            // cb_sett_hascompany
+            // 
+            resources.ApplyResources(this.cb_sett_hascompany, "cb_sett_hascompany");
+            this.cb_sett_hascompany.Name = "cb_sett_hascompany";
+            this.cb_sett_hascompany.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::MOCompany.Properties.Resources.textfield;
+            resources.ApplyResources(this.pictureBox3, "pictureBox3");
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::MOCompany.Properties.Resources.textfield;
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::MOCompany.Properties.Resources.textfield;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
+            // pb_settings_generalsettings
+            // 
+            this.pb_settings_generalsettings.BackgroundImage = global::MOCompany.Properties.Resources.ico_tune_sett_materialio;
+            resources.ApplyResources(this.pb_settings_generalsettings, "pb_settings_generalsettings");
+            this.pb_settings_generalsettings.Name = "pb_settings_generalsettings";
+            this.pb_settings_generalsettings.TabStop = false;
+            // 
+            // pb_settings_usersettings
+            // 
+            this.pb_settings_usersettings.BackgroundImage = global::MOCompany.Properties.Resources.ico_employeecard_materialio;
+            resources.ApplyResources(this.pb_settings_usersettings, "pb_settings_usersettings");
+            this.pb_settings_usersettings.Name = "pb_settings_usersettings";
+            this.pb_settings_usersettings.TabStop = false;
+            // 
             // gl_settings
             // 
             resources.ApplyResources(this, "$this");
@@ -263,14 +297,17 @@
             this.pl_settings_header_pgtitel.ResumeLayout(false);
             this.pl_settings_leftdock.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pb_settings_generalsettings)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_settings_usersettings)).EndInit();
             this.pl_settings_usersettings.ResumeLayout(false);
             this.pl_settings_usersettings.PerformLayout();
             this.pl_settings_generalsettings.ResumeLayout(false);
             this.pl_settings_generalsettings.PerformLayout();
             this.pl_settings_credits.ResumeLayout(false);
             this.pl_settings_credits.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_settings_generalsettings)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_settings_usersettings)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -298,11 +335,14 @@
         private System.Windows.Forms.FolderBrowserDialog fbd_settings;
         private System.Windows.Forms.ToolTip tt_settings;
         private System.Windows.Forms.Label lb_settings_user_hascompanytitle;
-        private System.Windows.Forms.Label lb_settings_user_hascompcheck;
         private System.Windows.Forms.Panel pl_settings_credits;
         private System.Windows.Forms.Label lb_settings_credits_title;
         private System.Windows.Forms.Label lb_settings_credits_message;
         private System.Windows.Forms.LinkLabel llb_settings_credit_kartoffelphantom;
         private System.Windows.Forms.LinkLabel llbl_settings_credit_jockie;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.CheckBox cb_sett_hascompany;
     }
 }

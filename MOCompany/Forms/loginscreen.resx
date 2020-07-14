@@ -181,13 +181,13 @@
     <value>12, 15</value>
   </data>
   <data name="lbl_loginscreen_createdby.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 14</value>
+    <value>171, 14</value>
   </data>
   <data name="lbl_loginscreen_createdby.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="lbl_loginscreen_createdby.Text" xml:space="preserve">
-    <value>Created by AkEgo - All rights reserved</value>
+    <value>Created by AkEgo Development</value>
   </data>
   <data name="&gt;&gt;lbl_loginscreen_createdby.Name" xml:space="preserve">
     <value>lbl_loginscreen_createdby</value>
@@ -206,49 +206,6 @@
   </metadata>
   <data name="btn_loginscreen_close.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
-  </data>
-  <data name="btn_loginscreen_close.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        2H4ajEcAAAAASUVORK5CYII=
-</value>
   </data>
   <data name="btn_loginscreen_close.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -544,8 +501,11 @@
   <data name="&gt;&gt;lbl_loginscreen_loginname_titel.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="tb_loginscreen_ps.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 9pt</value>
+  </data>
   <data name="tb_loginscreen_ps.Location" type="System.Drawing.Point, System.Drawing">
-    <value>73, 238</value>
+    <value>95, 243</value>
   </data>
   <data name="tb_loginscreen_ps.MaxLength" type="System.Int32, mscorlib">
     <value>25</value>
@@ -554,7 +514,7 @@
     <value>True</value>
   </data>
   <data name="tb_loginscreen_ps.Size" type="System.Drawing.Size, System.Drawing">
-    <value>305, 20</value>
+    <value>261, 15</value>
   </data>
   <data name="tb_loginscreen_ps.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -571,14 +531,17 @@
   <data name="&gt;&gt;tb_loginscreen_ps.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="tb_loginscreen_name.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Candara, 9pt</value>
+  </data>
   <data name="tb_loginscreen_name.Location" type="System.Drawing.Point, System.Drawing">
-    <value>73, 147</value>
+    <value>95, 149</value>
   </data>
   <data name="tb_loginscreen_name.MaxLength" type="System.Int32, mscorlib">
     <value>25</value>
   </data>
   <data name="tb_loginscreen_name.Size" type="System.Drawing.Size, System.Drawing">
-    <value>305, 20</value>
+    <value>261, 15</value>
   </data>
   <data name="tb_loginscreen_name.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -662,6 +625,60 @@
   <data name="&gt;&gt;lbl_loginscreen_progname.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="pb_loginscreen_username.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pb_loginscreen_username.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pb_loginscreen_username.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 137</value>
+  </data>
+  <data name="pb_loginscreen_username.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 42</value>
+  </data>
+  <data name="pb_loginscreen_username.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;pb_loginscreen_username.Name" xml:space="preserve">
+    <value>pb_loginscreen_username</value>
+  </data>
+  <data name="&gt;&gt;pb_loginscreen_username.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pb_loginscreen_username.Parent" xml:space="preserve">
+    <value>pl_loginsreen_main</value>
+  </data>
+  <data name="&gt;&gt;pb_loginscreen_username.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="pb_loginscreen_password.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pb_loginscreen_password.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pb_loginscreen_password.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 231</value>
+  </data>
+  <data name="pb_loginscreen_password.Size" type="System.Drawing.Size, System.Drawing">
+    <value>305, 42</value>
+  </data>
+  <data name="pb_loginscreen_password.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;pb_loginscreen_password.Name" xml:space="preserve">
+    <value>pb_loginscreen_password</value>
+  </data>
+  <data name="&gt;&gt;pb_loginscreen_password.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pb_loginscreen_password.Parent" xml:space="preserve">
+    <value>pl_loginsreen_main</value>
+  </data>
+  <data name="&gt;&gt;pb_loginscreen_password.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
   <data name="pl_loginsreen_main.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -687,7 +704,7 @@
     <value>True</value>
   </data>
   <data name="rbtn_driveforyourowncompany.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 8.25pt</value>
+    <value>Candara, 9pt</value>
   </data>
   <data name="rbtn_driveforyourowncompany.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -696,7 +713,7 @@
     <value>43, 304</value>
   </data>
   <data name="rbtn_driveforyourowncompany.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 17</value>
+    <value>175, 18</value>
   </data>
   <data name="rbtn_driveforyourowncompany.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -720,7 +737,7 @@
     <value>True</value>
   </data>
   <data name="rbtn_loginscreen_driveforacompany.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Candara, 8.25pt</value>
+    <value>Candara, 9pt</value>
   </data>
   <data name="rbtn_loginscreen_driveforacompany.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -729,7 +746,7 @@
     <value>43, 155</value>
   </data>
   <data name="rbtn_loginscreen_driveforacompany.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 17</value>
+    <value>152, 18</value>
   </data>
   <data name="rbtn_loginscreen_driveforacompany.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>

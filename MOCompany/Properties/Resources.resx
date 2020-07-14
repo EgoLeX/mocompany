@@ -124,9 +124,6 @@
   <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="statisticico" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\statisticico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="companyico" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\companyico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -144,9 +141,6 @@
   </data>
   <data name="ico_settingsX" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ico_settingsX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="userdefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\userdefault.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bankeuro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bankeuro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -246,5 +240,44 @@
   </data>
   <data name="_c05_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\_c05_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_account_balance_materialio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\round_account_balance_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_addbusiness_materialio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_addbusiness_materialio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_bus_materialio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_bus_materialio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_close_materialio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_close_materialio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_commute_vehstore_materialio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_commute_vehstore_materialio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_employeeadd_materialio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\round_group_add_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_employeecard_materialio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_employeecard_materialio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_logoutlogin_materialio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_logoutlogin_materialio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_statistic_materialio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_statistic_materialio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_tune_sett_materialio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_tune_sett_materialio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_widget_management_materialio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_widget_management_materialio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="textfield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\textfield.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="userdefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\userdefault.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

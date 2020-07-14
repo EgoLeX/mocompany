@@ -34,39 +34,39 @@
             this.pl_ownmode_main = new System.Windows.Forms.Panel();
             this.pl_owncompany_navbar = new System.Windows.Forms.Panel();
             this.pl_aimode_navbarcont = new System.Windows.Forms.Panel();
-            this.pb_ownmode_nav_personalagency = new System.Windows.Forms.PictureBox();
             this.btn_ownmode_nav_personalagency = new System.Windows.Forms.Button();
-            this.pb_ownmode_nav_management = new System.Windows.Forms.PictureBox();
             this.btn_ownmode_nav_management = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btn_ownmode_nav_oepnvstore = new System.Windows.Forms.Button();
-            this.pb_ownmode_nav_company = new System.Windows.Forms.PictureBox();
             this.btn_ownmode_nav_company = new System.Windows.Forms.Button();
-            this.pb_ownmode_nav_bank = new System.Windows.Forms.PictureBox();
             this.btn_ownmode_nav_bank = new System.Windows.Forms.Button();
-            this.pb_ownmode_nav_drive = new System.Windows.Forms.PictureBox();
             this.btn_ownmode_nav_drive = new System.Windows.Forms.Button();
             this.pl_ownmode_navbar_profile = new System.Windows.Forms.Panel();
             this.lbl_owncompany_username = new System.Windows.Forms.Label();
             this.pl_owncompany_trennung2 = new System.Windows.Forms.Panel();
-            this.lbl_loginscreen_createdby = new System.Windows.Forms.Label();
-            this.btn_ownmode_configureprofile = new System.Windows.Forms.Button();
             this.lbl_aimode_user_name = new System.Windows.Forms.Label();
+            this.pl_owncompany_trennung1 = new System.Windows.Forms.Panel();
+            this.tt_owncompany_mainscreen = new System.Windows.Forms.ToolTip(this.components);
+            this.pb_ownmode_nav_personalagency = new System.Windows.Forms.PictureBox();
+            this.pb_ownmode_nav_management = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pb_ownmode_nav_company = new System.Windows.Forms.PictureBox();
+            this.pb_ownmode_nav_bank = new System.Windows.Forms.PictureBox();
+            this.pb_ownmode_nav_drive = new System.Windows.Forms.PictureBox();
+            this.btn_ownmode_configureprofile = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_ownmode_exit = new System.Windows.Forms.Button();
-            this.pl_owncompany_trennung1 = new System.Windows.Forms.Panel();
             this.btn_ownmode_logout = new System.Windows.Forms.Button();
-            this.tt_owncompany_mainscreen = new System.Windows.Forms.ToolTip(this.components);
+            this.lbl_loginscreen_createdby = new System.Windows.Forms.Label();
             this.pl_mainscreen.SuspendLayout();
             this.pl_owncompany_navbar.SuspendLayout();
             this.pl_aimode_navbarcont.SuspendLayout();
+            this.pl_ownmode_navbar_profile.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ownmode_nav_personalagency)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ownmode_nav_management)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ownmode_nav_company)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ownmode_nav_bank)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ownmode_nav_drive)).BeginInit();
-            this.pl_ownmode_navbar_profile.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -122,17 +122,6 @@
             this.pl_aimode_navbarcont.Size = new System.Drawing.Size(242, 464);
             this.pl_aimode_navbarcont.TabIndex = 12;
             // 
-            // pb_ownmode_nav_personalagency
-            // 
-            this.pb_ownmode_nav_personalagency.BackgroundImage = global::MOCompany.Properties.Resources.carpool;
-            this.pb_ownmode_nav_personalagency.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pb_ownmode_nav_personalagency.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pb_ownmode_nav_personalagency.Location = new System.Drawing.Point(6, 247);
-            this.pb_ownmode_nav_personalagency.Name = "pb_ownmode_nav_personalagency";
-            this.pb_ownmode_nav_personalagency.Size = new System.Drawing.Size(51, 51);
-            this.pb_ownmode_nav_personalagency.TabIndex = 13;
-            this.pb_ownmode_nav_personalagency.TabStop = false;
-            // 
             // btn_ownmode_nav_personalagency
             // 
             this.btn_ownmode_nav_personalagency.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
@@ -149,17 +138,6 @@
             this.btn_ownmode_nav_personalagency.Text = "Employee Agency";
             this.tt_owncompany_mainscreen.SetToolTip(this.btn_ownmode_nav_personalagency, "Open the Carpool Overview");
             this.btn_ownmode_nav_personalagency.UseVisualStyleBackColor = true;
-            // 
-            // pb_ownmode_nav_management
-            // 
-            this.pb_ownmode_nav_management.BackgroundImage = global::MOCompany.Properties.Resources.management;
-            this.pb_ownmode_nav_management.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pb_ownmode_nav_management.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pb_ownmode_nav_management.Location = new System.Drawing.Point(6, 150);
-            this.pb_ownmode_nav_management.Name = "pb_ownmode_nav_management";
-            this.pb_ownmode_nav_management.Size = new System.Drawing.Size(51, 51);
-            this.pb_ownmode_nav_management.TabIndex = 11;
-            this.pb_ownmode_nav_management.TabStop = false;
             // 
             // btn_ownmode_nav_management
             // 
@@ -179,17 +157,6 @@
             this.btn_ownmode_nav_management.UseVisualStyleBackColor = true;
             this.btn_ownmode_nav_management.Click += new System.EventHandler(this.btn_ownmode_nav_management_Click);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::MOCompany.Properties.Resources.öpnvstore;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pictureBox2.Location = new System.Drawing.Point(6, 304);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(51, 51);
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
-            // 
             // btn_ownmode_nav_oepnvstore
             // 
             this.btn_ownmode_nav_oepnvstore.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
@@ -207,17 +174,6 @@
             this.tt_owncompany_mainscreen.SetToolTip(this.btn_ownmode_nav_oepnvstore, "Open the Vehicle Store");
             this.btn_ownmode_nav_oepnvstore.UseVisualStyleBackColor = true;
             this.btn_ownmode_nav_oepnvstore.Click += new System.EventHandler(this.btn_ownmode_nav_oepnvstore_Click);
-            // 
-            // pb_ownmode_nav_company
-            // 
-            this.pb_ownmode_nav_company.BackgroundImage = global::MOCompany.Properties.Resources.companyico;
-            this.pb_ownmode_nav_company.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pb_ownmode_nav_company.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pb_ownmode_nav_company.Location = new System.Drawing.Point(6, 361);
-            this.pb_ownmode_nav_company.Name = "pb_ownmode_nav_company";
-            this.pb_ownmode_nav_company.Size = new System.Drawing.Size(51, 51);
-            this.pb_ownmode_nav_company.TabIndex = 7;
-            this.pb_ownmode_nav_company.TabStop = false;
             // 
             // btn_ownmode_nav_company
             // 
@@ -237,17 +193,6 @@
             this.btn_ownmode_nav_company.UseVisualStyleBackColor = true;
             this.btn_ownmode_nav_company.Click += new System.EventHandler(this.btn_ownmode_nav_company_Click);
             // 
-            // pb_ownmode_nav_bank
-            // 
-            this.pb_ownmode_nav_bank.BackgroundImage = global::MOCompany.Properties.Resources.bankeuro;
-            this.pb_ownmode_nav_bank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pb_ownmode_nav_bank.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pb_ownmode_nav_bank.Location = new System.Drawing.Point(6, 93);
-            this.pb_ownmode_nav_bank.Name = "pb_ownmode_nav_bank";
-            this.pb_ownmode_nav_bank.Size = new System.Drawing.Size(51, 51);
-            this.pb_ownmode_nav_bank.TabIndex = 5;
-            this.pb_ownmode_nav_bank.TabStop = false;
-            // 
             // btn_ownmode_nav_bank
             // 
             this.btn_ownmode_nav_bank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
@@ -265,17 +210,6 @@
             this.tt_owncompany_mainscreen.SetToolTip(this.btn_ownmode_nav_bank, "Open the Bank Overview");
             this.btn_ownmode_nav_bank.UseVisualStyleBackColor = true;
             this.btn_ownmode_nav_bank.Click += new System.EventHandler(this.btn_ownmode_nav_bank_Click);
-            // 
-            // pb_ownmode_nav_drive
-            // 
-            this.pb_ownmode_nav_drive.BackgroundImage = global::MOCompany.Properties.Resources.drivebus;
-            this.pb_ownmode_nav_drive.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pb_ownmode_nav_drive.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.pb_ownmode_nav_drive.Location = new System.Drawing.Point(6, 4);
-            this.pb_ownmode_nav_drive.Name = "pb_ownmode_nav_drive";
-            this.pb_ownmode_nav_drive.Size = new System.Drawing.Size(51, 51);
-            this.pb_ownmode_nav_drive.TabIndex = 1;
-            this.pb_ownmode_nav_drive.TabStop = false;
             // 
             // btn_ownmode_nav_drive
             // 
@@ -297,9 +231,9 @@
             // 
             // pl_ownmode_navbar_profile
             // 
+            this.pl_ownmode_navbar_profile.Controls.Add(this.lbl_loginscreen_createdby);
             this.pl_ownmode_navbar_profile.Controls.Add(this.lbl_owncompany_username);
             this.pl_ownmode_navbar_profile.Controls.Add(this.pl_owncompany_trennung2);
-            this.pl_ownmode_navbar_profile.Controls.Add(this.lbl_loginscreen_createdby);
             this.pl_ownmode_navbar_profile.Controls.Add(this.btn_ownmode_configureprofile);
             this.pl_ownmode_navbar_profile.Controls.Add(this.lbl_aimode_user_name);
             this.pl_ownmode_navbar_profile.Controls.Add(this.pictureBox1);
@@ -329,34 +263,6 @@
             this.pl_owncompany_trennung2.Size = new System.Drawing.Size(242, 3);
             this.pl_owncompany_trennung2.TabIndex = 4;
             // 
-            // lbl_loginscreen_createdby
-            // 
-            this.lbl_loginscreen_createdby.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lbl_loginscreen_createdby.AutoSize = true;
-            this.lbl_loginscreen_createdby.ForeColor = System.Drawing.Color.White;
-            this.lbl_loginscreen_createdby.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_loginscreen_createdby.Location = new System.Drawing.Point(3, 76);
-            this.lbl_loginscreen_createdby.Name = "lbl_loginscreen_createdby";
-            this.lbl_loginscreen_createdby.Size = new System.Drawing.Size(185, 13);
-            this.lbl_loginscreen_createdby.TabIndex = 3;
-            this.lbl_loginscreen_createdby.Text = "Created by AkEgo - All rights reserved";
-            // 
-            // btn_ownmode_configureprofile
-            // 
-            this.btn_ownmode_configureprofile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_ownmode_configureprofile.BackgroundImage = global::MOCompany.Properties.Resources.ico_settingsX;
-            this.btn_ownmode_configureprofile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btn_ownmode_configureprofile.FlatAppearance.BorderSize = 0;
-            this.btn_ownmode_configureprofile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ownmode_configureprofile.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_ownmode_configureprofile.Location = new System.Drawing.Point(200, 26);
-            this.btn_ownmode_configureprofile.Name = "btn_ownmode_configureprofile";
-            this.btn_ownmode_configureprofile.Size = new System.Drawing.Size(22, 22);
-            this.btn_ownmode_configureprofile.TabIndex = 2;
-            this.tt_owncompany_mainscreen.SetToolTip(this.btn_ownmode_configureprofile, "Edit profile and general settings");
-            this.btn_ownmode_configureprofile.UseVisualStyleBackColor = true;
-            this.btn_ownmode_configureprofile.Click += new System.EventHandler(this.btn_ownmode_configureprofile_Click);
-            // 
             // lbl_aimode_user_name
             // 
             this.lbl_aimode_user_name.AutoSize = true;
@@ -368,9 +274,99 @@
             this.lbl_aimode_user_name.Size = new System.Drawing.Size(0, 18);
             this.lbl_aimode_user_name.TabIndex = 1;
             // 
+            // pl_owncompany_trennung1
+            // 
+            this.pl_owncompany_trennung1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.pl_owncompany_trennung1.Location = new System.Drawing.Point(-1, 32);
+            this.pl_owncompany_trennung1.Name = "pl_owncompany_trennung1";
+            this.pl_owncompany_trennung1.Size = new System.Drawing.Size(242, 3);
+            this.pl_owncompany_trennung1.TabIndex = 9;
+            // 
+            // pb_ownmode_nav_personalagency
+            // 
+            this.pb_ownmode_nav_personalagency.BackgroundImage = global::MOCompany.Properties.Resources.ico_employeeadd_materialio;
+            this.pb_ownmode_nav_personalagency.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pb_ownmode_nav_personalagency.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pb_ownmode_nav_personalagency.Location = new System.Drawing.Point(6, 247);
+            this.pb_ownmode_nav_personalagency.Name = "pb_ownmode_nav_personalagency";
+            this.pb_ownmode_nav_personalagency.Size = new System.Drawing.Size(51, 51);
+            this.pb_ownmode_nav_personalagency.TabIndex = 13;
+            this.pb_ownmode_nav_personalagency.TabStop = false;
+            // 
+            // pb_ownmode_nav_management
+            // 
+            this.pb_ownmode_nav_management.BackgroundImage = global::MOCompany.Properties.Resources.ico_widget_management_materialio;
+            this.pb_ownmode_nav_management.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pb_ownmode_nav_management.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pb_ownmode_nav_management.Location = new System.Drawing.Point(6, 150);
+            this.pb_ownmode_nav_management.Name = "pb_ownmode_nav_management";
+            this.pb_ownmode_nav_management.Size = new System.Drawing.Size(51, 51);
+            this.pb_ownmode_nav_management.TabIndex = 11;
+            this.pb_ownmode_nav_management.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::MOCompany.Properties.Resources.ico_commute_vehstore_materialio;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pictureBox2.Location = new System.Drawing.Point(6, 304);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(51, 51);
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pb_ownmode_nav_company
+            // 
+            this.pb_ownmode_nav_company.BackgroundImage = global::MOCompany.Properties.Resources.ico_addbusiness_materialio;
+            this.pb_ownmode_nav_company.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pb_ownmode_nav_company.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pb_ownmode_nav_company.Location = new System.Drawing.Point(6, 361);
+            this.pb_ownmode_nav_company.Name = "pb_ownmode_nav_company";
+            this.pb_ownmode_nav_company.Size = new System.Drawing.Size(51, 51);
+            this.pb_ownmode_nav_company.TabIndex = 7;
+            this.pb_ownmode_nav_company.TabStop = false;
+            // 
+            // pb_ownmode_nav_bank
+            // 
+            this.pb_ownmode_nav_bank.BackgroundImage = global::MOCompany.Properties.Resources.ico_account_balance_materialio;
+            this.pb_ownmode_nav_bank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pb_ownmode_nav_bank.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pb_ownmode_nav_bank.Location = new System.Drawing.Point(6, 93);
+            this.pb_ownmode_nav_bank.Name = "pb_ownmode_nav_bank";
+            this.pb_ownmode_nav_bank.Size = new System.Drawing.Size(51, 51);
+            this.pb_ownmode_nav_bank.TabIndex = 5;
+            this.pb_ownmode_nav_bank.TabStop = false;
+            // 
+            // pb_ownmode_nav_drive
+            // 
+            this.pb_ownmode_nav_drive.BackgroundImage = global::MOCompany.Properties.Resources.ico_bus_materialio;
+            this.pb_ownmode_nav_drive.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pb_ownmode_nav_drive.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pb_ownmode_nav_drive.Location = new System.Drawing.Point(6, 4);
+            this.pb_ownmode_nav_drive.Name = "pb_ownmode_nav_drive";
+            this.pb_ownmode_nav_drive.Size = new System.Drawing.Size(51, 51);
+            this.pb_ownmode_nav_drive.TabIndex = 1;
+            this.pb_ownmode_nav_drive.TabStop = false;
+            // 
+            // btn_ownmode_configureprofile
+            // 
+            this.btn_ownmode_configureprofile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_ownmode_configureprofile.BackgroundImage = global::MOCompany.Properties.Resources.ico_tune_sett_materialio;
+            this.btn_ownmode_configureprofile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btn_ownmode_configureprofile.FlatAppearance.BorderSize = 0;
+            this.btn_ownmode_configureprofile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ownmode_configureprofile.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btn_ownmode_configureprofile.Location = new System.Drawing.Point(201, 20);
+            this.btn_ownmode_configureprofile.Name = "btn_ownmode_configureprofile";
+            this.btn_ownmode_configureprofile.Size = new System.Drawing.Size(25, 25);
+            this.btn_ownmode_configureprofile.TabIndex = 2;
+            this.tt_owncompany_mainscreen.SetToolTip(this.btn_ownmode_configureprofile, "Edit profile and general settings");
+            this.btn_ownmode_configureprofile.UseVisualStyleBackColor = true;
+            this.btn_ownmode_configureprofile.Click += new System.EventHandler(this.btn_ownmode_configureprofile_Click);
+            // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImage = global::MOCompany.Properties.Resources.ico_employeecard_materialio;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.pictureBox1.Location = new System.Drawing.Point(4, 6);
@@ -381,7 +377,7 @@
             // 
             // btn_ownmode_exit
             // 
-            this.btn_ownmode_exit.BackgroundImage = global::MOCompany.Properties.Resources.ico_closeX;
+            this.btn_ownmode_exit.BackgroundImage = global::MOCompany.Properties.Resources.ico_close_materialio;
             this.btn_ownmode_exit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn_ownmode_exit.FlatAppearance.BorderSize = 0;
             this.btn_ownmode_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -395,17 +391,9 @@
             this.btn_ownmode_exit.UseVisualStyleBackColor = true;
             this.btn_ownmode_exit.Click += new System.EventHandler(this.btn_ownmode_exit_Click);
             // 
-            // pl_owncompany_trennung1
-            // 
-            this.pl_owncompany_trennung1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.pl_owncompany_trennung1.Location = new System.Drawing.Point(-1, 32);
-            this.pl_owncompany_trennung1.Name = "pl_owncompany_trennung1";
-            this.pl_owncompany_trennung1.Size = new System.Drawing.Size(242, 3);
-            this.pl_owncompany_trennung1.TabIndex = 9;
-            // 
             // btn_ownmode_logout
             // 
-            this.btn_ownmode_logout.BackgroundImage = global::MOCompany.Properties.Resources.logout;
+            this.btn_ownmode_logout.BackgroundImage = global::MOCompany.Properties.Resources.ico_logoutlogin_materialio;
             this.btn_ownmode_logout.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn_ownmode_logout.FlatAppearance.BorderSize = 0;
             this.btn_ownmode_logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -418,6 +406,19 @@
             this.tt_owncompany_mainscreen.SetToolTip(this.btn_ownmode_logout, "Logout");
             this.btn_ownmode_logout.UseVisualStyleBackColor = true;
             this.btn_ownmode_logout.Click += new System.EventHandler(this.btn_ownmode_logout_Click);
+            // 
+            // lbl_loginscreen_createdby
+            // 
+            this.lbl_loginscreen_createdby.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lbl_loginscreen_createdby.AutoSize = true;
+            this.lbl_loginscreen_createdby.Font = new System.Drawing.Font("Candara", 8.25F);
+            this.lbl_loginscreen_createdby.ForeColor = System.Drawing.Color.White;
+            this.lbl_loginscreen_createdby.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lbl_loginscreen_createdby.Location = new System.Drawing.Point(3, 77);
+            this.lbl_loginscreen_createdby.Name = "lbl_loginscreen_createdby";
+            this.lbl_loginscreen_createdby.Size = new System.Drawing.Size(155, 13);
+            this.lbl_loginscreen_createdby.TabIndex = 6;
+            this.lbl_loginscreen_createdby.Text = "Created by AkEgo Development";
             // 
             // owncompany_mainscreen
             // 
@@ -435,14 +436,14 @@
             this.pl_mainscreen.ResumeLayout(false);
             this.pl_owncompany_navbar.ResumeLayout(false);
             this.pl_aimode_navbarcont.ResumeLayout(false);
+            this.pl_ownmode_navbar_profile.ResumeLayout(false);
+            this.pl_ownmode_navbar_profile.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ownmode_nav_personalagency)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ownmode_nav_management)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ownmode_nav_company)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ownmode_nav_bank)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ownmode_nav_drive)).EndInit();
-            this.pl_ownmode_navbar_profile.ResumeLayout(false);
-            this.pl_ownmode_navbar_profile.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -457,7 +458,6 @@
         private System.Windows.Forms.Button btn_ownmode_logout;
         private System.Windows.Forms.Panel pl_ownmode_navbar_profile;
         private System.Windows.Forms.Panel pl_owncompany_trennung2;
-        private System.Windows.Forms.Label lbl_loginscreen_createdby;
         private System.Windows.Forms.Button btn_ownmode_configureprofile;
         private System.Windows.Forms.Label lbl_aimode_user_name;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -477,5 +477,6 @@
         private System.Windows.Forms.Button btn_ownmode_nav_personalagency;
         private System.Windows.Forms.PictureBox pb_ownmode_nav_management;
         private System.Windows.Forms.Button btn_ownmode_nav_management;
+        private System.Windows.Forms.Label lbl_loginscreen_createdby;
     }
 }

@@ -20,9 +20,11 @@ namespace MOCompany.Controls
             this.tb_settings_general_pathtoomsidir.Text = Functions.data.pathtoomsidir;
 
             if (Functions.data.usrhascompany == true) {
-                lb_settings_user_hascompcheck.Text = "Yes"+" - "+Functions.data.companytype;
+                cb_sett_hascompany.Text = "Yes"+" - "+Functions.data.companytype;
+                cb_sett_hascompany.Checked = true;
             } else {
-                lb_settings_user_hascompcheck.Text = "No";
+                cb_sett_hascompany.Text = "No";
+                cb_sett_hascompany.Checked = false;
             }
         }
 
